@@ -1,0 +1,71 @@
+# docker-compose.yml
+# Author: Larry Qiu
+# Date: 1/9/2023
+# Purpose: Docker compose file for the entire project
+
+version: '3.1'
+
+services:
+  scraper:
+    container_name: ja-scraper
+    build:
+      context: scraper
+    depends_on:
+      - mongo
+
+  ofelia:
+    image: mcuadros/ofelia:latest
+    depends_on:
+      - certbot
+    command: daemon --docker
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    labels:
+      ofelia.job-run.cert-renewal.schedule: "0 0 0 * * 0" # Renew every Sunday at midnight
+      ofelia.job-run.cert-renewal.command: renew --non-interactive --no-self-upgrade --dns-cloudflare doc
+                                            --dns-cloudflare-credentials /opt/cloudflare/credentials.ini
+                                            --agree-tos --server https://acme-v02.api.letsencrypt.org/directory
+      ofelia.job-run.cert-renewal.container: ja-certbot
+
+      ofelia.job-run.scraper.schedule: "0 0 0 * * *" # Scrape every day at midnight
+      ofelia.job-run.scraper.container: ja-scraper
+  certbot:
+    image: certbot/dns-cloudflare
+    container_name: ja-certbot
+    command: certonly --non-interactive --dns-cloudflare 
+              --dns-cloudflare-credentials /opt/cloudflare/credentials.ini
+              --agree-tos --email ${EMAIL} -d ${DOMAIN} 
+              --server https://acme-v02.api.letsencrypt.org/directory 
+              --dns-cloudflare-propagation-seconds 30
+  
+    volumes:
+      - ./secrets/cloudflare.ini:/opt/cloudflare/credentials.ini
+      - ./secrets/letsencrypt:/etc/letsencrypt
+      - ./secrets/letsencrypt/log:/var/log/letsencrypt
+
+  tunnel: 
+    container_name: ja-cloudflared-tunnel
+    image: cloudflare/cloudflared
+    restart: always
+    command: tunnel run
+
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARED_TUNNEL_TOKEN}
+
+  nginx:
+    container_name: ja-nginx
+    image: nginx
+
+    volumes:
+      - ./nginx:/etc/nginx/
+      - ./secrets/letsencrypt:/etc/letsencrypt
+
+    environment:
+      - DOMAIN=${DOMAIN}
+
+  mongo:
+    container_name: ja-mongo
+    image: mongo
+    ports:
+      - ${MONGODB_PORT}:27017

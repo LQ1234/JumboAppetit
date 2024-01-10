@@ -1,0 +1,3 @@
+secrets
+.env
+nginx/conf.d/default.conf

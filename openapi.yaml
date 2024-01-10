@@ -1,0 +1,320 @@
+openapi: 3.0.0
+info:
+  version: "1.0.0"
+  title: Jumbo Appetit
+  description: The API for Jumbo Appetit
+  
+tags:
+  - name: menu
+    description: Operations on the menu
+  - name: feed
+    description: Operations on the feed
+  - name: user
+    description: Operations on a user
+    
+paths:
+  /menu/locations:
+    get:
+      tags:
+        - menu
+      summary: Get list of locations
+      description: Get list of locations
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Location'
+  /menu/food-properties:
+    get:
+      tags:
+        - menu
+      summary: Get list of food properties
+      description: Get list of food properties
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/FoodProperty'
+                  
+  /menu/monthly-view/{location-slug}/{menu-type-slug}/{year}/{month}:
+    get:
+      tags: 
+        - menu
+      summary: Get monthly menu information
+      description: Returns information for a monthly calender view, ie. every day in the month and the complete first and last weeks.
+      parameters:
+        - name: location-slug
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: menu-type-slug
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: year
+          in: path
+          required: true
+          schema:
+            type: number
+        - name: month
+          in: path
+          required: true
+          schema:
+            type: number
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MonthyViewDay'   
+                  
+  /menu/daily-menu/{location-slug}/{menu-type-slug}/{year}/{month}/{day}:
+    get:
+      tags: 
+        - menu
+      summary: Get menu for a day
+      description: Returns the complete menu for a particular day
+      parameters:
+        - name: location-slug
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: menu-type-slug
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: year
+          in: path
+          required: true
+          schema:
+            type: number
+        - name: month
+          in: path
+          required: true
+          schema:
+            type: number
+        - name: day
+          in: path
+          required: true
+          schema:
+            type: number
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Menu'   
+                  
+  /menu/latest-item-version/{hash}:
+    get:
+      tags: 
+        - menu
+      summary: Get latest version of a menu item
+      description: Gets latest version of a menu item, given its hash (returned item hash not necessarily equal)
+      parameters:
+        - name: hash
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DatedMenuItem'   
+
+  /user/notifications:
+    get:
+      tags:
+        - user
+      summary: Get a list of a user's registered notifications
+      description: Get a list of a user's registered notifications
+      responses:
+        '200':
+          description: Successful Operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DatedMenuItem'  
+  /user/register-notification:
+    post:
+      tags:
+        - user
+      summary: Register or unregister a user for a notification
+      description: Register or unregister a user for a notification
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                menu-item-hash:
+                  type: string
+                registered:
+                  type: boolean
+      responses:
+        '200':
+          description: Successful Operation
+
+components:
+  schemas:
+    Date:
+      type: string
+      example: 2023-12-31
+    
+    MenuItemHash:
+      type: string
+      
+    MenuType:
+      type: object
+      properties:
+        slug:
+          type: string
+          example: breakfast
+        name:
+          type: string
+          example: Breakfast
+        displayed:
+            type: boolean
+            example: true
+    Location:
+      type: object
+      properties:
+        slug:
+          type: string
+          example: dewick-dining
+        name:
+          type: string
+          example: Dewick-MacPhie Dining Center
+        menu-types:
+          type: array
+          items:
+            $ref: '#/components/schemas/MenuType'
+        displayed:
+          type: boolean
+          example: true
+        
+    FoodProperty:
+      type: object
+      properties:
+        slug:
+          type: string
+          example: egg
+        name:
+          type: string
+          example: Contains Egg
+        displayed:
+          type: boolean
+          example: true
+    
+    ServingSize:
+      type: object
+      properties:
+        amount:
+          type: string
+          example: 1
+        unit:
+          type: string
+          example: each
+        
+    MenuItem:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Egg & Cheese Muffin
+        
+        food-properties:
+          type: array
+          description: List of food property slugs
+          items:
+            type: string
+            example: egg
+
+        nutrition-information:
+          type: array
+          items:
+            type: object
+            properties:
+              slug:
+                type: string
+                example: calories
+              amount:
+                type: string
+                example: 238
+        
+        ingredients:
+          type: string
+          example: English Muffin (enriched flour, water, yeast, high fructose corn syrup, yellow corn meal, soybean oil, calcium priopionate and/or potassium sorbate, baking soda, fumaric acid, salt, calcium sulfate, ammonium sulfate), Grade AA Medium Eggs, White American Cheese (cultured milk and skim milk, water, cream, sodium citrate, salt, sodium phosphate, sorbic acid, citric acid, acetic acid, enzymes, soy lecithin, artificial color)
+        
+        serving-size:
+          $ref: '#/components/schemas/ServingSize'
+          
+        hash:
+          $ref: '#/components/schemas/MenuItemHash'
+        
+    DatedMenuItem:
+      type: object
+      properties:
+        menu-item:
+          $ref: '#/components/schemas/MenuItem'
+        date:
+          $ref: '#/components/schemas/Date'
+        latest-version:
+          description: null if this is latest version
+          type: object
+          properties:
+            date:
+              $ref: '#/components/schemas/Date'
+            hash:
+              $ref: '#/components/schemas/MenuItemHash'
+
+    Menu:
+      type: object
+      properties:
+        date:
+          $ref: '#/components/schemas/Date'
+        sections:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+                example: Breakfast Grill
+              menu-items:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DatedMenuItem'
+              
+
+    MonthyViewDay:
+      type: object
+      properties:
+        day:
+          $ref: '#/components/schemas/Date'
+        
+        has-menu-items:
+          type: boolean
+          example: true
