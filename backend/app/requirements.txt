@@ -1,0 +1,9 @@
+pymongo
+pytz
+python-jose[cryptography]
+fastapi
+pydantic
+uvicorn[standard]
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib

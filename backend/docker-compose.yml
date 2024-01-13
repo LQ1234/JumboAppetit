@@ -6,6 +6,23 @@
 version: '3.1'
 
 services:
+  app:
+    container_name: ja-app
+    build:
+      context: app
+    depends_on:
+      - mongo
+    environment:
+      - JWT_SECRET=${APP_JWT_SECRET}
+      - JWT_ALGORITHM=HS256
+      - DOMAIN=${DOMAIN}
+      - EMAIL=${EMAIL}
+      - LOGIN_EXPIRY_MINUTES=15
+      - LOGIN_INTERVAL_SECONDS=30
+
+    volumes:
+      - ./secrets/gmail:/secrets/gmail
+
   scraper:
     container_name: ja-scraper
     build:
@@ -14,6 +31,7 @@ services:
       - mongo
 
   ofelia:
+    container_name: ja-ofelia
     image: mcuadros/ofelia:latest
     depends_on:
       - certbot
@@ -30,9 +48,10 @@ services:
 
       ofelia.job-run.scraper.schedule: "0 0 0 * * *" # Scrape every day at midnight
       ofelia.job-run.scraper.container: ja-scraper
+
   certbot:
-    image: certbot/dns-cloudflare
     container_name: ja-certbot
+    image: certbot/dns-cloudflare
     command: certonly --non-interactive --dns-cloudflare 
               --dns-cloudflare-credentials /opt/cloudflare/credentials.ini
               --agree-tos --email ${EMAIL} -d ${DOMAIN} 
@@ -63,9 +82,14 @@ services:
 
     environment:
       - DOMAIN=${DOMAIN}
-
+    depends_on:
+      - app
+      - tunnel
+      
   mongo:
     container_name: ja-mongo
     image: mongo
     ports:
       - ${MONGODB_PORT}:27017
+    volumes:
+      - ./secrets/mongodbdata:/data/db

@@ -85,8 +85,6 @@ def scrape_all():
                 monday += datetime.timedelta(days=7)
                 time.sleep(1)
 
-    return result
-
 if __name__ == "__main__":
-    result = scrape_all()
-    raw_scrape_results.insert_one(result)
+    print("Scraping...")
+    scrape_all()
