@@ -10,12 +10,13 @@ import datetime
 import pytz
 import time
 
+from schema import scrape_to_menu_item
+
 PREFIX = "https://tufts.api.nutrislice.com"
 
 client = MongoClient('mongodb://mongo:27017/')
 db = client['jumbo-appetit']
 raw_scrape_results = db['raw-scrape-results']
-
 
 def get_scraping_date_range():
     # Scraping Policy:
@@ -74,10 +75,20 @@ def scrape_all():
             result["menu_type_slug"] = menu_type_slug
 
             while monday < end_date + datetime.timedelta(days=1):
-                print(f"Scraping {slug} {menu_type_slug} {monday.year}/{monday.month}/{monday.day}")
+                print(f"Scraping {slug} {menu_type_slug} {monday.year}/{monday.month}/{monday.day}", flush=True)
                 menu = get_weekly_menu(slug, menu_type_slug, monday)
 
                 for day in menu["days"]:
+                    menu_items = day["menu_items"]
+                    new_menu_items = []
+                    for item in menu_items:
+                        menu_item = scrape_to_menu_item(item)
+                        if menu_item is None:
+                            continue
+                        item["hash"] = menu_item.hash
+                        new_menu_items.append(item)
+                    day["menu_items"] = new_menu_items
+
                     result["date"] = day["date"]
                     result["scraping_result"] = day
 
@@ -86,5 +97,5 @@ def scrape_all():
                 time.sleep(1)
 
 if __name__ == "__main__":
-    print("Scraping...")
+    print("Scraping...", flush=True)
     scrape_all()

@@ -5,4 +5,5 @@ RUN apt-get install -y python3-requests
 COPY requirements.txt .
 RUN python3.9 -m pip install -r requirements.txt
 COPY . .
+
 CMD ["python3.9", "main.py"]

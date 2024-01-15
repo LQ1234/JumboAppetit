@@ -12,10 +12,11 @@ from schema import *
 import mail
 from database import db
 
-login_log = db["login-log"]
-users = db["users"]
 expiry = int(os.environ.get("LOGIN_EXPIRY_MINUTES"))
 interval = int(os.environ.get("LOGIN_INTERVAL_SECONDS"))
+
+users = db["users"]
+login_log = db["login-log"]
 login_log.create_index("date", expireAfterSeconds=60 * expiry)
 
 JWT_SECRET = os.environ.get("JWT_SECRET")

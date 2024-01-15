@@ -63,7 +63,7 @@ def send_mail(to, subject, text, html=None):
             .send(userId="me", body=create_message)
             .execute()
         )
-        return(send_message["id"])
+        return send_message["id"]
     
     except HttpError:
         return None

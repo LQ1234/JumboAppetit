@@ -1,0 +1,65 @@
+coconut:
+  slug: coconut
+  name: Coconut
+  description: Contains Coconut
+  displayed: false
+egg:
+  slug: egg
+  name: Egg
+  description: Contains Egg
+  displayed: false
+fish:
+  slug: fish
+  name: Fish
+  description: Contains Fish
+  displayed: false
+gluten:
+  slug: gluten
+  name: Gluten
+  description: Contains Gluten
+  displayed: false
+halal:
+  slug: halal
+  name: Halal
+  description: Halal
+  displayed: false
+milk:
+  slug: milk
+  name: Milk
+  description: Contains Milk
+  displayed: false
+peanut:
+  slug: peanut
+  name: Peanut
+  description: Contains Peanut
+  displayed: false
+sesame:
+  slug: sesame
+  name: Sesame
+  description: Contains Sesame
+  displayed: false
+shellfish:
+  slug: shellfish
+  name: Shellfish
+  description: Contains Shellfish
+  displayed: false
+soy:
+  slug: soy
+  name: Soy
+  description: Contains Soy
+  displayed: false
+tree-nuts:
+  slug: tree-nuts
+  name: Tree Nuts
+  description: Contains Tree Nuts
+  displayed: false
+vegan:
+  slug: vegan
+  name: Vegan
+  description: Vegan
+  displayed: false
+vegetarian:
+  slug: vegetarian
+  name: Vegetarian
+  description: Vegetarian
+  displayed: false

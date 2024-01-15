@@ -22,6 +22,7 @@ services:
 
     volumes:
       - ./secrets/gmail:/secrets/gmail
+      - ./config:/config
 
   scraper:
     container_name: ja-scraper
@@ -29,6 +30,9 @@ services:
       context: scraper
     depends_on:
       - mongo
+    
+    volumes:
+      - ./app/schema.py:/schema.py
 
   ofelia:
     container_name: ja-ofelia

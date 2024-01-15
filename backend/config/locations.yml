@@ -1,0 +1,95 @@
+carmichael-dining-hall:
+  slug: carmichael-dining-hall
+  name: Carmichael
+  menu_types:
+  - slug: dinner
+    name: Dinner
+    displayed: true
+  - slug: lunch
+    name: Lunch
+    displayed: true
+  - slug: breakfast
+    name: Breakfast
+    displayed: true
+  displayed: true
+commons-marketplace:
+  slug: commons-marketplace
+  name: commons-marketplace
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+dewick-dining:
+  slug: dewick-dining
+  name: Dewick
+  menu_types:
+  - slug: dinner
+    name: Dinner
+    displayed: true
+  - slug: lunch
+    name: Lunch
+    displayed: true
+  - slug: breakfast
+    name: Breakfast
+    displayed: true
+  displayed: true
+hodgdon-food-on-the-run:
+  slug: hodgdon-food-on-the-run
+  name: hodgdon-food-on-the-run
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+hotung-cafe:
+  slug: hotung-cafe
+  name: hotung-cafe
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+kindlevan-cafe:
+  slug: kindlevan-cafe
+  name: kindlevan-cafe
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+mugar-cafe:
+  slug: mugar-cafe
+  name: mugar-cafe
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+pax-et-lox-glatt-kosher-deli:
+  slug: pax-et-lox-glatt-kosher-deli
+  name: pax-et-lox-glatt-kosher-deli
+  menu_types:
+  - slug: dinner
+    name: dinner
+    displayed: false
+  - slug: lunch
+    name: lunch
+    displayed: false
+  displayed: false
+smfa:
+  slug: smfa
+  name: smfa
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false
+tower-cafe:
+  slug: tower-cafe
+  name: tower-cafe
+  menu_types:
+  - slug: daily
+    name: daily
+    displayed: false
+  displayed: false

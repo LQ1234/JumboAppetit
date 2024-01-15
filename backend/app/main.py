@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, Depends
 from fastapi.responses import RedirectResponse, HTMLResponse
 import os
 from datetime import datetime
@@ -8,6 +8,7 @@ import json
 from schema import *
 import mail
 import auth
+import menu_management
 
 DOMAIN = os.environ.get("DOMAIN")
 
@@ -35,27 +36,27 @@ api = APIRouter(prefix="/api")
 
 # Menu Related Routes
 
-@api.get("/menu/locations", response_model=list[Location], tags=["menu"])
-def get_locations():
+@api.get("/menu/locations", tags=["menu"])
+def get_locations() -> list[Location]:
+    return list(menu_management.locations.values())
+
+@api.get("/menu/food-properties", tags=["menu"])
+def get_food_properties() -> list[FoodProperty]:
+    return list(menu_management.food_properties.values())
+
+@api.get("/menu/monthly-view/{location-slug}/{menu-type-slug}/{year}/{month}", tags=["menu"])
+def get_monthly_view(location_slug: str, menu_type_slug: str, year: int, month: int) -> list[MonthlyViewDay]:
     return None
 
-@api.get("/menu/food-properties", response_model=list[FoodProperty], tags=["menu"])
-def get_food_properties():
-    return None
+@api.get("/menu/daily-menu/{location-slug}/{menu-type-slug}/{year}/{month}/{day}", tags=["menu"])
+def get_daily_menu(location_slug: str, menu_type_slug: str, year: int, month: int, day: int) -> Optional[Menu]:
+    date = f"{year:04}-{month:02}-{day:02}"
+    menu = menu_management.get_menu(date, location_slug, menu_type_slug)
+    return menu
 
-@api.get("/menu/monthly-view/{location-slug}/{menu-type-slug}/{year}/{month}", 
-         response_model=list[MonthlyViewDay], tags=["menu"])
-def get_monthly_view(location_slug: str, menu_type_slug: str, year: int, month: int):
-    return None
-
-@api.get("/menu/daily-menu/{location-slug}/{menu-type-slug}/{year}/{month}/{day}",
-        response_model=Menu, tags=["menu"])
-def get_daily_menu(location_slug: str, menu_type_slug: str, year: int, month: int, day: int):
-    return None
-
-@api.get("/menu/latest-item-version/{hash}", response_model=DatedMenuItem, tags=["menu"])
-def get_latest_item_version(hash: str):
-    return None
+@api.get("/menu/latest-item-version/{hash}", tags=["menu"])
+def get_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
+    return menu_management.find_latest_item_version(hash)
 
 # Feed Related Routes
 
@@ -67,14 +68,15 @@ def login(email: str) -> Token:
 
 @api.get("/user/authorize-login", tags=["user"], description="Login redirect url")
 def authorize_login(code: str):
-    return auth.authorize_login(code)
+    auth.authorize_login(code)
+    return HTMLResponse("Authorized!")
 
-@api.get("/user/login-authorized", tags=["user"], description="Login redirect url")
-def login_authorized(login_token: Token):
+@api.post("/user/login-authorized", tags=["user"], description="Login redirect url")
+def login_authorized(login_token: Token) -> Token:
     return auth.login_authorized(login_token)
 
-@api.get("/user/notifications", response_model=list[DatedMenuItem], tags=["user"])
-def get_notifications():
+@api.get("/user/notifications", tags=["user"])
+def get_notifications() -> list[DatedMenuItem]:
     return None
 
 @api.post("/user/register-notification", tags=["user"])

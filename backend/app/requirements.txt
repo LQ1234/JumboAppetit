@@ -7,3 +7,5 @@ uvicorn[standard]
 google-api-python-client 
 google-auth-httplib2 
 google-auth-oauthlib
+ruamel.yaml
+typing_extensions
