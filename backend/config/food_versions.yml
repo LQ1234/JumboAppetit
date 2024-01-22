@@ -2,6 +2,7 @@
 - bd6c0bb38199587144d7963172ef7723
 '"Beef" Stroganoff':
 - 3e93a6571f5f87d3714fb2a4ff1d157f
+- aa9a91f3bf5bccd2a479e19dc7bce8ed
 "\"Chik'n Parm\"":
 - cddb56a4315861599c95702fe4a5aea1
 '"Mozzarella Cheese"':
@@ -9,9 +10,12 @@
 (Beef) Crumbles Burrito Filling:
 - b5f958e9804447e7b8198b6d9dba8d9d
 - 4b994314a3f07c854c6819f9ce43f862
+- 1e9be030458945dc0cef6a6e463d6682
 4 Corners Chipotle Scramble:
 - 084ce038b53ade549028ed13dc0fe2f4
 - e7353ecf11484ea7d42ed363acd41d95
+- 2ad37fe66ddd3eff9ce92c9fd120a554
+- ebe9a79550e588e10b6e645ec85876b3
 5 Spiced Pulled Pork:
 - c6e4137fd657cce1f9de7c8477058379
 AF Acapulco Zucchini:
@@ -32,6 +36,8 @@ AF Pumpkin Pie Smoothie:
 - 6b498244e401e7c0456206feedfa8f4c
 AF Stir Fry Vegetable Blend:
 - f5b2a260b86dadaf3ce1c2b86e4fabee
+AF Zucchini Provencal:
+- 9f8dfc9c9c7a537f485dc4219753ed4b
 Acai Smoothie Bowl:
 - 48a500648b806247b1ccb74735b46847
 - e613f49849608758f8beddbbb76b4297
@@ -52,19 +58,26 @@ Alu Chole:
 - 19f29aaf95236caa7f732faf9c769da1
 - 3068c812e8febe87bad5f6ead7cab2e0
 - 98c3171f2798900922385165b5820e02
+- 78835fe77dede0874bf64b2c9ebda5f8
 Alu Chole w/Potato & Garbanzo:
 - d798b29372c14042ee2a16fdf6ed7374
+- 8f6f8a41f028c3893a92e2727f72b46e
+Amaranth Polenta:
+- 974ff39d591184a2c63c5675b889b67d
 American Chop Suey:
 - 0e8ae64d6bf25c2e9d375e6a697b886e
 - a88dfd0ba907449dc1cfdd17a6fc6154
 - 356f85efeb964538f550b8e63770bc66
 - 97984206897c6b7b5224758299c80e62
+- 8f1ce9821bad0803d0188821caf1d6f2
 Americano:
 - 193e062b0eaec6ea877cb3e390ad7066
 Andouille Sausage and Roasted Pepper Pizza:
 - 69e6a2ff9943ce8a6852b2a984e0f164
 Antipasto Salad:
 - f9dfe59ecf4a0b788df95a16ec372006
+Appetizer Potato Pancakes:
+- 9ed4d3809cd358ca236fbaf567860f39
 Apple Broccoli Kale Salad:
 - cc8111b90fd2f31cdfcc792c19a81632
 - a9708f8cda6df1ba772a7f94ad946b2e
@@ -77,6 +90,7 @@ Apple Cider Donut:
 - c2b49699bf13f32e34dd011358aeaa45
 Apple Cinnamon Bread:
 - 70719aab567fa479a0d3b2a8511b3304
+- 40dad9cfdfabd0e8decb2be1380cf157
 Apple Cinnamon Chia Pudding:
 - c37e0c9b96ae684807784900d3c4dded
 Apple Cinnamon Muffin:
@@ -89,6 +103,7 @@ Apple Cinnamon Pancakes:
 - 8a40bd80dae6910a06d4e86ae568fb94
 Apple Cinnamon Pancakes w/ Dairy:
 - 35bbe67a61210a26d56d70e0ef109564
+- e2f307be5f02db80babe9c4a37b7c5bb
 Apple Crisp:
 - c0233fec2ed5f28351a581ec4298c724
 Apple Crisp w/ Dried Cranberries:
@@ -122,6 +137,8 @@ Arcadian Salad For Fried Chickpea Sandwich:
 - d9d3166a8e0d14389b262c367146789d
 Arlington Bagel Sandwich:
 - 4f00b5075ab0df1625272b6709e6b727
+Artichoke Frittata:
+- f040251c84842e6cc7218b958fbfea84
 Artichoke and Roasted Tomato Pizza:
 - 162f643bfe120ddd1a885c6c4648d21f
 Artichoke and Spinach Stuffed Portobello Mushroom:
@@ -131,6 +148,8 @@ Arugula:
 Arugula Salad w/Roasted Beets:
 - b09c1f6e4d6c6ad2615ffb3f4a6dd6b8
 - 84ffabe23c8bafae77ea73bffdd01aac
+Asian BBQ Chicken Thighs:
+- e2c90e94446c87935608abc205d69def
 Asian Broccoli:
 - a025f166daadca81f56e8d825c6c6a4d
 Asian Ginger Lime Salad:
@@ -143,9 +162,15 @@ Asian Hake:
 - 305ff2347c085348aa0bd7287f4ee978
 Asian Napa-Ginger Salad:
 - 8bbcbd4bb7851f30e7fc6d2e61b26d5d
+Asian Sesame Dressing:
+- 3b63d596fdc5751b2c1dcf34ddbdb5a0
 Asian Slaw:
 - fb2393071b6577a18ebadd4a430986d2
 - 9bef2bc179b8fe1f0371d081e6ed6e8a
+- f1d411093f2a335f5b0a0927736ccc12
+- 4ad7c17fc7d1de3cf39ace4b851dd26f
+- 6e0af5add11d0e7b6bc65532ac28b0f2
+- e9b14a3b70a9302409f89112c87b4384
 Asian Tofu Stir Fry:
 - a713a97c44183bec7af85daba2ba8e1a
 - 04f08ea83546f652ff489dae43a0d4c7
@@ -163,12 +188,15 @@ Assorted Danish:
 Assorted Dessert Bars:
 - b96486a7880a2953231ba9589fa7aef1
 - 740ccc76d46be9bca57bb12e5554bda1
+- 75d955ea6d0dfe03bb3e7236e88a8ff9
+- e1b166bc10d843fad10fff1d381e734a
 Assorted Dinner Rolls:
 - abdf62a49337a68fbf430f509f210566
 Assorted Donuts:
 - ed22457ec6e54639e87959438bb51dd7
 Assorted Grapes:
 - 78f623383c3a49be14cde17c9fd2cf86
+- 02cd1c5a93b003e6c1a64dc7ae2fc4e4
 Assorted IGGY's Bagels:
 - 18d8ce4a2add3c8785e88a6e59c3bc6a
 Assorted Mini Danish w/Nuts:
@@ -192,6 +220,8 @@ Avocado:
 - f05b292f497ec8ed97c4dfb2b3c1b351
 Avocado Frittata:
 - 5f3ecc7580327a52ee01df2796e879a8
+Avocado Lime Crema:
+- e28f33ee0ea677213256ca0946374a53
 Avocado Pico De Gallo:
 - 86aa9c7f5589ef27847b22e3140b3e88
 Avocado Salsa:
@@ -204,6 +234,7 @@ BBQ Cauliflower & Chickpea for Tacos:
 - a5db576f7e93b6e405fab0c0472c2ebe
 BBQ Chicken Drumsticks:
 - dea0692ac50e9c2d341cc340d32bd677
+- efb0f1f2ead0d284a9535ce3d5e3ca72
 BBQ Chicken Pizza:
 - efe7f36a21ca81988aa8cd69e71a7196
 BBQ Chicken Quarter:
@@ -214,12 +245,22 @@ BBQ Chicken Thigh:
 - 506536f89afec18a2887d0fdec5bfc87
 BBQ Chicken Thighs:
 - 9542f049ab7c55eed0328f35138eb734
+BBQ Chicken Wings:
+- 8c78aa323bb0bec773d19bca0e6bca88
 BBQ Flank Steak:
 - 3dc709a5ead31d44d3afdad368aea784
+- 62be133c5c1913a53693a59cf52b3adf
 BBQ Jack Fruit:
 - 47401f8b6dd668ac2f114d61a671dad0
+- 0de3529474c30b35bf9abf49bb0c9088
 BBQ Pork Chop:
 - 021420ab152efaa31e4f1ee4e2e43536
+BBQ Pulled Pork Pizza:
+- 9cf23bea5a805261ed2e15aad2581ad0
+BBQ Ranch Dressing:
+- 251dd8570959f219f0bf9c75ed125e23
+BBQ Red Lentil Salad:
+- fdf29cf2baca7962d1c8ae5d97e55faa
 BBQ Roasted Pork Loin:
 - 8ec7e8639a057303f000907c9221b2b6
 BBQ Sauce:
@@ -228,6 +269,8 @@ BBQ Shreds:
 - 115e3ae463e51eab7ffcef10a93d24b6
 BBQ Tofu:
 - a866cba0fdbcc0e286bf7f700d2e3902
+BLT Pizza w/ Ranch Dressing:
+- 8da1d9035b8f9c3656f77b499c970b2e
 BLT Salad w/Corn, Feta & Avocado:
 - 0a4f04a62806c7116291b6f809710479
 - 753ff1d0842b649cc9aaf1f33a5a86e9
@@ -260,8 +303,12 @@ Baked Apples:
 Baked Beans:
 - 693cf8dab704eb4b2dbdf3faac64f34d
 - 65a86acf982ee5fbf827b86b38b6bbff
+- ac48e374a89922ce7cdb45ae216a2e7f
+- ee896e75ecee2de95ad7a759cde38d55
+- 33cead1d29767c262d655f6ea287721b
 Baked Butternut Macaroni & Cheese:
 - d3925619876f439bcbd0fa25afa4b72a
+- b27d43a446a5c702d74d33eddc7f798c
 Baked Chicken Quarters:
 - 8c07cafccd9db6b8a3f5b849e8364431
 Baked Garlic Butter Pollock:
@@ -279,6 +326,8 @@ Baked Mexican Tofu:
 - 5904703d1cc6a5acfe22b144a78499e0
 Baked Pasta with Pomodoro Sauce:
 - c6bd93ba03c3c81d3d0072166cd947db
+Baked Polenta w/Swiss Chard (V):
+- a60497f801e549ef70531fd95c4ce181
 Baked Potato:
 - 8bae4d8e6ed325f467292cacec3b21b3
 Baked Stuffed Acadian Redfish:
@@ -295,14 +344,18 @@ Baked Zucchini:
 - 51354f7b122cbdc9c83ac25c473b83f8
 Baked Zucchini w/Parmesan Frittata:
 - 2a5dbfbdda5c5f9d91f1c66d1a763f0c
+- 3ad8198558e13eaab1ee131a971541c0
 Balsamic Chicken w/ Caponata Sauce:
 - b9fc2504ccf657995eab935f6cbee454
+Balsamic Vinaigrette:
+- d231db79bfdd053a20b8e727246cf372
 Bamboo Beef:
 - 08dd683c6c561214f6fd28fa646ea280
 Banana Bread:
 - 6fcbefd761168fbd8a7ef20539aacb9c
 Banana Nut Bread:
 - 3e447fdf308cc769d728c047c8c08115
+- 72e21543296d44fda875ae1de6b376ca
 Banana Nut Muffin:
 - 1291c3ec55f96e243467faf9d5ca5cdd
 Banana Pancakes:
@@ -319,6 +372,9 @@ Barbacoa Beef:
 - 644046f2bbc8cd0b5ea03235945518e2
 Barbacoa Mexican Pizza:
 - 4647cbc3a3ad9a74a41f6a2cf26f3637
+- 9e9d754121ba266f8fc94f05197ed0c0
+Barbecue Chicken Wings:
+- 3352e613f0a22029ae612a6fc548df8b
 Barbecued Beef Brisket:
 - 385d9c43947ba756b12dbc0e3adc54dd
 - e73a41a83ee6f6878e564b84c09ee05d
@@ -331,6 +387,7 @@ Basic AVO:
 - 18118ae4b857ce6c947fa9c6bb8ec39c
 Basil Cream Sauce:
 - 3898fb081acc7c86ad60826477759483
+- 53c54bfc418573d121e808046b6ab01b
 Basil Pesto:
 - 56ce16771738a09ee778cb78c96c9fef
 Basil Pesto Ricotta:
@@ -347,10 +404,13 @@ Bean Taco:
 Beef Bourguignon:
 - 15493af5e2c75ad45b0db930cadb6833
 - 6115b4d7561b5933a858a06b7a3d0f19
+- 5c4184a134cab3db7b539873145061c7
 Beef Curry:
 - 03bc5fbb538a7bd6390be8044efd1232
+- 5dfbb0bc7537cf5a08d84ac158baaa7b
 Beef Fajita:
 - 14f69e3cb754a469139464105a5f7e56
+- d50a1d89734ba0447e371020fa71c57f
 Beef Lamb Kofta Meatballs:
 - 8f110a806b93bc04584f509c4d6b7827
 Beef Meatball Pizza:
@@ -358,6 +418,8 @@ Beef Meatball Pizza:
 Beef Pot Roast:
 - 309387cee7dfe45b87b1a48bb3bf0f79
 - c35a95bd7e981d1d15602f669af3e4fb
+- 2b94f339e4232820cd91168230b7f932
+- 553b20fd4f9f3a20c403cbee109095f7
 Beef Quesadilla:
 - d34ef6c15bd706e82dec8a2a32a5ed11
 Beef Stew:
@@ -373,6 +435,8 @@ Beef for Stir Fry:
 - f46dbd18d62679ad98a78b11706014b9
 Beef w/Broccoli:
 - 7c7e9ceb87a4c366502ca933dd6d4990
+- d3dce7a1463a64f32c6bffa0d88924de
+- 218bbfefe94f6a6fec2f83784a0c51bb
 Beer Battered Local Pollock:
 - 53573dc3e3b2817ad35df51d2f6de469
 Beer Battered Onion Rings:
@@ -395,6 +459,12 @@ Berry Blast Smoothie:
 - 0713754fbbd11f2b1f4d5186cc7e15f9
 Bhunee Gobhi (Roasted Cauliflower):
 - 582a0d3f78c040ffbdedd66e9e5dbd14
+- 226130090d2ea785c6fa40b4700dcea8
+Bibimbap:
+- 4368f6436818d8e90c48d573ae0849a5
+- c956bd1cc906e28601396514bbbf4e65
+- b142b3944ab86c810d312ec76cd1b354
+- 25d2447fdac24aa564e173dc5bfe73d4
 Big Apple Bagel Sandwich:
 - 93c0b34fb4d86a32eab4d94bee4cf73e
 Big Mac Pizza:
@@ -406,6 +476,7 @@ Biscuits and Gravy:
 - 6c2e158790d91d9dc8aec3985b30944c
 Black Bean & Corn Chili:
 - a6dd7372d67c6cf43e674e109dd99d55
+- 86c176260b7adc90d5d1ccd845bff15d
 Black Bean & Corn Quesadilla:
 - e3ab8f4642cc5ca13ee4102572278ea8
 Black Bean & Poblano Tacos:
@@ -459,6 +530,8 @@ Blackened Pollock:
 - bbeee873a880f7bd7f90520ee2c25590
 Blistered Peppers with Toasted Spices:
 - 8ad4ae2a66c802f6ddedd21bb4dbe22f
+Blueberry & Kale Smoothie:
+- 7823ba6e1e4e54e0c4058f3d571b4867
 Blueberry Crisp:
 - 0163435b574f3a6a812af2da22aaac82
 Blueberry Kale Smoothie:
@@ -498,6 +571,7 @@ Braised Local Collard Greens:
 Braised Pork & Rice Noodles:
 - e8a701e74c5967b4a0c084594c3f6db2
 - dec20f5de3a90105c009236763fe18bd
+- dfb0da3ee55224e5e7d88955ccc89bb4
 Braised Pork Loin w/ Caramelized Onion and Blueberry Jam:
 - 9d5b4c92f70f345b8461d2243e4c400c
 Braised Pork Stir Fry:
@@ -516,6 +590,7 @@ Breaded Chicken Tenders:
 - 69ab26eb8bda8b3d3d6965d4cb147adf
 Breaded Eggplant Fries:
 - 773960f790bb9fa9578fdcc6dd3e29bf
+- 208080ade52ef687701f3ada204ca76c
 Breakfast Egg & Ham Burrito:
 - eb18db90936ff72b756e9db4977b10fb
 - 8ed67f9d58d7a9d78a9e183c9fe38c74
@@ -530,6 +605,7 @@ Broccoli & Cauliflower:
 - 66d74dab2dadf4978595ed244d1e3c85
 - 3d1d9cf5c01951d71739831851354fea
 - 15ecd5187efb08732433395edc65dbfc
+- a90ab06fe37dd4acdb04882227e4dd4d
 Broccoli & Cauliflower w/Fresh Lemon:
 - 58648ca18ab47f283718cd8bfb6c8c64
 - 46e97db5a30df6f50b5ea1458d1ba83f
@@ -542,9 +618,12 @@ Broccoli & Shells w/Herb Salad:
 Broccoli Al Forno:
 - 7b1949358e6c2f2aa41ff965c66d4d22
 - 5b4f779386cfe68b380e3feda70cf0c6
+- 8b651d6ab4dd588466b4f0ee7969387d
 Broccoli Cauliflower Carrots:
 - 0d3620a0bd6ba81547191baaf5b55425
 - ca4bc2e1e62662f9ae371e115e46c1fd
+- a6605da93961cd64186414a354d33e7c
+- 711fd9f1d82a6166785a30eb50681f3b
 Broccoli Cheddar Soup:
 - 24614ed1ecac7c18b5b16bfb1bce0826
 - e82520ef390c19deaf04f7f374194a10
@@ -569,6 +648,7 @@ Broccoli w/Garlic & Olive Oil:
 Broccoli w/Miso Butter:
 - 82a499e7d59c24dcd6a1187f2779ac15
 - 68be387a9beb32873767bd7312fe9dd8
+- 7c21f358c88513eab6bdb53044d812f9
 Broccoli, Cauliflower & Carrots:
 - 13302208a82bec1830848a87782c11dc
 - 5476773581b90ef3591895453ca9e6fd
@@ -582,10 +662,12 @@ Brocoli Rabe with White Balsamic:
 Brown Basmati Rice:
 - ab13d84fdf31869282cdab11f1904271
 - e092fdb0b9754f1d4bcf2d4f89566c2a
+- 1bc58ba21c7b18f03c005d7fe7afed7d
 Brown Gravy with Mushrooms:
 - 51b69c87adbc8fd21fd767a13ae1747f
 Brown Rice Lentil Pilaf:
 - 74bbd44e6c90b305aa45f7b3f89cdb7f
+- 68fe4b8c45fca959141f459e2bfeac99
 Brown Sugar Milk:
 - f82e242c576b4f6b4ab50af641b7d88f
 Brown Sugar Oat Milk:
@@ -620,9 +702,12 @@ Buffalo Chicken Pizza:
 Buffalo Chicken Sandwich:
 - 106788618dd08a0a54a72208d222d123
 - 7d0eadb428a862f757ec3fc04791b91c
+- ad3756e42d5a685cd9032e6b44fa885c
 Buffalo Chicken Wings:
 - 0bb2f881cb675e1c000fb2615b051546
 - e27975ee6b22bc3fdccd72fe3579fa68
+- a28f2fd4d563671ed80f91afad517885
+- b614b50cd60790183010ccf389f0fee8
 Buffalo Chicken Wings Mac & Cheese:
 - 18c7704e0085d4569e872439a00c6205
 Buffalo Chicken Wrap:
@@ -631,6 +716,7 @@ Buffalo Chicken Wrap:
 Buffalo Sauce:
 - f6994b23f38f317324657533642c78d4
 - 3c760ddae659fda4d04e293c70873bc2
+- 89349607e67c52418946b419c55dca63
 Buffalo Tofu:
 - e19ca7675bba95f397944d2fd1096cd5
 Bulkie Roll:
@@ -645,6 +731,8 @@ Buttermilk Biscuits:
 - 53bc15e91885939bd884c3f924b268a3
 Buttermilk Pancakes:
 - b28388f7c201ebba2b3504024f23ea59
+Buttermilk Ranch:
+- 0493edce97a4f5bab47647aff4557a6c
 Butternut Squash:
 - 8eab9e5969bd43e9e0e3052a28838ff3
 Butternut Squash & Apple Soup w/Chicken Stock:
@@ -655,17 +743,24 @@ Butternut Squash Lentil Curry:
 - b17dc421fef07bcc6891819762bb1df2
 - e84f0cae53e679a6f71a1c802d5619e8
 - 89be04c85d8c79e9ee19e4b7e5a0b25e
+- 714632e35a26a986a7038c8ba48160a9
 Butterscotch Sauce:
 - d18c89dca50abdb461fdaf59d1916bee
 Cacciatore Sauce:
 - 710b8a08118678fd2ff21cbe56ee8126
 - 369790dc0998de4ea24703034a58ee47
+- e143b285dd74c61221d1fe8506c87cbb
+- 693a78f9fb4d470aff020f7152c98524
+- 19dd11686feb6cc33c9958926d7628f2
+- 0c8a7aba4d3b2b16df424d3f596e2bb0
 Caesar Salad:
 - e487011f5134ac8e03fcff5bfc61c0fc
 - 7903977a13c135dd7123d28da40b4e76
 - eaa422851b63a36bab69a0ebe49f38af
 Cajun Blackened Tofu:
 - be87cb7ebaaf7e330195aa3f337e7f8b
+Cajun Chick Pea Dusted Hake:
+- ee5e8e63ec3f46bb6efb787e2dd22e7f
 Cajun Chicken Tenders:
 - c9c8ea8fbc1391c9236de8804fb30dda
 Cajun Corn:
@@ -673,6 +768,7 @@ Cajun Corn:
 Cajun Creole Lentils:
 - ec4f481f6bf420c9a925c24600d582c9
 - 5484ee87fa0f8d991ff3d3667a44362e
+- 44e0f92782368b5e037afe4b8935c3d1
 Cajun French Fries:
 - f9d86a549ae703549cb2121ad747ed91
 Cajun Fries:
@@ -725,12 +821,22 @@ Caribbean Black Beans w/Rice:
 - 17f460e3a71620f71323f97a0da5f3b8
 Caribbean Blend Vegetables:
 - 2877c9da9a9592ab9ffd9051f5960c53
+- 3dbd729214561be473b92a6833109cc4
+- 84d46fab1c4bdbacf37d6eda447132b3
+- 074cdf1022d702e852adde48e51662a6
+Carm House Gravy:
+- 3a800e713adcd2c98b76b120266c6a37
 Carm House Pancakes with Dairy:
 - a061aac7ce79cd841d2ff090f3d52469
+- da946fd154a76085d85c818a6f112bcd
+- 0c1b544f02a63bafa9a9dfd64da6fd77
+- 3a78beb38cc5eb4140a06137d290aeab
 Carolina Glazed Chicken Thighs:
 - e45568f25259bd6b8f9a98d0deb1bbaa
 Carolina Mustard:
 - 88a4c82e8de3c8dcf9e0820d01df90b4
+Carolina Mustard Roasted Pork Loin:
+- 30d089996bb73efaac18518c9c7a8f19
 Carolina Ribs:
 - d4fde13a6f273ed41811f3958ffde1c2
 Carolina-Style BBQ Pulled Pork:
@@ -740,6 +846,7 @@ Carrot Cake Overnight Oats:
 - da64ff00459ff1523b41815e711664dc
 Carrot Cake w/Walnuts & Pecans:
 - 3e1557ea7b07fc3ba3fd9be34e133ec5
+- a6ee3ca6ea6b5f6db139e259ce6595bb
 Carrot Coins:
 - 10e111b538f67bb2ec4502e4e9f2b460
 - e7755708f83aa3ee2be1e436ce2d082b
@@ -749,6 +856,7 @@ Carrots w/Cilantro:
 - d83eef1a4a8261049f8d2658f7fcd418
 Carrots w/Dilled Zucchini:
 - b0ef721a26a184bf6cda10e463d3bfa0
+- a5a6f28c1dea2f7c0d3db835fe9069fb
 Carrots with Fresh Dill:
 - 15ef0575f5892568efed7f88ebe4b461
 - 023e919f9217492b3d22274288e23f3d
@@ -761,6 +869,7 @@ Carved Roast Pork w/Chipotle:
 - c473b20188d7d7af7be559d78f2663b8
 Carved Roast Turkey:
 - 8a48f428732271c35beaf845355efebe
+- 4b62ea738eeac78281a4c2c33c94ca47
 Carved Roasted Sirloin Strip:
 - f93cefa851d76f8213e351ff3a5a6491
 Cauliflower:
@@ -770,8 +879,12 @@ Cauliflower Fried:
 - 0e1f071bcb54c27db5d3b676906095fd
 Cauliflower Gratin:
 - a292b0338b15cfe5da2b9cddc38256ed
+Cauliflower Polonaise:
+- 464c06cd3997491675b570006f18c827
 Cauliflower Rice Biryani with Chick Pea:
 - 500b07999630d1202b1d320ff25ebd8c
+Cauliflower Stuffing:
+- 3d9c1fa6efbc79699b915692f9d63772
 Cauliflower w/Carrots:
 - f2dea9312d5c2a38d9b8b9952ce04493
 Cauliflower w/Cheese Sauce:
@@ -784,8 +897,13 @@ Cavatappi Pasta:
 - 236a5317630398fe7b6281cbed7b0fd1
 - 750237189526493764eb01e12d741d2d
 - 31e0620b3158a6420dcc2eab7a4c202b
+- 8185de8791b0023d3995dab70a4f563d
+- 9997acec638d55c2597c7c5e6f469c7f
+- 8cb0bf0db554ead8545dcd93fd5a9d4d
 Celery Sticks:
 - aab8a5eb13e15c91bed51cdf5815a62c
+Chai Spiced Butternut Squash:
+- 32208923ead8294b5b22ecdcda0f43d8
 Chamomile Tea:
 - 606e795b3c4bbede1796d059ba461817
 Charro Pasta w/Avocado:
@@ -794,6 +912,9 @@ Chashu Pork:
 - 1a18975512a7073328f4251433bb82b4
 Cheddar & Chive Mashed Potato:
 - 4b9383a5c3c3bc13636d555fcf09418a
+- 10c716adfa19f9cb0311b509deb73846
+Cheddar Cheese:
+- 8644b225bb9b404412f2cb750fe32765
 Cheddar Cheese Sauce:
 - 5115fa7f663d4c8be00eb9643e6b4510
 - 1539c5d2af1a57dd67dda033c935cf27
@@ -809,6 +930,7 @@ Cheese Pizza:
 - a0fb680a480a422d6155c14f1802882b
 - 12741510e1edc96db1cefd6606c38787
 - af7bb85bed3a5e14e90c19c8f01b0561
+- 2c7ba1beb5d475458f3750cd5a0eccc6
 Cheesesteak Panini:
 - 3faf984d410ec9b6276c3ecf65a0d32e
 Cherry Chocolate Overnight Oats:
@@ -817,6 +939,8 @@ Chia Seeds:
 - 2d6be6f82fbfd21322ebd9cb7e9ab462
 Chia Vanilla Pudding:
 - 38ef03722a2658affaf8ecb0f0a002d9
+Chick'n Mushroom Stir Fry:
+- 31fcd0a770221fb88b15655cd87a7357
 Chicken "Pamah" Pizza:
 - b930cdb9e35250d52a856e3980368a22
 Chicken & Bacon Club:
@@ -824,8 +948,12 @@ Chicken & Bacon Club:
 Chicken & Noodle Stir-Fry w/Teriyaki Sauce:
 - 19564315dd649dc9d899c2465891c7ef
 - b7bb1e49d95ef9fd325f14021e57b3f0
+- c2cbdea4f45df4e830d3510d87f7a3c7
+- 1ca520118afc9b6d9ea134cdd50eccd7
 Chicken & Orzo Soup:
 - 9ce712c12a0b435c2198c233dcd8b101
+Chicken & Penne w/Cajun Cream:
+- 66ac22d9e2e54d5a183d7e29ce064e02
 Chicken BLT Pizza with Ranch Dressing:
 - 9f27289717aac306011393adf7b25764
 - a210831d7a6c69cd581b07722b51abfa
@@ -834,6 +962,8 @@ Chicken Bacon Sandwich on Sourdough:
 - 68b871d1c8a1cc6990ef1cca539eebfd
 Chicken Biryani:
 - febecd2dc874c8acbbfdafedb3966a4c
+- f38ca9b76faa03ffe3874c9705f5a5f6
+- c6ad8303277fcbc7315c2966b182191a
 Chicken Broccoli Alfredo Pizza:
 - 3b4b6c0670ca2bd8ba46a75d35f2b184
 Chicken Cacciatore:
@@ -850,16 +980,25 @@ Chicken Carnitas:
 - 5f0ffff751e3230388661f5559643c9a
 - 5c8bb6aac0567c0126ce10045178b690
 - 97c0ea6e0c69fb8f7032d503888a7144
+- 105851ad5b58942812e46e13e3dd4558
+- 622fd16ae8e11bb5697313954da605bf
+- f095fd7de6accff4a75b5855a6384e90
+- dee73c86715ac3e98ea8e44fe07b0c5b
 Chicken Chimichurri Salad:
 - 58383bcd9ff9f97dfe1f6eacfbe4ebf6
 Chicken Chipotle Carnitas:
 - ed4b8705e0c7c8c99b7b594f60e7d1da
+- 610642de8256e530fc424c5b09046976
 Chicken Cordon Bleu:
 - 02a4461aa61a391b7b3df370188b9367
 Chicken Dijon Carbonara:
 - b40937afd19f29ed320bfbdd6a013ee9
 Chicken Fajita:
 - 5e3c7a5bcf9c9bd816ca6f0f79b501a8
+Chicken Fajita Panini:
+- be5b77274063143910e253fbb6fea79a
+Chicken Gravy:
+- 66e369c23b9eb4656acd80eb79b84136
 Chicken Lemongrass Potsticker:
 - 5c29ff9365ebca63c57658fc8de46904
 Chicken Lo Mein:
@@ -870,6 +1009,8 @@ Chicken Meatball Pizza:
 - 007ca5f24239e5ec16b6dcf943186dc4
 Chicken Meatballs for Sub:
 - 3c49ebe1f91c9977f2f53ec9e6db7da3
+Chicken Meatballs in Marinara Sauce:
+- 57c3d074d74c28346e103796759a8a0c
 Chicken Noodle Soup:
 - dc60dffbc657d6af0290bed6d4ad0568
 - 11627e1a664ea021e847995cdb2931da
@@ -891,6 +1032,7 @@ Chicken Parmesan Sub:
 - 6529b39bd6251e628ee31a11986b1766
 Chicken Pesto Pizza:
 - 6b0b6f6e234daf802832aba5f1f9b648
+- caff884d185e866c0272ea0ef4bd24bc
 Chicken Piccata:
 - 8b0d29bb7e4ee343f3ea1d5703e91bc3
 - df03debb22eeae9667a2c1cd36899284
@@ -904,6 +1046,9 @@ Chicken Provencal:
 - 813814122b74f545de62010ae10b0450
 Chicken Quesadilla:
 - 7ac5c17fdfc4f99ee6ed473d27a86250
+- aa69653a12d3073723c38f432b8ccc5d
+Chicken Rice Soup:
+- 40f239c0e0c63f61e8388300faae92a6
 Chicken Salad Wrap:
 - 9289b81779893c02dbda63bd96386293
 Chicken Sausage Patty:
@@ -913,11 +1058,16 @@ Chicken Shawarma:
 - 05071f29d3b227a229657bfcfdb36acc
 - a57b8959b0e9271e4b9813051f34cc87
 - 7b3aa54425c1a6e772b168b2acfd64fa
+- 190339bfeb7bd78c876ce30cfc671747
 Chicken Shawarma Wrap:
 - 177fc1cc96fc395ff6f4fced2f9c48a8
 - 7749407b9a75bc407c6b13e154c50be1
+- 940f532c7dd686f37a134b22ab16f56f
+- 7d3c556f45d45c9ae3fd1708bed3503c
 Chicken Stir Fry:
 - 4e6a6c363f69be901dccd94c725125d3
+- f34ed66e63839bb377d37b7989bbb8cb
+- 0014b4f97b66944d49eb04c34b039d48
 Chicken Stir Fry for Pan Asia:
 - 54b9dd7176a292779ae34bb8bee3616c
 - d40343a788a969946ae38591e92a2140
@@ -927,6 +1077,7 @@ Chicken Strips:
 - ccb41d01939affe22e7032bdcf6752fe
 - fe98d02d625925adb758f75233157320
 - d3634fda1af9c17bd90688dc242d0a4b
+- 61d625b053f5142b0376a5ce40a5729e
 Chicken Tenders:
 - 97bbd8998eac6a095f23cf3beed40607
 Chicken Thighs Yakitori:
@@ -934,6 +1085,8 @@ Chicken Thighs Yakitori:
 Chicken Tikka Masala:
 - f8325ade6085193c77d5f2b4a98c2256
 - 7a298583a12ebd5013529cc091795ccc
+- 575dedce02276391fda9cba4ac9d07af
+- 778479744148d67312d01bd2e6a8860d
 Chicken Topping:
 - e2679a01be445cf4ddf81fe46988fe5a
 Chicken Tortilla Soup:
@@ -944,6 +1097,8 @@ Chicken Vegetable Soup:
 - 96b1aac8f1a66cbd9509a94a118df803
 - 648eb2845ab2eafa04954de58f74571b
 - 83d5898a776d3ade2057d318bdd46bbc
+Chicken Vindaloo:
+- 03c3e7ca49950d59a0084a3cfbcc6e23
 Chicken Yakitori:
 - 6982f45567532f861870941812d526c5
 Chicken Yakitori Pizza:
@@ -953,8 +1108,12 @@ Chicken and Cheddar Wrap:
 Chicken w/Cheddar & Bacon Sandwich:
 - 5ad11feda4fba31aaca364f25bd93beb
 - 9c8c275f3322438c3769e9a2782a0d4d
+- 4b696561ca1278f30b24a06e86ad08b0
+- 824d2fd205b9b1daa735cddd09fa7c04
 Chicken, Broccoli & Penne:
 - 53282ae0be5ba210b3ff6b1d9ebfa57b
+- 87941180f526f2a101135b9fcb43ba98
+- c00f9b69e516719011808d538d6de317
 Chickpea:
 - c56df195acd3d6db3c8b6c649daacadb
 Chickpea Hummus:
@@ -970,6 +1129,7 @@ Chickpea Vindaloo:
 - 37af6d357edf3e9b5b888c76b053ab51
 - e9ab1dae8488548c9c2731c5b2386857
 - 08b4146e2dac43f5aa33f3dd6aea2c0a
+- 92e49e53f9de13a2a9e7675633ef6a2c
 Chickpeas & Vegetables:
 - 94a4f1dfdb55acb6d1de84d66e3733ac
 - 670a5e610ddca15f2efcca6739c4a648
@@ -993,8 +1153,11 @@ Chile Lime Quinoa Spinach Salad:
 - 86536e20e9f4993a7425bfc6cc8c50c3
 Chili Lime Marinated Steak:
 - b5b31758b9203b48e80d62a31a1c5c4e
+- 6c0a4d652e8c357d166d2f4e302bb4d2
 Chili Lime Slaw:
 - b2980e16e2e95b849b8a6f8b8c7901cd
+Chili Rellenos Casserole (V):
+- ef208071485ba66c008c3da9abf74281
 Chimichurri Chicken Thighs:
 - 053dbe1af6ba60e30596642d125c555f
 - 7d9c7bacb0a3643340d4551b4a97d055
@@ -1032,6 +1195,8 @@ Chocolate Chip Brownie:
 - b19be5cdcb3e0703d610184a3731e62b
 Chocolate Chip Cookie:
 - 0ece5cc2fafff404ff13d4f8b32ab353
+- 83a8f7768416aa7ec8860ee755cdd05e
+- 5ca87457324cca6b2613193612fd543f
 Chocolate Chip Gluten-free Pancakes:
 - 0c0b807da44abfa61bfdc82634d44694
 Chocolate Chip Muffin:
@@ -1051,10 +1216,14 @@ Chocolate Croissant:
 - 255c00aa53e21ab13bbfd251bdbb2661
 Chocolate Fudge Stripe Brownie:
 - be08dbb2e2aaa28f228539e456182012
+Chocolate Peanut Butter Cake:
+- a671c0d3e291e9d46a9323728a398343
 Chocolate Pudding:
 - ca5110d3706106aba9823292e88ef091
 Chocolate Sauce:
 - fcfdeb496f689c8fe3fcb00743d451eb
+Chocolate Sprinkles:
+- 0d8364012dbe53148228a5dac519d387
 Chocolate Sunflower Smoothie Bowl:
 - 7648a60460be4028787543e20ed65e8d
 Chocolate-Banana Pancakes:
@@ -1066,12 +1235,15 @@ Chopped Eggs:
 - 5d77b10c66e9e82c83a8cf22a6aaebce
 Chopped Italian Parsley:
 - bfed1a36f4cab05345589d9aa86f9085
+- 2022a282b8b8d13cd05824596e141cb2
 Chopped Romaine Lettuce:
 - 42947e0dc3aa63239c1f1400bec91aac
 - 4acb4b8784f7bed2df58721d08de03e2
 - a7eb0ac866996cdc5463db5a7b23694e
 - 244560c25cfdc3dd08f323993d267586
 - 98733ea650f4898eaafda7d7e5438814
+Chopped Salad w/Dressing:
+- 8913706eddb8676152ab0cb41b9734e8
 Chopped Scallions:
 - 64bedbb4ff8f3efaa912205b5ae5af73
 - 4eb3109f7a86ac39978afb139eeb37c7
@@ -1090,12 +1262,15 @@ Christmas Corn Chowder (V):
 Chuckwagon Corn:
 - 38c40da50aeef16539f2b864581d8996
 - fe6029a7c941a2df81b71a7c824c8e0b
+- 2610523c11831bde94781e3909a0eb10
+- 7fc47deed0b3529af0638f69211916f7
 Chunky Marinara Sauce:
 - de3a3844d2b3ad21bfd8b4d99ef715d9
 - 16997a271aa20c34ced1e3e6804640ee
 - 0aa9ee0c023e7611ebcaee43fe84cdbb
 Chunky Vegetable Chili:
 - 3adfd4d5f75c049c40ee2e1c5ad1e88f
+- f9a7519029008db3c1533079d25e9ec9
 Cider Cranberry Chicken Thighs:
 - 2f93c00e7a6de6b99fad6e3212e9dbca
 Cider Glazed Carrots:
@@ -1112,6 +1287,9 @@ Cilantro Chutney:
 - c7fceefff1b894bf672db91d8bf89519
 Cilantro Chutney Cole Slaw:
 - 8678446312885f4f69ed3d61cc5ad4aa
+- 05a2c0056050207bac9ec51aa8910359
+Cilantro Kale Pesto Dressing:
+- b911278e2f8f188450b1962eb72b2f5e
 Cilantro Lemon Crema:
 - 2170b62b3e3fbcaa5afe91d3cba1fce0
 Cilantro Lime Slaw:
@@ -1135,6 +1313,7 @@ Citrus Chipotle Turkey Tips:
 Citrus Mint Quinoa:
 - 71471f717a1a9d6ce2f93ce40767bbe0
 - cb8fdac2ab039386bb1f7460af9edfc7
+- de85735d204afb44de6b7afbb51f92cd
 Citrus Ponzu Sauce:
 - 94635ab0abf4b3b7e62fa99e4b61316c
 Clam Chowder:
@@ -1188,6 +1367,8 @@ Cookie Crumbs:
 - 4ecdb0e5488671546a73dc1e7fde5bf9
 Coq Au Vin:
 - fdeddf38472940e252c42979363c373f
+Coriander Roasted Carrots:
+- cd0e3ff475301db9f98bf311fa761456
 Corn & Black Bean Polenta Cake:
 - 3b95effe839d09e9a6dc1c26ecda4d17
 Corn & Black Bean Salsa:
@@ -1200,6 +1381,7 @@ Corn Chowder:
 - 20186de8924468ce31e4d93c2a426657
 Corn Fritters:
 - 10b2e5f6eee798012e5895b1831dc104
+- eac63810ddb025cd1919367c479c9f4f
 Corn Stuffed Red Pepper:
 - 263d07e1a98eb7677d8197f0074c4ced
 Corn Succotash:
@@ -1234,6 +1416,7 @@ Country Fried Potatoes:
 - 27bceaa06a8d1e4153ace17ea4b16600
 - e35a5e06a6fe629e37230c3a0f1c4b0b
 - a6f6d044743882d7a0eb5b390fe67f74
+- 951084dd273db5dbaa9ba9dac4d23581
 Craisins:
 - d26eae6ce38fb592204c81be06423163
 Cranberry Balsamic Chicken Thighs:
@@ -1250,18 +1433,27 @@ Cream of Broccoli Soup (V):
 - 0696f86c28d7fd5f5aef9cf54f929e8b
 Cream of Mushroom Soup:
 - e37e709e15fd6df5c9c8f72e306e3310
+- e4e81ca07c5ef87eb428cbadabede85b
 Creamed Spinach:
 - 625f448effa1db8b55f15ef185518a0e
+Creamy Caesar Dressing:
+- ef4c59c0864a12ac5fbbf1b7823326a6
 Creamy Dijon Potato Salad:
 - b929f9b179b33781cd0c1b09a8128af6
+Creamy Farro and Celery Salad:
+- 685d138a37ed4b400e3022ad56cd430a
 Creamy Garlic Sauce:
 - 4f6f1b3ea35dd605804007a6b5dcc321
+Creole Mustard Sauce:
+- 74dd3ce1e1e22311382fb0153cbe07b7
 Creole Quinoa:
 - e6c42eaed6bd81ea8da53daf934057c1
 - 5ceca3b9387a8bbd42b76687ea42dbcb
 Crinkle Cut Fries:
 - 4924362f759de9e1c6cd9ed4a11f737e
 - 42819fc0be2a7007b26d93dd3bd11979
+- 803da3228976033d2728a1787f488f9f
+- 2d57b05ca9e1ea74080e37452931d7d1
 Crisp Bacon:
 - cbf2a3b37afb775d33073ccacb63969d
 - 43a9799ea8007b94902eca0be715afc6
@@ -1278,6 +1470,10 @@ Crispy Cole Slaw:
 - d4660bb6328e298fdf3c4d5e1dd3dd50
 Crispy Tofu Milanese:
 - 5cd28e3c33c0fd0910924b38a6189929
+Crostini:
+- 6cc89b599d12ae3c8b0010f665502922
+Crumbled Bleu Cheese:
+- 30333bab006f3eebd70011407da79307
 Crumbled Goat Cheese:
 - bc0b333fb45f3456caa16ee282977eec
 Crumbles Sauce:
@@ -1308,6 +1504,7 @@ Curried Cauliflower & Chickpeas:
 - d32a2ff37ed67876accffb9c8fa2afe4
 Curried Ground Crumbles W. Mushrooms:
 - db17f6acf3d3784a8a9d42649b9754f0
+- b120613184aa0327ff4af1d0cac0f7e3
 Curried Noodles w/ Stir Fried Vegetables:
 - 5a6a10fbc4b8617eaab4eb340b9b7112
 Curried Noodles w/ Tofu:
@@ -1344,6 +1541,7 @@ Cutlet:
 - d8a0c686f0fe7dc663a0efa1ba027537
 Cutlet Parmesan Sub:
 - 29c424f9b4ecfa481a981c3987dff3d5
+- 34c0e3083fed8b2be1782f1970f8dee2
 DF Black Milk Tea:
 - 9478732cf2456029f83acc8a99cd3dcb
 DF Earl Grey Milk Tea:
@@ -1393,6 +1591,7 @@ Double Chocolate Cake:
 - 013ff7dd0445a1bce9751eb801926eb2
 - 2d4000ebfa563321508497be0c1b51ad
 - 0fc3fe788095963b91cdc467f5a2ab95
+- aa831a390b8c1f9f0557b5bc039e162c
 Double Chocolate Chunk Cookie:
 - e7964a5ff8e18bfcfa0f9f7152f974ab
 Double Chocolate Cookie:
@@ -1412,6 +1611,8 @@ Earl Grey Milk Tea:
 Edamame:
 - b9574342a9d75701a314355bc91e4001
 - f719a0b8eb4389b432fbca432a43ebf3
+- 914cc74f26365948a7a313a5f9fc9ac5
+- bdfc59b34a0584dba61f5423c806617b
 Edamame Corn & Black Bean Salad:
 - 9e9a344b91dc3bdd9c3867b4a6478a94
 - acc03d49feebee17725acc60d8cb335f
@@ -1443,6 +1644,7 @@ Egg, Spinach, Corn & Red Onion Frittata:
 Eggplant & Garbanzo Bean Stew:
 - ed0f9da3b42a56f1e6eb8a03f4c51356
 - efcf4489c3ba61df07860455c5f1a8b8
+- 99e1600ae1a7555f222e19df69b35138
 Eggplant & Mozzarella on Ficelle:
 - 2c46f0397fa85b8305b02af916fafaf8
 Eggplant Caponata:
@@ -1452,15 +1654,19 @@ Eggplant Marsala:
 Eggplant Parmesan:
 - 1ebc1fd984c2633d2701d0efb5d9eeba
 - 729426bbd3b877576afff0b1c59ecdac
+- 86f4eb200ab149993031aedc136a8cd5
 Eggplant Parmesan Sub:
 - f04ee5a41ec6642b1aed579a7882a45a
 - 3cafcbecc1159df7ee26c8a6bfe97093
 - 5cd33100ca09baf402a098a77184699c
+- c58aa4495b36ca45a34b4d6103da7162
+- d5fda84c87cc7cc2af025a43503a16c6
 Eggplant Pasta Sauce:
 - bea436c028f7882b3b38afe9aecbdb31
 - 62eaaca84c0a74ca8c9868da873be5a0
 Elote (Mexican Street Corn):
 - 0e1aeca12c5a3f74eb73546a0f4d6100
+- 835677c4fcdb2a3c5cf38db114c33d58
 Elote Corn Black Bean enchillada w/Ranchero sauce:
 - 14a5a15216aa78479878122f12d326cd
 - 8c13125f3fdf759dc2e392cdfb3e94a1
@@ -1493,6 +1699,8 @@ Falafel:
 - 827d6ef971dce0591b7566d9d4dc19ff
 - e4a384659a67799207bb0e0a1041f133
 - 73db495146f268d3e954212b2b23a2be
+- 6924abd04eaa30da6c71369728786be3
+- d0b3efe4891b64588dddf74148fe57de
 Falafel Shawarma Sandwich (V):
 - 6e2d7b44f98145089ec269e547a29bb4
 Falafel Wrap:
@@ -1521,12 +1729,16 @@ Fig Spread:
 - 8d0439f4193b19904ee1e0f435e1e97b
 Firecracker Salmon:
 - 813bc626786ad7d5d353719b06382dca
+- a3f8dd742bbafb286f752511ad6baa39
 Five Grain Blend Rice:
 - e432c14dd72f5770a6dd138c0005acab
 Five Spice Chicken Thighs:
 - 693951ce451260ac82f4e2f71a54f5e4
+- 3a091f8b1e25e441c4f378f455e4e7a6
 Focaccia Bread:
 - c3683c7cb0c57b34308793f93bd01c01
+Fontina and Swiss Chard Quiche:
+- e53b4d15ac18405fb7a57ccce086f0ef
 Four Grain Rice Pilaf:
 - a325e302420ce2042abb69e543b70222
 French Bagel Toast Bake:
@@ -1537,6 +1749,7 @@ French Baguette:
 - 4ba59ecfa4ae73e7a39a3a2c0872c4d6
 French Bread Cheese Pizza:
 - a8244050131bd70165b23a3f0922e99c
+- 7a077d6203541fa3539ec2193e2d7bd2
 French Bread Pepper & Onion Pizza:
 - e24d05a2b11c8010ecc0d9536dd73bc6
 French Bread Pepperoni Pizza:
@@ -1551,6 +1764,8 @@ French Fries:
 - 2433c78ef8aea2ca386d081e4e1f0a65
 - e5c6626c6c6c485876e3ade5d7308256
 - b1c4bb8f5b478639c2cf27af60b2fb87
+- 654cba029df02a7424febaab2292d286
+- 6c16eb4eb67a30848c481d7880becb68
 French Green Lentils:
 - c35bed0cd75fe7eae000dd4154279b7e
 French Lentil & Mushroom Casserole:
@@ -1580,6 +1795,8 @@ Fresh Basil:
 Fresh Berries w/ Red Quinoa Salad:
 - 2e4a9955713759bce6981f6c99b9d79a
 - 3a941134b1d6bacfdb564cc0a39251df
+- 5d6836cdef415e57927c5b503e55d641
+- 471ef1927f38c23b02199fc8be6814f5
 Fresh Blueberries:
 - 57d20425d6fe9e32a9779c3f9db6ab0d
 Fresh Brewed Unsweetened Iced Tea:
@@ -1588,6 +1805,8 @@ Fresh Broccoli Florets:
 - b10fae0377999348ffa258465a66c5b6
 - 73c22a20ff8ce9d1ebfe14f5758fe6b5
 - f58935700b7ae24843761d6684dd074c
+- 8d4ad2b0aaf01b978f84d54658d92ef6
+- 4679caec1f583feb124d93ee557f5aa0
 Fresh Dill:
 - 8e6b72b10d561055eb1df6f26232b054
 Fresh Fruit Cup:
@@ -1595,6 +1814,8 @@ Fresh Fruit Cup:
 Fresh Fruit Salad:
 - 7477a4a67e6969c4d850a4a993b000a1
 - aa5665a77194fc673c00158622c6698c
+Fresh Garlic Herb Bread:
+- 4e4d437a50845a84977effcd96542b6f
 Fresh Golden Pineapple Wedges:
 - 6106efc8a7db680eaf22fa5b88a2e407
 Fresh Green Beans Steamed:
@@ -1605,6 +1826,8 @@ Fresh Green Beans Steamed:
 Fresh Kale:
 - 8185e8fc8f0afb033de3aa7bf4810157
 - 0450d5224c22b34f15f126d4d5756d38
+Fresh Local Red Fish with Tomatoes and Olives:
+- 76bdffcee69fae9105cccc122fefa784
 Fresh Mint:
 - b651b30c5a3751aa356c92ed46d7f41a
 - 7ec30b4f3e8c7408e84e2eaad395aa43
@@ -1622,9 +1845,11 @@ Fresh Pico De Gallo Salsa:
 - 916034c05eba117ae8edeea7b43a3063
 - eb788d2e02fbfdc45d6e0809d5434477
 - dee5984ece05388e33f71a67b5b2e6bc
+- 279de340419647001cbb518ee1d18162
 Fresh Sliced Mushrooms:
 - 6c443a3eb18a2e3cf680952de77167d3
 - 4e6f8a6ef420051c31c751719c2436fb
+- a62dd42338ab4a0232a5f2df57fe8b9d
 Fresh Sliced Strawberries:
 - 28a70bf820400f77bfa639c8ca917940
 Fresh Snow Peas:
@@ -1638,12 +1863,15 @@ Fresh Spinach:
 - 9488c67f9341e8b69af4e389e7ee0be3
 - 4e3fa7a24f7a9c88c34f413bee0ce031
 - b5724e92f9d100909d9aad7f7cdc6abe
+- a5ade65156ba44bdb08c2079e1a07892
+- 80b107cbf70b3ef3710d32c9e3f22427
 Fresh Steamed Broccoli Florets:
 - 5cd41ac6544cfd380ee9b90fd9d0b834
 - b830a2bd1d4295dbbb47451498e75d66
 - 534f67cde1c9fd405fadb04f9a021719
 - 62d1a5c20a77ef42f53d2993ed985a93
 - f176b4b50fc3385996c9c19e482f7949
+- f03526d4a94dc9c7e87502a259d70957
 Fresh Whole Strawberries:
 - 0db731b902b56652fc60da1d33bf7b7e
 - 2d5d514c686b66dd0425f1ebfeada10e
@@ -1682,6 +1910,7 @@ Fried Plantains:
 Fried Tofu:
 - cb68ee7ad586cceb3d03a78fcab20614
 - 319a5b4454addc9e04b2236edfda944b
+- e705fd30a2ff6551200332809a34c9e0
 Frosted Yellow Cake:
 - dfb87fe8043c1d002fa234d219c57e54
 Frozen Mango:
@@ -1698,15 +1927,21 @@ GF Spaghetti:
 GF Tortilla:
 - 9a8a17593f7df150dbb47e8fd61af6fe
 - ba57e282b8e8014be91761b7ef6c451e
+- bb806abd4aaad3180537c41868b98eee
+- 0994e54052d14beb4fbf1348224c1151
 Garbanzo Beans:
 - 6b54511c128ed95dedae03207f3f46d7
 - da0b386d5405bddb93edec3286103310
 - dc42d0ae53993b7a59a81bb0f898dd47
+- 709861faa1409f0365974ccfffa174d9
 Gardein Meatballs in Marinara Sauce:
 - 188e03facf1a662c918d02de8171e6a5
 - e15ee6cdfea729ce58d27e6f03d79b8f
 - f6e865390f811a28daf962ab5ad62ed3
 - 7ca7a7cde619b99dd3295edaea8b5ecc
+- f6e63455c789614fa6af86292ff4986c
+- ae8e686d18cde9ee3fe09e0ee9f35a18
+- 4798d380ea07501afe3847bef8414b12
 Garden Burger:
 - 710ad3656c60ea3848801873f7b20ce9
 - 6470d0c95a4e2a964a8294e34f34fd6b
@@ -1719,6 +1954,8 @@ Garden Pattie Burger:
 - 015f3464bb1fd2174adf3bb6bcdc411f
 Garden Pesto Sauce:
 - ba2588990ad6657b0f63dbe0f22ffef5
+- 073ef6d9db766ad138e3f4653583bd85
+- 590ff9a15a3fff3e4d543c9047047437
 Garden Quinoa Bowl:
 - b9cfdf8025c736c2591c50c212edba36
 - 2a9958b48ac77dfe04b29a0b1341d0da
@@ -1752,6 +1989,7 @@ Garlic Roasted Cauliflower:
 - ba841b534dba2d01c62e6cec1494adc6
 Garlic Roasted Green Beans:
 - 576152bc7ae9fba755e9f33dddcb5fa8
+- c6b2202f9aa486a34fdb6c8bea85ae39
 Garlic Roasted Potato Medley:
 - 099c98b6300c0bf028f6dd41ca5b29b6
 Garlic Sauce:
@@ -1763,6 +2001,8 @@ Garlic Tofu:
 - 858dacdd7774021663f1a5b0a0894844
 - 8dcb91782fbad588e1d0dff4f61148bb
 - 863ca7bca7e2bfeb3ad748f52ef05904
+- a53a52e2ce726d0757796ea2415505aa
+- 8e8cf7e07beaa3e37764206b308cbc93
 Garlic w/Herb Butter Pasta:
 - 7f5d2125da00de1a888dac39621ed5bc
 Garlicky Bok Choy:
@@ -1776,6 +2016,8 @@ Garlicky Spinach:
 - b37bbbdca43153aa65c475f6435ee76d
 - 60cb8d2d6e9052f85ad1f9be2048f415
 - c3db274da193d4eb2208ff1c6d7a7031
+- f12f957fece3d4e656f37c1ba03e5181
+- e49a39cd012ec74a50eb27875a81c4f9
 General Gau's Chicken:
 - 8616bb928edc504403e63bf9a27dea15
 General Tso's Chicken:
@@ -1784,11 +2026,15 @@ General Tso's Chicken:
 General Tso's Chicken Plate:
 - 2e93dcd23a825e487a82eab18998f650
 - 9b41bd71507480393e240a5e34d9b8fb
+General Tso's Sauce:
+- a23a645e87db9888dd0856acdf9e8674
 General Tso's Tofu:
 - 7e716261a939d8dca64d6bde2a834acc
 - afaa14ffc6ff576e9bae981ba8d400df
 - f0a38e2880c4aca7d0d93e6bae018ec4
 - d59b39170a249390d36aab769dd9f0ef
+- bca25bebfb22cff63321d0ea5bdd4844
+- 5679ab14ddce7880048a3eefd0aa5595
 General Tso's Tofu Plate:
 - 62c932daded71e59cd933f11de6e3274
 - 3b2af767cf7653efcd64fd392802fed9
@@ -1796,6 +2042,8 @@ Ginger Broccoli and Plant Based Strips:
 - 6f12c38f749b9f89848b820279978d44
 - 757ea1e1de7f634f600383e8dfe815eb
 - 237bac5290247617ab4d7c44d0f17ebe
+- 3e2f4278db4764828d2affe3f8a0198c
+- 9442b36dd75ac1ac3996fc455811c773
 Ginger Lime Dressing:
 - 6f5562d23fc62fa0543b6c61d59ee9ea
 Ginger Snap Cookie:
@@ -1824,6 +2072,7 @@ Gluten Free Pasta:
 - e1e378ef4049ca2b7a566529981376ca
 Gnocchi Roasted Tomato Cream Sauce:
 - 7f8add59201abe4b7190ae58df20a09f
+- 6f3738a5a70d93ab3fd7902a66772e8e
 Gnocchi spicy Pomodoro and Rabe:
 - e9e09adbbc1bdb86cb247a98a4c6f9b5
 Golden Seedless Raisins:
@@ -1837,8 +2086,11 @@ Greek Braised Chicken Thighs:
 - 2470be770fff6524281584471bc51f22
 Greek Cannellini & Vegetables:
 - 5500061b02565b9cdd2757bb9d8db6f7
+Greek Dressing:
+- 8378c7399c52f019719c76541a74a4ab
 Greek Lemon Rice:
 - 546d325d2ad310459b0ec343b0a454c2
+- 92937d80e2842a6bfa7876f54146109c
 Greek Omelet:
 - d782ee54dd262e79bee78038b1e81d5d
 Greek Pita:
@@ -1885,9 +2137,13 @@ Green Beans w/Mushrooms:
 Green Beans w/Onions:
 - 1c0cebdca6c2f01f0212e32025029c7f
 - caf8e1ed0a0578b571bb1c7636095e02
+- b6f65cdcbdde72084cbb8a6a1e6befb5
+- c7b065f937678afab31bbb687cf3bc37
 Green Beans w/Thyme:
 - 7cfd5087dd227711a1ef90006dc080f4
 - b41d00560337b7e42c153e858bde88d1
+- 876c581d4768c3360af56198475193db
+- 4d249f6634aafff1a116c65e5af7621a
 Green Beans with Creamy Herb Dressing and Shallots:
 - 02d23107d4872c910b9c28f7f3bc5557
 Green Beans, Mushrooms & Dill:
@@ -1913,6 +2169,7 @@ Green Peas:
 - 033d95ae9e2f9433c751334af02cadcc
 - 0202104f6ac81cb7daab132774d2c20c
 - 65d8fd6e47e7a5c6ce73433ac6d583c2
+- 15b2e2f96d838c8cba3ce7b407ba9572
 Green Pepper:
 - 85b743e357d3d62c6ce6204f2ed56ddc
 Grilled American Cheese Sandwich on Sourdough:
@@ -1953,6 +2210,8 @@ Grilled Chicken Thighs:
 Grilled Chicken Yakitori:
 - 1952b6620bb08cdc53b74adc1a68f71e
 - d001f99e719df86a8844298e898fc9d1
+Grilled Corn on the Cob:
+- 293ebafc2579a5a9ef34ef865d442b25
 Grilled Corn w/Chipotle & Lime:
 - b9b499278525678004bee4098c16a664
 Grilled Flatbreads:
@@ -2003,6 +2262,11 @@ Grilled Tilapia w/ Chimichurri Sauce:
 Grilled Tofu w/Chimichurri Sauce:
 - d917d9fa87e53f8f951430013332f6f7
 - 10e38af80fd0cfb9c2e5f2dadb7837cb
+- b0d1a2a5dfa951a8d73fd0a25c5a8e53
+Grilled Tofu w/Sofrito:
+- 23111d0f6878509305ac77bbf7a458a8
+Grilled Tuna Melt:
+- 36885a2bc7e4edd763594de7d2d589d2
 Grilled Vegetable Pasta w/ Artichokes & Pesto:
 - acb371df5c64d7331481d02ae2b72ae4
 Grilled Vegetable Pizza:
@@ -2031,6 +2295,7 @@ Guacomole Dip:
 - 5f766c45e190d0a35cc12b5b66525b93
 Hake Puttanesca:
 - 9bc1e2a3697142dd2a75f3c021e74b10
+- fdb06ea6292c9a11a5ef7e2521d30ce9
 Hake w/ Ponzu Butter:
 - 134bb8572c55b36d86ea487a3ec84664
 Halal BBQ Chicken Thighs:
@@ -2043,11 +2308,15 @@ Halal Barbacoa Lamb:
 - 164c72e3ba9e1a96f8d8b14b56657094
 Halal Bayou Seasoned Steak:
 - d1483b937761793f3f61858f6b4517fe
+Halal Beef & Three Bean Chili:
+- 804218139a18b7bf25cb2512b67a4755
 Halal Beef Vindaloo:
 - aacb5888db527831b7fc7b78f3c843f8
 - c21b5ac96a9b1222016aebd319aa28d5
 Halal Brazilian Chicken Thigh:
 - 91a115c148d749acd151adf8740c02d7
+Halal Cajun Chicken Breast:
+- e806836f1390d8b6f4075b05b834f215
 Halal Carved BBQ Flank Steak:
 - 558beb03213addd31ac2e5960bc4c08a
 Halal Carved Roast Leg of Lamb:
@@ -2059,14 +2328,21 @@ Halal Chicken & Vegetable Stir Fry:
 - 1ad2ad6ca53163aaf3e95fd474439de2
 Halal Chicken Adobo:
 - efefaef79e3db614db2ce680705e37ef
+- 0ab24171b08c693b0b72498dfa5e7451
+- 5b1249f65b69881e6378f055c561bb39
 Halal Chicken Cacciatore:
 - f39763bddf73167c1d441fdc0dcfb258
+Halal Chicken Curry:
+- f06e8e81c3ce58887a6b1625394b7e4d
 Halal Chicken Sausage:
 - 7f68a4adcc4cffdf07979e9c1eb8325c
 Halal Chicken Shawarma:
 - 13fae1716da5c80adb2ffe5a8db5687a
+Halal Chicken Vindaloo:
+- c5be47218abbf80896ee5631a9c28c81
 Halal Chicken and Butternut Curry:
 - 7a4f60464d04e668bc012e1d05770ae9
+- d986c9bbade0c6810c327a306896adbb
 Halal Chipotle Marinated Flank Steak:
 - a8d55e4490fdcd50b48fd819dd4ce2da
 Halal Curried Chicken Noodle Salad:
@@ -2087,6 +2363,8 @@ Halal Lamb Kibbeh:
 - 3c41098b03ca989219912ecfaa509a23
 Halal Lamb Meatloaf:
 - 8c7595f390316822b6ad7f0c9cd6a70e
+Halal Lamb Tagine:
+- bac453528ae37be10a405544357ca91f
 Halal Lemon Pepper Chicken Breast:
 - f5993c1aadf8566baff8747f5494c623
 Halal Lemon Pepper Chicken Thighs:
@@ -2104,12 +2382,16 @@ Halal Orange Beef Stir Fry:
 - f348652962436c57f6a081387e3d6e9b
 Halal Potato Crusted Haddock:
 - f36326fa0b6878126db09dfb76371f6d
+Halal Sauteed Chicken with Onions and Peppers:
+- cc9dfeb0a389046ed06867000444387f
 Halal Shredded BBQ Chicken:
 - b242ee064bd23bf8b53cf77c31bf415b
 Halal Shrimp Ceviche:
 - da9f05dbfe43c20c05d305184f2bb65b
 Halal Southwestern Grilled Chicken Breast:
 - d5b2d10082f654b2154ecc167970770c
+Halal Spanish Spice Rubbed Chicken w/Sofrito:
+- 0a71a859640f06a81c3a587a6eb97c1e
 Halal Sweet Potato Shepherd's Pie:
 - b51da94a721e80c6e99426cfe265d53a
 Halal West Indies Spice Rubbed Chicken Thighs:
@@ -2125,6 +2407,8 @@ Ham & Turkey Club Sandwich:
 - 7667faa50ae244193f0e2d623ff09011
 Ham and Swiss with Creole Mustard:
 - a39f81bbce7a164d269d8f0ef6983247
+Hamburg Pizza:
+- 625e0f7c525d78310f10f07241bd1bb0
 Hamburger Pizza:
 - e35235b96a977f94aafbc99f881f9b76
 Hard Cooked Eggs:
@@ -2136,6 +2420,7 @@ Harmonic Mint:
 - 9d6ce5aeb045658f1d5e80e783add4d3
 Hawaiian Pizza w/ Chipotle BBQ:
 - 4ff68e6093a518e3c3c2f7042873df19
+- d98fb124e6b67189bc23c1376bd0b07d
 Hearty Baked Fusilli in Cauliflower Cashew Cream:
 - 43fcf84d2dcdd83a5aaf8387793bcf96
 Hearty Vegetarian Stew:
@@ -2162,22 +2447,33 @@ Herb Roasted Chicken Thighs:
 - 305ef1ccb688001ff4625b1d00989e9c
 - 078a093718395556c73a3be0e08bf79a
 - 1b4a2a683dc26f047b37adeb21a9e80a
+- 6ba3c9fa7a77bb17e2355ae5bc13a765
+- 2e1a3462797a957785b3a3c946a17501
+- 0ae3e9f0237b25cef6baca1490bd538b
+- 6b0ff81d2782d8c978368fec76229145
+- 2042d0f763ef4120a0a6923323e62bbd
+- 3d806214576561fcbcc14f99cf067c31
+- c88db64abf1860db30941dbe68980e19
 Herb Roasted Chicken with Harissa Sauce:
 - 9936e83aea791821b3d1aa6c7cbfe082
 - 57f8b361e5334967b91e8b0b40632a0f
 Herb Roasted Local Carrots:
 - 5635046ceec09d0c0f87cac09d7111a1
 - 0ad459630088b032f9d8b2fa2b1955c4
+- 7098866da539e82fcc4f6baee47c1f6d
 Herb Rubbed Pork Chop:
 - 557179e58a3d5dee05985c80486907e2
 Herbed Corn:
 - 2ebd7ab48f929237ee3f141446a992f5
 - a84fdb5fd2354788679639ef7cd6c8a3
+Herbed Corn Risotto:
+- 24a1724d2fa707ff5b2015600908f7dd
 Herbed Orzo:
 - 86a6727f4dd3daf808afc7b65f919a00
 - ee5189d41650a3c857dcec95fc4b2140
 Herbed Orzo w/Feta & Kalamata Olives:
 - 5e41c3cc5f8bd4d6e6f52e814a9c0e33
+- 719afcf4787c9b675df6d8af0858e5fc
 Herbed Table Salad:
 - be48e5e87944f79ba3e3fb06d6ab0231
 - 3b82443c32ea755026e861d910747720
@@ -2202,16 +2498,22 @@ Honey Cake:
 - a35acef82c1299b16ccf2414dd4ebe2f
 Honey Chipotle BBQ Jack Fruit:
 - 2c450632ebc3cefeb20a1d34a6863e17
+Honey Chipotle Dressing:
+- 1f87e25f22e3d6a592571f76718ab0f1
 Honey Dijon Potatoes:
 - c2437219c07e4a2ad637d400767754c7
 - c6038358a350ef2ca5bc1f06f2abe2ed
 Honey Garlic Chicken Wings:
 - 989d749cad358c82bc85bf139bbcb5a1
+Honey Ginger Dressing:
+- 7a48f580b23a04bad3899bd77afd57eb
 Honey Glazed Carrots:
 - 0c9187a7b62ed074d5d8d2d334862244
 Honey Miso Roasted Carrots:
 - 476bf7db8f6630293161fbda13d630eb
 - fd4c92a9e96dcfea5cb44b99e4790065
+Honey Mustard Dressing:
+- 479bd31f34927d5de28cc3938d493430
 Honey Roasted Carrots w/Fennel:
 - 5b6c5eb55e464f07cbfb6eb73e33b352
 Honey Sriracha Carrots:
@@ -2261,15 +2563,20 @@ House Fried Rice:
 - 45f3c3111b54b9441bce57f040c31260
 House Rice Pilaf:
 - 6e4c918f3200de7a977bc74c579a8361
+House-made Dill Pickles:
+- 097cc590cfc58e75a434040ae13a4008
 Housemade Bread Stuffing:
 - 9a6edf3b9afc4e2293b3653f998cbac8
 Housemade Falafel:
 - 73528f004aeda9af5f851987cc91310c
 - 7b6c235d85857d315d019607223e9d9b
+- 885f8edfe2007a4e9e57f51c9415ae14
 Hummus:
 - 4238ead2228770df164bf24d3a13e116
 Hunan Chicken w/Vegetables:
 - 0b64ceb210227e6c8b11009bba91ee1f
+Hush Puppies (V):
+- 5fea8e9113b9a98c4aa3f660f95fe934
 Ice Coffee:
 - 1036fc81824b5aaf6ab217e63e870ea0
 Iced Black Tea Lemonade:
@@ -2293,11 +2600,14 @@ Indian Spiced Rice with Peas:
 - 400d4309ed8bbe5a0fd45be534621985
 Israeli Couscous w/Vegetables:
 - 381a523764ec9a12cd81f8c360313ebe
+Italian Breaded Chicken Cutlet:
+- 88416fadc928cfaf2941200e6308c829
 Italian Combo Sandwich:
 - ae9ce1d4713aec42739a94ffe3a1825e
 Italian Green Beans:
 - d2d1b2a674de4b4485e92a34dc2bc8aa
 - 2cbcc5458f069c1e838b40b53545cb41
+- 7ee7a179d81070b6ef96498ad059af13
 Italian Panini:
 - ea3f5deb3ce229a9da97e0de1fa04cd3
 Italian Pork Sausage:
@@ -2309,6 +2619,9 @@ Italian Style Meatballs w/Marinara Sauce:
 - fc156a032f636eb026cc1ae867b849a7
 - 6ad6e13db9edad0a8e7ae92f17534a66
 - 1f821ffe2470440008aceb9acdd4ee56
+- 18b5b7e1b4c8a9f43f5979d0a9fd5498
+- 07956a235515b64dd9b0931dbc10f96a
+- 33002245523e64c61ba4d6eaea569beb
 Italian Sub w/ Onions & Tomatoes:
 - 2be40cff32704aaed780a2b011dd5ae3
 Italian Sweet Sausage w/ Onions & Peppers:
@@ -2318,6 +2631,7 @@ Italian Vegetable Pasta Salad:
 Italian Wedding Soup with Meatballs:
 - 2f5ab9c4a3f347b7916906a4cc09e144
 - b3538f6e2422fad201f01ea757ffa5bb
+- e2b31f067012ef61cc7a29a1eb4f6f13
 Jack Cheese Corn Quesadilla:
 - 6eb92707cff952a3ae1b8e410a370b7a
 - 07a46a21d19dbfe1360aaebc12964ab5
@@ -2329,6 +2643,9 @@ Jalapeno Chicken Sausage:
 - 927d459e03377cb1aee9d4fc454a1658
 Jalapeno Cornbread:
 - e67677ac471bddbb2e3983c7271f1874
+- ce6723b21d0f8dcee1f815a3dd036971
+- b89683b94867509f9350da7094e093df
+- b5119a4bcaedc60dab9df99655bc5bd5
 Jalapeno Cornbread Waffle:
 - 08ed891b235257bbaffe9cf8f050d971
 Jalapeno Pepper:
@@ -2336,6 +2653,7 @@ Jalapeno Pepper:
 - d2cb192f1ef6692a778fd4dfef884b54
 - 07f79a5d55f16aeff40b08aeb23d83d6
 - db282b0c4e9a90f90b138516bc10d77c
+- 0b7fa926318c2fe51ae45d4b7add5ae7
 Jalapeno and Roasted Pepper Pizza:
 - 21e175189dc4795c3f85ba55e3d68be3
 Jambalaya:
@@ -2364,6 +2682,7 @@ Kale Caesar Salad:
 - bbec4e2e4dcd9df1a974de165759201a
 - 1f830dab03ecfa994f22eb12ab5d89d9
 - 245953728f46c621ff6e622e62e9966a
+- 972830eb3f6bfa658687f79def1af763
 Kale Pesto:
 - 6eef28dfeb593fc1c6463c503c968f4c
 - 59b1aaef136a70fbd5fa02b8a5eed008
@@ -2388,6 +2707,8 @@ Keema Beef Curry:
 - 778ebe2e21f618579190149db0f24640
 Ketchup:
 - 816b400200a9f530e40b5eef71b0d961
+Kettle CuisineTomato Bisque:
+- b75dbd21bf2c94f752b984fbcf29a8ec
 Kidney Beans:
 - 5a3fcc9f527502f4b22e9ede67b1c115
 - fb86cd4fa9ddc009978558a097ef9e53
@@ -2405,6 +2726,7 @@ Korean Roasted Tofu:
 - c476f64636ffa2fb6cd70cb63a7bdda2
 - e26ab1b13d0ffff335f02ebdf57101a4
 - c6b9c999d2739491fa6f2da0516af488
+- e167cc890820fd4f42ae600b94c71c5c
 Korean Style Mushroom Hot Pot:
 - 73dffbea2ce711ffa84a5cd6667809af
 Kosher Bag of Chips:
@@ -2483,6 +2805,8 @@ Kung Pao Lentils:
 - 37e6fcae78d252349f206d98b8e929a6
 Kung Pao Lentils w/Cashews:
 - d7d702de9b19edc3f3396c164d8858bb
+Kung Pao Shrimp:
+- af1726347e3f9567010c1c3e906331c7
 Lamb Kefta Meatloaf:
 - 499f43c17af17e07ebab9fb6138eb26d
 Lamb Shawarma:
@@ -2494,6 +2818,7 @@ Lasagna Bolognese:
 - bf02c37a4009db7bdf8eb664841f180f
 Late Night Pancakes:
 - 11368bbde2b9736c0c13a5e97ded844b
+- aa2e84cc38383e42a85ba41d0102cf34
 Lemon Bar:
 - b27743be24de813048fb138b497a5e26
 Lemon Bars:
@@ -2509,14 +2834,17 @@ Lemon Herb Gemelli:
 - fae572d327f3763aa95d88a9eb0d17ca
 Lemon Italian Cream Cake:
 - 1d49d7f2cc349130143bb704049900ec
+- 35bcbb3c5494730dedffa1c85d0177cd
 Lemon Pepper Chicken Sandwich on Potato Roll:
 - 0516528c7847881409b971de1d5903d9
 Lemon Pepper Tofu:
 - 56717619a4cbea1fe6183ca2ceb91067
 Lemon Pepper Tofu w/ Sweet Tomato Relish:
 - 49a4b4d3dbcee03299e94a715eae1216
+- c23a23425f39b1cc7977bd37ba2e9f8e
 Lemon Pepper Turkey Tips:
 - 42979c85d81f3b4948e331be3177e42b
+- e5a774d2acd7b2fb5ce35878abc03ece
 Lemon Poppy Muffin:
 - cc8168f5eb022ff434bfa75908b6352b
 - 72164c7c748e8a3aad855af7299b7dac
@@ -2527,6 +2855,8 @@ Lemon Vinaigrette:
 - c588e3f6ea7f253f1941c970942e3b93
 Lemon Vinaigrette Dressing:
 - 0a82cf666046677b5ad8f3f61b92dd43
+Lemongrass Tofu:
+- fa5e89006ab1efcb0701cc5d2b506997
 Lemony Lentil Spinach Stew:
 - eb8f24207ddf8d960ef16fbf92655fc5
 - 0cb53770f97fa8c394d0548c776a0303
@@ -2544,6 +2874,7 @@ Lentil Soup:
 - 264f617cc69e48da490b5a099fa7d09b
 Lentils with Frisee and Roasted Shallot Dressing:
 - 533758e6a1d20ac3fb0d662b36618a70
+- a303512e08d24f8fdbeadf08b8e308d8
 Lime Vinaigrette:
 - 1c0218a0a481cbfd3d285a8a0d41cfdc
 Linguine w/Clam Sauce:
@@ -2611,6 +2942,11 @@ Maple Butternut Quinoa Grain Bowl:
 Maple Cinnamon Swirl Pancakes:
 - 886d1fa25d68440186438f846b0ee4a2
 - b04765d875002197e3719c2a29bde174
+- 0f18bf6cbfe1a3cb45141f0e506fe2a7
+- bdadd5f4715ee26a7b37a05dfddbd894
+Maple Cinnamon Swirl Pancakes w/ Dairy:
+- 15078a8bd2ed081af0d57d4ba573fef5
+- 3889fa365832ee22b3bb2e0c126831e3
 Maple Roasted Butternut Squash:
 - 33e51f2b4ae334a45e78792841d4f1ca
 Maple Sriracha Chickpea:
@@ -2619,6 +2955,7 @@ Maraschino Cherry:
 - fd943f8bd088866f1dc01d5feda953ce
 Marble Banana Chocolate Cake:
 - b34b0319b8461ac1399ac17a8a79b010
+- 2e168b3327f260202ab60d544a1e06bb
 Margherita Pizza:
 - 73d3ae712b9b0550cd1a6eb202d0d449
 Marinara Sauce:
@@ -2631,6 +2968,9 @@ Marinara Sauce:
 - d299dc84e75d41ae52d1bcb6dd7c35fb
 - da31d301f38433821a9edf1ffb5ee423
 - 55257a765bb313972966bd0082d15fa4
+- a88c2fe0c25516688aa5c7a86ed81774
+- bc36d74c7aa2400f023bf0d6ebd0e0d8
+- a0edb9acb654a39cb7f50d4b512f80d6
 Marinated Artichokes:
 - 1dabfc383ed0c2b6a66b21201b605ee3
 Marinated Mushrooms:
@@ -2642,6 +2982,8 @@ Mashed Sweet Potatoes:
 - 90deae21e2cab758437d74960b3c2e78
 - 15a9c85adee6af15c1eb3596c947d1f1
 - 56467048e4eb481e8ee8e22b1bb84d35
+- 7c8f7ffd2ebaf730d4bca4fe1ee99bdf
+- 7f1ea24a01a4b0fd3fc9c9b724172765
 Matcha Latte:
 - 90eb80d96eac53db038558ed80e80d42
 Matcha Milk Drink:
@@ -2659,6 +3001,7 @@ Meatball Sub:
 Meatball Sub w/Cheese:
 - 81ac5c37bd65943006cf9747959d9e0d
 - 1deecc03a67f4638d5ac8cf307a8e324
+- 0f642046aa443c1b6db4a0438aab05ae
 Meatball Sub w/Provolone Cheese:
 - 7218dc19d69d422e29db937e16b38767
 Meatballs in Marinara Sauce:
@@ -2674,9 +3017,13 @@ Mediterranean Pizza with Hummus and Chargrilled Veggies:
 Mediterranean Rice:
 - 8d47a0478ce18dc964070fa01d501657
 - a9fb2a4e1b062832e463a99df7c2bb15
+- 84ba951f916361dd906ab1359d958e48
+- 96917986cf1d5a178b655034deadb0c3
 Mediterranean Tofu Scramble:
 - 55924208865c8623e17ba1504b2c1006
 - da44456be46afa307af70148d5a0c501
+- 5bfd732880c042976f8bcbb914bdf3bd
+- 68534eb6629d3ade74d05917a5c155a3
 Mediterranean Wrap:
 - caa219a2dd23c913504f664b6750fb77
 Medium Dice Tomato:
@@ -2687,6 +3034,7 @@ Mesclun Spring Mix:
 - efc7d654632aa99bec9985ff00368ea5
 - edf27d95113115fdcb936b9d2af26246
 - cce176c36c2509e4b860cd64ffa77458
+- 0f6972a9d21d5f690b721d4770e45a63
 Mexican Brown Rice:
 - 0c4261684abf54b421395e6ea263db72
 Mexican Casserole:
@@ -2700,6 +3048,8 @@ Mexican Rice:
 - ffc01df58fef26fcf6e8f4bbf45c5306
 Mexican Street Corn:
 - 62421c09988f8e125780c2397aa4d308
+Mexican Vegetable Pizza:
+- 411dca4ae37796b6a51171c39a210785
 Mild White Shredded Cheddar:
 - 453be2f3340efeeb785fc19731bd3c2e
 - df368773557bc70d7f431b1050d35f6e
@@ -2713,6 +3063,8 @@ Mille Gusti Fusilli w/Eggplant & Capers in Tomato Basil Sce:
 Minestrone Soup:
 - e877a8c18cce00507e0f5695cc3a2d87
 - 92ceb6793611df5e0d34f4dc6021ec03
+- 7200f0b323a24b99f289fc78a8f22d54
+- 01d04757451f9c7e7a7e0763b9741785
 Minestrone Soup (V):
 - 9e53af979dcbf28559bb4f969b57cc8d
 Mini Butter Croissant w/Nuts:
@@ -2727,8 +3079,13 @@ Mini Ricotta Cannolis:
 - 0ac08cdf0a722947d75cbd6f53e06904
 Mini Spring Rolls:
 - 5b890a80f3a221d10cb5e1734cf8a89d
+- ccc61abe38b62b56c8d556bc88151127
 Misir Wat (Red Lentil Sauce):
 - bb71f47aaed641f61355eaf910f044bf
+Miso Glazed Shrimp:
+- 4ad8e12ebadc1e3f5d264bc4f214ea25
+Miso Marinated Pollock:
+- beed6463a7b76e9bcf5de47d187de9ae
 Miso Marinated Salmon:
 - 73aaecee8d7237c10c790adefbca3e83
 Miso Vinaigrette:
@@ -2759,6 +3116,7 @@ Montreal Root Vegetables:
 - 9db42e2446dbee32246b237d4e20b075
 Moo Shu Chicken Wrap:
 - e79a1d40287a99fca9ebcd8a713e5fd8
+- 04ab33b8f7a8d3aa4129d114628add62
 Moo Shu Tofu Wrap:
 - 4d2dec092060287d241c52c2c820fda1
 Moroccan Chicken Thigh:
@@ -2771,6 +3129,7 @@ Moroccan Roasted Potatoes:
 - 0bb0cd602ec504574c69108df5a00978
 Moroccan Spiced Roasted Vegetables:
 - aaa204a5e716a6338d16fdf8e1aa87b4
+- 52a54b9976db5f2ee4f29702bbd87ce8
 Moroccan Style Vegetable Stew:
 - 01150557ba243eb99ab877ce6b4f982c
 Moroccan Style Yogurt Sauce:
@@ -2807,10 +3166,13 @@ Mushroom Sauce:
 - 3a6a0bc1a751925f772d4b7ec415b130
 Mushroom Sesame Tofu Scramble:
 - bc75913f1f4f66f03a3fad42d72acd6e
+- bfde96038110ed91fa9c40332f627499
 Mushroom Stroganoff:
 - ea7f1f65cc7321b40c0b52d920db269b
 Mushroom and Brown Rice Pilaf:
 - 900c0f50f4e3d16608607c4db10f2892
+- 611db47a80ce3424f7568b4d9583fb03
+- d5154286b0d255d80fb7e0f639314698
 Mushroom and Sunchoke Pasta:
 - 549c5825ddd0a2c02e4caab45bd9ca13
 - 1f9cf20a12230ef10879e82bbb371654
@@ -2834,11 +3196,15 @@ Nashville Hot Chicken:
 - ea1e4c256f6a5cea307b374f87029f64
 Nashville Hot Chicken Pizza:
 - 690021cf1c781bdf31c843c66a6285d4
+- e06c0cb3010ad6ee7dabec958d41600a
+Nashville Hot Fried Chicken:
+- ad19b02cb862a15f36602baaf486939d
 Nested Green Leaf Lettuce:
 - 5754299abff94823c9cc0879231d7624
 New Brunswick Blend Vegetables:
 - 5db96edeb5eccddfa29940ae188db98c
 - c486423b8d0313787a4baba9a265df72
+- cf860980e72bfceb374ebc8ba1e23780
 New Brunswick Vegetable Blend:
 - 932d6a0bed6857b5e0ad9de01451c141
 - f9914351982a74d815454b37c9d15bce
@@ -2846,6 +3212,12 @@ New England Chopped Salad:
 - b65e8afeaa6c6d0b903522801f34f721
 - 88c48ab18799cee9fbba116eb6acd29f
 - bb3a4380c4d2b4caefa27e6f712b3bbe
+- 49c6c8a934942bb9769edc2e32dc371b
+- ee057430ad671e06fd0c828c7edbcec2
+- 2049cc667839e787f65efd1d7186250f
+- b811a92247d7b2ed32e010f413a12571
+- 8d8738527fff794471f1b4e6dba0434a
+- 661e06ff306e63013ebd8b425e4d5067
 New Entry Farm Red Kuri Squash:
 - 317ac73cd5c6c0604fd931c8d83e39f0
 New Entry Farm Rhutabega:
@@ -2864,8 +3236,12 @@ No Dairy Mushroom & Cheese Pizza:
 - 961e32eb91e6cf41196b677cd422a384
 Non Fat Strawberry Yogurt:
 - 043d00125c92e4417d1e0509a5ff6868
+Noodles w/Ginger & Scallions:
+- 267686a93847c90f6d58a3c79c2d0a9f
 Nori:
 - c6524d2e6e9c952460c28effbec3cb8f
+Not Your Parents Cheese Pizza:
+- a7de258cdb4edc01ff29176fd93984cc
 Oat Milk:
 - 19f938f71a39600d7740bfb41338bb7d
 - 763e648c404dea92b7ec86276f7dad7b
@@ -2878,10 +3254,13 @@ Old Bay French Fries:
 - 11f9a2b197a5ad179c92d4274bdbbe56
 - fcd2d6f1ec2bdf77dc19d001d4a87f0e
 - f3cc4435a4233ebea07dcb19f897d717
+- 41eb094e1b5a889e95c06af9f88bd54e
 Olive Oil:
 - 25715606c02334d9cca0debda6c1af44
+- 541a955c3389271db698e353c64d7279
 Olive Tapenade, Spinach & Tomato w/ Fresh Mozzarella Pizza:
 - 1cabeab69cd33c200e6ed30321276f04
+- 2a8d1460aefec1c4d2ff63d8772e8cab
 Onion Bagel:
 - e39ff5b7080e0399c45989e933db4c8b
 Onion Focaccia:
@@ -2911,6 +3290,7 @@ Orecchiette Provencal:
 - 48384c117b84f80ac05f94b3aa052c73
 Orecchiette w/ Sausage & Broccoli Rabe:
 - b4294952dda5d7c153992c94be19071b
+- 9586a4149bce2c60b0dd4ed2ede97c79
 Orecchiette w/Broccoli Rabe (V):
 - 9cc63c496dd35e7718105e7603a7b4ff
 Oreo Crumbs:
@@ -2935,6 +3315,7 @@ Oven Roasted Potatoes:
 - 4cabe83e8d91272fa8c4bf2bb3b45e45
 Pad See Yew w/Shrimp:
 - 3d8ab19e2b3ce15b8777d732886e0644
+- 54d3aee9ddc7a34fd6533bbe8cf12aa9
 Pad Thai:
 - 21eda073fc30de5907e0820b941f5628
 Pad Thai with Tofu:
@@ -2951,6 +3332,9 @@ Pancakes:
 - b6b1892f6c54465bcb51f126b4d5f39a
 Parmesan Brussel Sprouts (V):
 - e2e10050cd1915cfc2fee9bb54f68cdd
+- f87371027da9e7b977df9967dfa48d95
+Parmisan Cheese:
+- b11b31e12ad387878a16f7127d0274da
 Parslied Carrots:
 - b735dffc09a17e4879a175d8631c0e6e
 - 0297ca37b6ffa19096c9785b216db2d9
@@ -2965,6 +3349,7 @@ Pasta E Fagioli:
 Pasta Primavera:
 - 915f14469f45cccbaa919969e32dab3a
 - a893abc6f2af74933131dcd010150072
+- 31acdf5de431cc9f5c47e3ea28d9a5c5
 Pasta Puttanesca:
 - dd536426cc9a95927f61dc173fded780
 Pasta Salad with Gremolatta:
@@ -2974,6 +3359,7 @@ Pasta Tomato, Basil & Mozzarella:
 - c31cb4431d9cfc2a18e7a4c23426d855
 Pasta in Garlicky Swiss Chard and Tomato Cream:
 - a8a52344d446b0ee738ce57c66364881
+- ebd98451fc7bb96e2205dcf2d5637b41
 Pasta w/ Roast Tomatoes & Artichoke Hearts:
 - 5b94a191bff574908a61b2f3278b4c32
 Pasta w/Broccoli au Chicken:
@@ -3042,6 +3428,10 @@ Penne w/Sausage & Pepperoni:
 - c47af15581a3beeb0bb202b36be37445
 - a4bd97b305fba7c15fe44a39d6821abc
 - 75fa46fc65998de9de58e29d7eea13aa
+- 0d9d37bbfa88c95edfd1607b650783e4
+- d634b86e39b39eb2e2a43ba31dde8452
+- fb0a5895a0839f6636d860cf371dfb06
+- 7858f58049cf8d85e301d2722513386e
 Pepper Stuffed w/Vegetables & Tofu:
 - 21d2d1bb166df45ee6178b868476576a
 Pepperjack Cheese:
@@ -3053,6 +3443,7 @@ Pepperoni Pizza:
 - 6f4f7e6ede13b6264bd75ede78ed5e1b
 - b9d4af87e297256ef14401dc7adb3678
 - 7b57cc26e867990995d1d97fa41f9fc3
+- 71d5d572a73a2cb0153cbc1b0aecfd8f
 Pepperoni Pizza Panini:
 - c75add5b45d42726e00247e2c5e26fa5
 Pepperoni Pizza Topping:
@@ -3072,6 +3463,7 @@ Pesto Cream Sauce:
 - 03df064d744e4524521188beb45494b4
 - 2b9fad4647de75dd59f5a862180c0ad8
 - 1224f4fa4dcac659b010b8915347575d
+- 7be905e80f3fd04aed5c390a21bc981c
 Pesto Dipping Oil:
 - e6005ae6e9ff5190f82ae2bc98a312a5
 Philadelphia Cream Cheese:
@@ -3082,8 +3474,11 @@ Philly Steak & Cheese w/o Roll:
 - 3ceb05e0b467da6f85d074077cdc6117
 Picante Salsa:
 - b0feb7c72c1c346b2b991d524ef92d66
+Piccata Sauce:
+- 6ff9356b934113b8331f92a868c22055
 Pickle Pizza w/ Ranch & Hot Sauce:
 - 8301038e544e89f0ef5c9b4d4eafebfb
+- 55b09a87f8679343dda20332e209acbf
 Pickled Carrot and Radish:
 - 14a0f9345e4fdaf46876969e6712906a
 Pickled Cucumbers:
@@ -3171,8 +3566,11 @@ Popcorn Chicken Meal:
 - 14a567bcf2cea19b4f780957f0c2ca71
 Popcorn Shrimp:
 - 3be87e1c80a7dfe96afee4622b8090d8
+- 9b710b3130f35b881ce46b299a17b80c
 Poppy Seed Bagel:
 - 15d3bcb962be293d4ee84fb5dda3e9a6
+Poppyseed Dressing:
+- 2524f2d1138c13ecebab19882b0896b1
 Porcini Rubbed Beef w/ Mushroom Sauce:
 - 93b61bf42a025bc9957c46927972e662
 Pork Bacon:
@@ -3188,15 +3586,23 @@ Pork Loin Marinated in Korean BBQ:
 - cdd45ed3bfd87353213792cce62bdf60
 Pork Meat Sauce:
 - 09965637bd806b8e970616d7294fb33f
+- 5ef766f9e9ee161a4d22b19ed37fd4a0
 Pork Sausage Biscuit Sandwich:
 - 088fd2a353329bcad1b4fe1050343f2e
 Pork Sausage Patties:
 - 4163999fbe729b8fe5644f90d276dd66
 - 2eda8dc2d2a7aaa46c030e08de95f472
+- bccce7cb6660d17859df858eca910d81
+- bad9c7135f78643041539185f50ac130
+- 9ae1c214347aa2a9d08ea00b00ba1334
+- 9d9793e06eab74f6e18b923512fb10ce
 Portuguese Bean Stew:
 - ed7e5795ef41625ff8749c8fb8e1cd31
 - 37794a69c1b107e467e41ad826bcd935
 - edf84e3b225846b15d0ea42863efb0c7
+- 256a1528ba0ff006def5297ebcbf41c0
+Portuguese Mussels:
+- a82f168cb3540eac3536e3a04c102837
 Potato & Chorizo Frittata:
 - 5169182cbbd12b9c532671ba93b6078a
 - 631e42db6b9641be4614b5ad8f2dcafa
@@ -3230,6 +3636,7 @@ Pulled Pork:
 Pumpkin Blondie:
 - d485c1ae31c0dbc2ec8950c0375c3886
 - e956220c6128990f6976503e7d115d05
+- bcf57eb16001408c116823704553e39e
 Pumpkin Bread:
 - 82ff3e2826b860c24a734b2f4cebf58e
 - 03de3db45c0561628777e19cba156d18
@@ -3261,6 +3668,7 @@ Quinoa Lentil Khichdi:
 - 88aec0506a5d78cbd14df2d47ef9261c
 - 139a7abbbf06a64f51dc0c4f7fd28d1c
 - 9b14efd2e96b6163d100e2db361e2d2d
+- ba9ebc13749cce443eb7ad58cf4c0ba7
 Quinoa Pilaf:
 - 81e74b91ee06096dd4c7bfb855a71921
 Quinoa Pilaf w/Adobo:
@@ -3288,10 +3696,13 @@ Quinoa w/Black Beans & Cilantro:
 - ba3c6e602e30e496595976c67566c06c
 - 2ef63acb2614e0ebbe9f261ef4c97fae
 - 617a42f93a37d5cbf6cd208283b686ba
+- cc4700650c7e1c1bc69d4dc3f73cf89e
+- 7479ea5a0c752a363cbc5afdff70c4ba
 Quinoa w/Moroccan Squash & Carrots:
 - 2a2e2fcffddc483b2d266f7ce7874905
 - 0f6ea86396e89538a1500effc2e82067
 - 81cfd866b37b665056a25445d43fa3d9
+- 32af602e721482fefbaafb861e3277d1
 Quinoa w/Red Beans & Cilantro salad:
 - d514ff2e0d924355419309f8c4b601c3
 Quinoa with Corn and Ginger:
@@ -3333,11 +3744,14 @@ Ratatouille w/Cannellini Beans:
 - 1e630ceecffe69884ae4e1707884cec0
 - f9a166fa49ab0529b1ec9672fd90bdb2
 - dc241783e60e8a65e2b3cbab8d692253
+- e49d3876470d10c5b038d9865b5e78ee
 Ravioli Primavera:
 - f66326a54464dcadb18ea4c0e5ab84ce
 - 3b5af9a2bb1d3f6b8e225ad143e422a6
 Ravioli w/Mushroom Sauce:
 - 4348c8807f0a0996c7f294f44ef08ffc
+Real Bacon Bits:
+- 967d8653c44b619369c64cf497d95226
 Real Whipped Cream:
 - 27a24fcc746ce33ff0a3ce024a75a079
 Red Beans & Rice:
@@ -3353,6 +3767,10 @@ Red Beans & Rice:
 - 5ef5932bf5320d6325f72d1bdcd7759a
 - 221aa46201e264032777b0e022c124f8
 - 2cab165a7146e8aaa377cf1b5de018d6
+- 55b214c488e0378bf965677b0f50fccd
+- 09770c4a305de42476c0a99bd157ad22
+- 98334bdb16e917582338ffda3d7ab0ed
+- 683307289b5aa0e1f4679e6923b528df
 Red Beans and Rice:
 - f2e1178045ddff163a28a6daf748fdc9
 - 6b3f400ba813bad1ee748cfaacac17a2
@@ -3382,13 +3800,21 @@ Red Quinoa w/White Beans Artichokes & Spinach:
 - c8a9f1a38ffaf57433ce668953dc8c27
 Red Rice and Grapefruit Salad:
 - 514dad108aad16b288d82857e106387a
+- 480d730cc8832b305ba08fb986f37f49
 Red Roasted Potatoes:
 - dddd4b3e057ab20e0c4857435d355f1a
 - 18eb396289e6fdce0120df24ad5f25db
+- bc009f8229456ad0c9221ba688a33490
+- 30a77b6a17de8c1ca2dd975898128ef0
+- ab1ad540b6518d4193cd8aba83cacb9a
+Red Wheat Berries with Roasted Kale:
+- b8568e1d9c9e1317ef2d08a31fd38bf0
 Red Wine Braised Beef:
 - 8de91cf7c305de61dce9326c61d533da
 Red Wine Braised Short Ribs of Beef:
 - 6e064d67f7861e6331096603f322d09f
+Red Wine Vinegar Dressing:
+- ee4ba4990b675c12cc491987d75c53e5
 Refried Beans:
 - 67788c6b0160ba4765fae9418da5e58f
 - 1d2028c871c20493b7a7866649980891
@@ -3399,11 +3825,16 @@ Regular Cut French Fries:
 - 976bedcb459ed8c09c07a4fe9d50e4a6
 - d38111ac4161538541243552ae90089f
 - ee6844bb3de56cceb06aa2f432a82811
+- b4ffb7811d77edd416d3c06fdc3c199d
+- 02ebf445c73dfec516ee67b6b149d8da
 Remoulade Sauce:
 - c2f50095eea897a72bc6270b7c36665d
 - ddf1eadd8b2afcf07e1d75ff765ae619
 Rendang Noodles:
 - 2d874cd0b434fb1e2573b8dc8ee7e0ae
+- d62499c683996b09eb0a3864283ee823
+Rice Noodle & Vegetables w/Ginger Sauce (V):
+- a4bfaa35ee273bbad789573e1eca759c
 Rice Noodles w/Stir Fried Vegetables w/Peanuts:
 - 1568742920122d19b974ba19416bac01
 Rice Pilaf:
@@ -3412,10 +3843,16 @@ Rice Pilaf:
 - 68d769ee506b6b0da6dbee42ee9ff410
 - 7f934500e384f40e38d1075fda9e9596
 - 60b9490d209abbbee0c3bed9de02154e
+- 3cc39c5230dd757a8b128b758f8d3c5a
 Rice Pilaf w/Orzo:
 - fb103cd75de7542710605bfcd2f8ce16
+- 770196ab639dc325ef4dee67c6578d5d
+Rice w/Vermicelli Noodles (V):
+- 2cc52727bc61d262120ffca17225296b
 Ricotta Cheese:
 - d9a1c280f86e065ec937860eaacd3ef8
+Ricotta Pesto Fried Eggplant Tomato Pizza:
+- 9f43d1f5a8c2d6daa749b41df0f0ae78
 Rigatoni:
 - f326289d3a25844ec7dc60a2f4ed8658
 Rigatoni Pasta:
@@ -3427,14 +3864,21 @@ Roast Beef Sandwich w/Herb Cheese Spread:
 - 791be799cb6b2a40b687521de35db044
 Roast Beef Wrap w/Herb Cheese Spread:
 - ae8bd68a532775e4b3e78bdb238ca7e2
+Roast Pork Loin w/ Apple Butter Sauce:
+- 8b4cb507459ce95ee68b8906533cf6ce
 Roast Pork Loin w/ Garlic Dijon Glaze:
 - c2e026a1321caeffdf0ed1cb1ccf3e50
 Roast Statler Chicken w/ Braised Leeks and Tomato Cranberry:
 - 5990b9f8c4450fd09d4191cf8c148725
+Roasted Asparagus:
+- 5e447e3e7c1717fe04eb98fdb8acacd8
+- 7df9fa7f5cf68dd0bc7a10f7fe84494d
 Roasted Aspargus & Onion Pizza w/ Goat Cheese & Arugula:
 - 5567b8c65c4f8571c022bc402b58c4ca
+- de81124e58262be079e171a333c95cdf
 Roasted Beets w/Cumin & Mint:
 - 55d55b9efb5666b4e08dc0fe84f099d2
+- 4db0a3db06b68067d4d7a532c1ac1855
 Roasted Beets with Honey and Ginger:
 - e11655b34374ec38afc3019a1c1dc611
 Roasted Breakfast Potatoes:
@@ -3447,6 +3891,9 @@ Roasted Broccoli:
 Roasted Broccoli w/Garlic & Oil:
 - ec514ad0b35e37a9729f05dd88b3c63e
 - 6f5f8f8ac52283bade1d2d2e67fdc42c
+- 9a9d3b1b01ba1de7a1572b70843efbd5
+Roasted Broccoli with Feta:
+- 4d4291d1971956e2730bf58da0b3ffc2
 Roasted Broccolini:
 - cb750a02ee784271bd40870296bc2a09
 Roasted Brussels Sprouts:
@@ -3465,10 +3912,12 @@ Roasted Carrots w/Herbs:
 - f1ec154b2609caacf64c97a3447ea71c
 - bee2e877118b0d5ce4b3757fb5430e2d
 - 034d290551a1485a542b31499d7ad023
+- ee452b177042ff4fef03b439b1814ba2
 Roasted Carrots w/Parsley & Thyme:
 - 5cafd919a4b086fe2193e6d04c34de3f
 - fa7e4d4b42f12638411cfeb6f0eb9f0a
 - 36f985f0409580050d6bad9eecc883b2
+- 257a6daef387ead1cbb26d22149c47ff
 Roasted Carrots with Caper and Golden Raisins:
 - b4a8f237012a84f5a654d8245ffe4575
 - 6030230c72f4b600e5821f2cb21044cf
@@ -3491,6 +3940,8 @@ Roasted Chickpea Taco Salad:
 Roasted Chickpeas & Kale:
 - 3e6f14a3ca2d16ab8d55ed9b8bff27d8
 - 1ac369ef8bbbf1753b39c9dbce271298
+- 87d7bc2d189212b3c44e0cbf44fa5c7f
+- 5a5770d2bc18ff0bd01da1de4f58ed2e
 Roasted Chickpeas & Spinach:
 - 3026880efa0b9d860f03d1e7468c7c16
 Roasted Chili Garlic Broccoli:
@@ -3498,9 +3949,12 @@ Roasted Chili Garlic Broccoli:
 Roasted Cumin Vegetables:
 - 097e3b1468ec714adbba621c6e7854c5
 - 1c4cd1bcf57a00bf3c114c2fa4993232
+- 237f1e351ad5ea022edb6b50ba18b336
+- fa20c4316441ac17f4bb0c19147feb08
 Roasted Curried Cauliflower:
 - c544061163393a6ef3f02b609e75be1c
 - b1cf2cccc1cef31daca5bfc1d9b86dd0
+- 27e1ded395e319ce1bd1338cf827fd5c
 Roasted Eggplant:
 - 7e882f9434ebd67d46f2c1984f66b7f2
 - ff34ac4e5a6b8cdd0c507c633fbfe0e8
@@ -3513,6 +3967,7 @@ Roasted Fresh Vegetables:
 - 2e338500f8bb3a7c0199771a28f9f824
 - 29e200bb63d54aaf2b631844ee916628
 - 5ec300d6417112612dc41a4af7957819
+- fc7edb82ad0a455955e9fd6ce59ce914
 Roasted Garlic:
 - 7308c0b479d1b73af06be1d7b557912f
 Roasted Garlic & Rosemary Fingerling Potatoes:
@@ -3533,11 +3988,15 @@ Roasted Local Onion with Miso BBQ:
 - d5eb141031503efbf4f54e37396dfc6e
 Roasted Mixed Vegetables:
 - 9729824fa1782c587d22e38207317299
+- 0b8fc65fb70acc1a698c3ff01fbed166
 Roasted Mushroom Tofu Frittata:
 - 3ee6147cffe3b0892c2e3049c2c7c6a0
+Roasted Mushroom and Wild Rice:
+- c11bcb1e51d75975d4e336e93a352a7e
 Roasted Onions:
 - a3c565a32d006fc0998fa2a1a2f89fde
 - 14e638ab1d0a56ba757d06f01a766bed
+- 8600ccf0e89efee3e79737f82eb11d36
 Roasted Pears:
 - 6092c92efbab15a92dbd1f4ec49623e5
 Roasted Pepper Strips:
@@ -3556,6 +4015,7 @@ Roasted Quinoa and Beet Salad:
 - 2b18dc5d6a6fb1ff4795c6bd7138b60c
 Roasted Red Curry Coconut Tofu:
 - 25a6b91ca322474ef68b8087317597d7
+- 97ad0ef5f3b7f51c8e7b38e981ee2c01
 Roasted Red Pepper Puree:
 - c2b424e78d2144de93390fd0bba6d0a6
 Roasted Red Peppers:
@@ -3569,8 +4029,11 @@ Roasted Red Potato w/Rosemary:
 Roasted Red Potato w/Rosemary & Garlic:
 - 0e2b4f6d931407b7603f930d0020ee9b
 - 7beaceff2fa5fd7059a9132fd2685623
+- d982a4e2b3e9cd6a25b7e11bb2e0096a
+- 06a189809a552a412709716e1794b7bb
 Roasted Root Vegetables:
 - 067bb32a0322d1662898249e96ba89a4
+- bc6173ec9df01aac4a7f24eb6d9b2afd
 Roasted Shallot Dressing:
 - d97391abaa805a9da66672cd7572dd9e
 - 797e5149edc78485f36f0545d5cc58f6
@@ -3578,6 +4041,8 @@ Roasted Shallots:
 - 15489636b465690d760489f38faeedd7
 Roasted Sliced Mushrooms:
 - a2f6965ab1bd986bf20aed2021cd22cb
+- 4327ba30b209fe005bb22bbb81b7a4f9
+- 2045df22acaf7a1a92ac9c50a38ae966
 Roasted Spiced Cauliflower:
 - 29c0eddcb5a51e37c19685f37c74e6b2
 Roasted Spiced Tofu:
@@ -3594,6 +4059,7 @@ Roasted Sweet Potato and Chard Frittata:
 Roasted Sweet Potatoes:
 - c1f64e6073d363730e41f68423e969ad
 - 320efac32fed3b38572e7aeacb2f0e09
+- 2d743b97b386a02023533b83c3e129f9
 Roasted Tofu:
 - 463ffeb696d99b98445a9efb8b86ba27
 Roasted Vegetable Medley:
@@ -3613,6 +4079,7 @@ Romano Cheese:
 - c4e62774978f58c54e7797408457cf75
 Root Vegetable & Quinoa Hash:
 - 49f36e66b29fd5d0ebcd009762503793
+- a8d39b683647a40e772d9137eb74e75d
 Root Vegetable Hash:
 - 4ee15b5959f0b0b98840e8f9bf5f5308
 Root Vegetables w/Maple Syrup:
@@ -3629,10 +4096,15 @@ Rosemary Romano Focaccia:
 - 0258e64d8b07c69f4afa140fb62cfb40
 - c5e9467adf6b09c0e7d2409af4d3df4e
 - 2e6a72d1998dae23ad5a4b341ae3859b
+- dcabafd5dc62defcc44e13c643acd109
+- 12bd1e12332c58c4449880c290808a86
+- b5c2ccb6e27d0b8ebda1a39e59a2b9d9
+- 4ec3ea07d6ac6e9b94daf44f2e1a07fb
 Rotini Pasta:
 - 853c5834ecda820a3dc1e07ded623675
 Rst Garlic Mashed Sweet Potatoes:
 - a6945e1734847aa02a7856850f7c5990
+- 3f83c9cf5bd84f6559a00ff7e5904243
 Rye Garlic Croutons:
 - 00dbe25876dc9b9b7ce726360f1467b1
 SF Vanilla Syrup:
@@ -3654,6 +4126,8 @@ Salsa Roja:
 - ee5f1d89ca035bb5776d95a456e33385
 - 221952a63a1b69af1d7023a9062a774c
 - 2e49ab3c2eb782693fba9b6d7098c55c
+- fdb35b03cfd1a4f9ef1843e3f7b0fd53
+- afda3be5a54f05ab172aa3cc23c7f6b8
 Salsa Verde:
 - a4999a2ae09993edff1a240e3bb572ad
 Sambal Olek:
@@ -3664,15 +4138,18 @@ Santa Fe Chicken Pizza:
 - dca4c3d38b961ba52b4b968c362860e0
 Santa Fe Coleslaw:
 - b7565f3e382aef38a4b49d3f19fc8808
+- 6bda91fec4ca319253a6809089082105
 Sausage & Mushroom Lasagna:
 - 6c3aedda230afd0b1cc92ac387abb9cc
 Sausage & Pepperoni Pizza:
 - f620a9c4a0745840f8081a10fc385f7d
 Sausage Breakfast Burrito:
 - 0106a8203fea73727d7c5ef7fafcf70d
+- 63db171631cb5ff1afb30463f1c7a21a
 Sausage Links:
 - da297fba65e1e0cb4fdc2f55b87f4137
 - 6d3dbd07b1aff484845089b2a93cd031
+- 50c39027d8c28de518f21281bc3f4d1b
 Sausage Pizza:
 - dceb03bc2091f7c5b738f5cb82ae5020
 Sausage Sub w/o Roll:
@@ -3701,6 +4178,8 @@ Sauteed Chicken with Peppers and Onions:
 Sauteed Greens w/Leeks, Garlic & Sesame:
 - f22a87767b6ca20ead68f3150395f332
 - 1d7c3b8b132b2e867b8a38447c28c726
+- f78cc0aade0bd7dedf803f661bdcdf16
+- 7e255419bb90239c1656db88e57d8199
 Sauteed Kale:
 - ef04adbb7b8293af2c86a743a8259033
 - 3b4d354250fcf2fb9cc8a09393e374c2
@@ -3717,6 +4196,7 @@ Sauteed Mushrooms:
 - f60acef5eb4b8d4e074ae5935d5e1b70
 - 4f2894dd11e7277745e5b34cb7d95cf1
 - 9baa6862dd819300e75ca8aa2dad6619
+- 77c299d947eb737f5288e9937515f920
 Sauteed Onions:
 - 1fd4981bbe97354e38aeec42264ce168
 Sauteed Onions & Mushrooms:
@@ -3745,6 +4225,7 @@ Savory Tofu Vegetable Stir Fry:
 Scallion Basmati:
 - 8d177b8fa34e8a097e94ebe7f671ecb8
 - a439e32c4ea0093f39558c5fa81385c5
+- eabbaaab580ef1a9663dacc0374cb05f
 Scallion Cheddar Grits:
 - ab502bd58aa6ac60f041cc38df86d4da
 Scallion Oil:
@@ -3753,6 +4234,8 @@ Scallion Waffle:
 - c7882f3b9713343b15b7b3c94fec4c8c
 Scrambled Eggs:
 - 003c4dace0757221b04c1eb43aba8d40
+Scrambled Eggs w/Bacon:
+- feb0e8f94d624a1ebdc1389192bdb780
 Scrambled Eggs w/Cheese:
 - 0a0983274d013e13f3d41ba9f82b1964
 Scrambled Tofu w/ Arugula, Tomato & Avocado:
@@ -3766,6 +4249,8 @@ Seafood Fettuccine:
 - 1e51368cfaff63e1f6dfe445e3921a85
 Seafood Paella with Chorizo:
 - bcd32c6f8adfb23cd7f65256ab6f54ab
+Seafood Pasta w/SunDried Tomatoes & Artichokes:
+- aa53fbf74380d3055ed35d976dfc275a
 Seared Moroccan Tofu w/Olives:
 - c15b257d068e73fcfd697bd9c78e2932
 Seared Salmon with Rice Noodles and Vegetables:
@@ -3774,6 +4259,7 @@ Seared Scallops & Penne w/Cajun Cream:
 - aa8b01fdf7a8b10d68abaea37c161afd
 Seared Soy Tempeh:
 - bf4bd764f6e1c11c703da9784dfcdedd
+- f355daf82f068d1a45db268334f63446
 Seared Tofu w/Tomato Relish:
 - 90264c0d2215da08ae589e804eb4ca06
 - ea832259205452c46b2644fb2c14557f
@@ -3796,30 +4282,42 @@ Serendipity Noodles:
 Sesame Brown Rice:
 - 1275d25b6a7938f8608569293c525da0
 - 6baf023e39e7806d39d221a5c4dd63ce
+- 6801fb1913c48fa66d298385a8b7d451
 Sesame Garlic Sauce:
 - c27e6072262df6846d879a797086f179
 - df4467ca448b35dec7dd457bc777bf57
+- d109d05a8ff717dab7285e4aabf149c1
 Sesame Ginger Pork Rice Noodles:
 - 8bfc67ff97f3036e0b1fcbb67d34bbd3
+- c751adefa136dcb1981a868936d5378f
 Sesame Green Beans:
 - 5d6fdc0e50699a2b8f88c1d71cc3491b
 Sesame Lo Mein w/Scallions:
 - 811d7193740358bce523cae864694b7c
 - f534614cd3f9b5dccde01825190a67db
+- fa9e0b7757efe604aecee04be362565f
 Sesame Oil:
 - 23f11858408f9712e096e95f04a4f6a5
+Sesame Radish and Cucumber Salad:
+- 2edf088efb6cc46054d480fbfca9d131
 Sesame Seed Bagel:
 - 3cb1085492b3f833e513458a85db59fe
 Shakshuka:
 - ffb656ea0cad6d350a5a27710b5c7b44
 Sharp Cheddar Cheese:
 - 00a52318b58fb2b884e454bcb9397a65
+Sharp White Shredded Cheese:
+- a9c61f9c3a4dbbd14c72f6690fbfca20
+Shawarma Chicken Wrap:
+- 8192c41b50e2eb61c3afe33ba32ceaa7
 Shawarma Grilled Chicken on Ficelle:
 - b91cf33cf197df1847ab16c25408f027
 Shepherd's Pie:
 - 94dd7325988bffe45f46de911d9b6d91
 - e4fcbcdb47dce110476809b74cf9350c
 - 034e73fbdb64eb9edd0da57646a7e618
+- 6237a92fc55593c2b902e238367bdd7b
+- 6462b3473d5b60a20313e871f0510c6c
 Shoestring Fries:
 - 2af361781503dacf488f40fdfb04e636
 - f65ca45b13d9ada9be00ad2002621c62
@@ -3832,6 +4330,8 @@ Shredded Carrots:
 - f93942c1a2de0161dedb7c89a3b61fb5
 - 9d109ddff79d049abaef29a7ba4955e8
 - 8c29fda05981fd042bfe7045f78e6ddf
+- 1ffaec8c8b080a5f56da95fc7020e1b9
+- 1556b2a6dc4accc36efdbed492c5f02b
 Shredded Coconut:
 - 82e3cd80b85ce8ad80eaa808799d72c4
 Shredded Green Chicken:
@@ -3841,6 +4341,8 @@ Shredded Hash Browns:
 - 3ebc5ca636be20d517fe8240addd5acf
 Shredded Lettuce:
 - fd259b2e8e4bda5540032cca59686b19
+Shredded Monterey Jack Cheese:
+- 242a82302ec5d9ca2faf5707b7055292
 Shredded Parmesan Cheese:
 - 94eae01a2ebc3cba70677bcf3e3113aa
 Shredded Red Cabbage:
@@ -3852,6 +4354,7 @@ Shrimp & Grits:
 Shrimp & Mango Fried Rice:
 - 6252c693717bbc1a82bc3400538962e6
 - 4d0956028841976ba2dd81d60c59da91
+- 01b65ceac54f28d41634195e39bb2a4b
 Shrimp & Penne w/Cajun Cream:
 - 0ab86e4aae72fc982c9b3d8e56aff22d
 Shrimp & Sausage Gumbo:
@@ -3863,16 +4366,23 @@ Shrimp Fried Rice:
 Shrimp Provencal:
 - 66268ad2214d113f2ff6c801f2569fa5
 - 18c481081a0f495d581adc276ac5b531
+- fd920c14781c3efd7d179130a4413dff
+- 7fdcfbbfb654ff0e4746f07f5af8391c
 Shrimp Scampi w/ Pasta:
 - 956bc0fb8f1f6a49802c2f107a8a9284
+- dfda4985ad4b77476b916b4b251dae3a
 Shrimp Scampi w/Linguine:
 - 6e3c369ba2130e43af7c3b221aea67b6
+Shrimp Stir Fry:
+- 8abf27e60f9bd2ce4a45230534577626
 Shrimp Tacos with Chipotle Sauce:
 - df8201c4f7aced553a3bd8c91d49a8a5
 - e80abffefaef8fedfd95f2fdc1a0fbb0
 Sicilian Vegetables:
 - db364761d0c225fcf2793475f542e752
 - 94f2e3d2dc8d0b746581dedf502bf8cf
+Singapore Chinese Noodle:
+- 8e6bb74bf940578a9c4acf8c46adbe07
 Siracha:
 - 17e955bd2d952b5dc7b24d2a8162fc11
 Skim Milk:
@@ -3893,6 +4403,8 @@ Sliced Deli Chicken Breast:
 - bef5a48fbc215846bff53d802244f7ec
 Sliced Green Peppers:
 - 62614645ccd62bc6861049b5602d67fe
+Sliced Italian Sausage in Marinara Sauce:
+- b16e0c5f1bfe1e00648680818cfed624
 Sliced Mushrooms:
 - f690bb78f8dac4e6ea1a3e87315cf754
 Sliced Oval Ham:
@@ -3925,12 +4437,19 @@ Sliced Tomatoes:
 - 5aa41111a0a2c4b24f05d12c6d7aebee
 Slider Roll:
 - 5fda33d10e965e2d340a3598bb9dc8a5
+- e01986bdf9b362e6652cebfca6f47ab8
 Slow Roasted Tomatoes:
 - ba1d1e6ebd3d43715a3e1cc8d683cd59
 - f58eaf2560af3d444d849b32f5ade5e9
 - 84d6b738b60a71abc52cd1e13369208d
 - 348ffe7b7acd56613d6e10520cb817cc
 - da322eb6e0acfdbf544f07b13c1439ad
+- e9c2abc05a1b3843ce410b25ba3ef6f2
+- ebbc0bef3423f9967583a691bafa18da
+- 0cef031f92fc88ac9fdb77f887db02ef
+- c7b32007b2f3dfdf63d87b6fe9b35f97
+- 06c4d7cd0ee13de3538ed43bd2ae9474
+- eead3d424978a1d2b2d41c154eda6eff
 Small Garden Salad:
 - 41fd2dd05ea633f65dcd1fb9a8750105
 Smashed Chickpea Wrap:
@@ -3957,9 +4476,11 @@ Snap Peas w/Water Chestnuts:
 Snow Peas with Rice Noodles and Ginger:
 - 5ac9502a5a11d54fd24d7b5b6889852c
 - 75ae229236135beda64c7160fadba135
+- 5e42abce0300fb0a0970216035cc85b1
 Snow Peas with Togarashi:
 - 8fa74a194a0dd7d3dadaa689c6a6fb3b
 - f7d893bf4e28e503d45b79a7f4c62307
+- 108253befd49495004eb1f2decb17464
 Snowflake Roll:
 - 56dc7633fa8a3ff5badeab8b320ba186
 Soba Noodles:
@@ -3970,15 +4491,19 @@ Sorghum:
 - ed8b06672019914440b46bf7798e92c9
 - eabd5ded931dc2e72942c9172045533f
 - 6ad0c359a89925d8a6b7f4aa3e0c3c05
+- d7cc9e30af8f334f45adbf6f00e2d327
 Sorghum and Pickled Red Cabbage:
 - bd2728135f01d0bb6b38980368d46c62
 Sour Cream:
 - 9db3ca6e44e5a060f2b80a08118c88ef
 - dfb0d81876266f69ad9da1c0152e3985
+- daae92f56e11d8ac14da2136ede30ef5
 Sour Cream Onion Dip:
 - ba12c742624991e69710a06dd77d2c65
 South of the Border Broccoli:
 - 7913d203b5e2c5727dd2412bf243a9b7
+Southern Green Beans:
+- 3919dcb3fdb4834cfdaf9ff77eb19e58
 Southwest Burger:
 - 571fe40e12795cf30483d6d37f6c331e
 Southwest Chicken Salad:
@@ -4000,6 +4525,8 @@ Southwestern Casserole:
 - 9be2a60e36611a7e22a0cf4570aa7948
 - 9babdfe17f04e86ede2259d26b739b9f
 - 011726aab8a4cbd5404cac6b144a32ce
+- dec23160adfa0b3271a344e16007f028
+- f0b16d27bc0c378769c610bd6e956301
 Southwestern Corn (V):
 - 954c9de4eae5081a248d54c88e2c7a3a
 - 7ca6d6b0389d4702f4635f214db4231c
@@ -4009,10 +4536,23 @@ Southwestern Grilled Chicken Breast:
 - 6d2c5263d42e9ac8a85d962a8c45c67f
 Southwestern Mac & Cheese:
 - 9fba82880de6f7acb59db6949cef15fc
+Southwestern Slaw:
+- a9bcccf2725c0b446154982af470b00a
+Soy Ginger Pork Roast:
+- 0f1d2e354619d3e8ee1f83abdf6b2e6a
 Soy Protein Shreds:
 - 9681d6590403490e947a6dc9bf693d41
 - 4962eacc93ca80cc60f95775e7c2bf1e
 - d1f82ddab69a4d17bf4e298d62b1a7f1
+- 6c008f4fde051a7e53e23a0e9e4d8161
+- 3bf2d197e1c3ffdbf8e16c09af76cce7
+- b9ad4c1b5d9911ffe376fe8b01b18df8
+- 3813204b64eee533ecf15c2c4e568a7f
+- b35055a19180e7c59863c23ac79ddffa
+- 3de0c7d145d76252040bee7ae365dcbc
+- d6f93c08a695af73afac6f22370e5e22
+- ae4c0a838d39cd6330928b1e9865df83
+- 854b38697631935877211e891edfbeeb
 Spaghetti:
 - 12676097316e954231827baa7c8dd74f
 - 9b90e0cf2f20f283061ce16d546c65b3
@@ -4057,6 +4597,8 @@ Spicy Edamame:
 - cd30916f4b3aa6a7e395c394003acc3d
 - 553a59a99700880e789677ef9f16ae06
 - 847c7f71fcb060b03d44de6e197ce20e
+- 5d3fc4037b95297b6ff209995b4e7501
+- 6613d5268943a27f3eab179e0acdda96
 Spicy Fried Chickpeas:
 - 9de66bed79266be63fd50842296dfb06
 - 550005e126adac8177fd31d5a7f39342
@@ -4067,6 +4609,8 @@ Spicy Grilled Chicken Chipotle:
 - 2196d29ed270f6bc6cd3fb45306f95e6
 Spicy Harissa:
 - a0ca1f0cee1d7f2befa0f379c687a7d5
+Spicy Honey Ginger Miso Sauce for Stir Fry:
+- e5fb3a1dd83f6be89d2962ea14ae7b6b
 Spicy Lamb Pizza w/ Feta:
 - b7221ad8773d2a646bb5ad2b3a592bc5
 Spicy Lentils w/ Sweet Potato & Kale:
@@ -4077,13 +4621,16 @@ Spicy Maple Dressed Black Eyed Peas:
 Spicy Mushroom Quesadillas (V):
 - 1cd519c2f47ecb2b828e8bed1a56d7c0
 - 4791bb68030840d0d4d2108e5356ef35
+- 07a5d016e341444b308da87eff16b447
 Spicy Peanut Sauce:
 - aba0b12be24e750d32775bc52e681d23
+- f847d01a5730acdc6e1625110f87954c
 Spicy Potato & Tomato Casserole:
 - 03894eb4ca19b2fe98960f2f9d8f0034
 Spicy Red Lentil and Cucumbers:
 - af9795aa02dd0013945867a1976fb7c7
 - 7903c9df06ad3e28ac39e279d64c5e8b
+- 4df4f60ea764d2c0202a2483c9d440e0
 Spicy Remoulade Sauce:
 - 1f3fb1bb0abd8427456cc311ad67fac4
 Spicy Roasted Edamame:
@@ -4095,6 +4642,7 @@ Spicy Sweet Potato Homefries:
 - db848311c3a3c8bbcd9eb363a35b00f2
 - a0a3a02f87ade4bb3a7927ae8a345f19
 - 73299095c690ae06e42195ce6dd4e6d8
+- 175b2e0de6ac6613b4f30566975bcaa5
 Spicy Thai Angel Chicken Thighs:
 - af2bb6bb3487eba7a7adc14f18182619
 Spicy Thai Chicken Noodles & Veg:
@@ -4111,12 +4659,15 @@ Spinach:
 - 8af949616f2c7245c25bfbc787e31b2b
 Spinach & Artichoke Panini (V):
 - 4e3c6c89aa33aa376d27869127ce276c
+- 4feb0f4ba795d586c49cb73116971b4e
 Spinach & Caramelized Peach Salad:
 - c5fc534b494caa11165675555d8d6865
 Spinach & Feta Pizza:
 - 287dfe51ebfa40555f439a500b2a440b
 Spinach & Tomato:
 - 4e4b72f7c670229edb636dc9730c1368
+- 889962f8065984c83553f9d40e1f6e6d
+- 6acd1a1ccb51964dedc23470ed5de2f0
 Spinach & Tomato Pizza w/ Pea Shoots & Alfredo:
 - 659ad00bb594ea832de95fee266b5417
 Spinach Artichoke Casserole:
@@ -4124,19 +4675,26 @@ Spinach Artichoke Casserole:
 - 6953cfa7bea69779dc557d39730db38a
 Spinach Kalamata Frittata:
 - bf503277f752560cfea95434957f3e3d
+Spinach Pie:
+- 2c993b97fd83ea3d5cb792b872695ce7
 Spinach Portobello Salad:
 - 40cb3c2c8c626746307d64ac9d131b36
 - f411538aca7d923c1adb978f3ffad1b7
+- e3cf4c3daacfc9136d1ee473413877d9
+- c0c7fc1a1f971fb4b8fad4a63acdb5b0
 Spinach Ravioli in Fresh Tomato Sauce:
 - 22fa379ce76d4316a561ef9dbc95b1fe
 Spinach Roast Tomato Frittata:
 - 2bd6b7d3b27faaffd5669d09d9b53dad
 Spinach Salad w/Feta Cheese & Red Onion:
 - 57ddf4677a218b5fb6ba7381fcb364eb
+Spinach Tomato Casserole:
+- 91bd909208c1862cb96a8ff6ef521bf0
 Spinach and Cheese Ravioli:
 - 32517e0f7e93fa6af528ce5e8675ed59
 Spinach and Cheese Ravioli in Tomato Cream Sauce:
 - 6f7316ea501a1f851e57d8edf52f2dab
+- 3554d0f6d861d1e83001c4a39081a603
 Spinach and Feta Croissant:
 - aa56dc4cecca0f463126dea40be150ef
 Spinach w/Mushrooms:
@@ -4158,6 +4716,8 @@ Squash Medley with Sundried Tomato:
 - 152ee7c2b522adcf1b27ef388f1a3037
 Sriracha Aioli:
 - a1977ea7d66f59815ca37b9befa23be1
+Sriracha Chicken Bahn Mi Wrap:
+- 552a92b6c2b05a8ef375020cf869aa73
 Starbucks Cappuccino:
 - ee55c0c910862d1ebe3c9dfaec642463
 Starbucks Caramel Macchiato:
@@ -4205,6 +4765,8 @@ Steamed White Rice:
 Stewed Garbanzo Beans w/ Tomato & Basil:
 - 461cc2d7e3f884c962d00959cbf457a9
 - 09ab394fee3a7e1f33f4e1e2bc9e29a0
+- 55cbf1c7cf90c16fdcfb9aba1ccdfe6c
+- cb6224fa736c373830d938d8a65beefd
 Sticky Rice:
 - 590e0aedeb979e3113eeb45bc3ac8b4f
 - 988e52ca0a025875c11a316b3615726e
@@ -4223,12 +4785,17 @@ Stir Fried Napa Cabbage:
 - d84949e7d78c9a55dc020bb2a1877a24
 Stir Fried Snow Peas:
 - b5e103f6db2b7dc3999fa67cc46d917c
+Stir Fried Squash & Collard Greens:
+- e9a93b2ef050c820ae90b4fa234edc64
 Stir Fried Vegetables:
 - 43363d4021d63e66c5cc134c58a55079
+- 2f1037ed4a36da4c0267a507286af905
 Stir Fry Beef:
 - b26607c0cf5f7f1e3a58cc03cdf20855
 Stir Fry Tofu:
 - 45ac1d44126b3f3798bc7d2701557cc2
+- 40825c8fd89ececad0efa46223bf5f35
+- ddef9edb9329e5ed59c9bcf56a373159
 Stir Fry Vegetable Blend:
 - 095f6313735d2ca413efdd2f3699d670
 Stir Fry Vegetables:
@@ -4240,6 +4807,10 @@ Strawberry Banana Smoothie:
 - 11857858ca8a921ad658bb6241244268
 - eda1aea117d6346038ae2f25fd580c14
 - 2ceff8c11630e5ae169283d2bcb2e272
+- eeb7a7bcbc6ec86bff98a7c60df9309c
+- b51299672ceaf69439faabca07cbcc83
+Strawberry Banana Smoothie Bowl:
+- c8631f2dceaa7db4aa314c648d5fc3e6
 Strawberry Mango Smoothie:
 - dbe9c45b2f717794bd095973fe3ee8f4
 Strawberry Rhubarb Crisp:
@@ -4247,10 +4818,14 @@ Strawberry Rhubarb Crisp:
 Strawberry Sauce:
 - 25fb4ae54675d7b2c0902215ef6feb8f
 - 1dde57dd81725b38485bacd38f173003
+- d569c7159d8ed487ac9df9a9a089423b
+- 5776c20e8960a35f5af3e1c3f26077b8
 Strawberry Splash Fruit Smoothie:
 - c6e6cc38ffabda72f14b5938095e3f93
 Street Corn and Lentil Salad (V):
 - 8dcfe6fa976f4c6c1e1038dca6284fa0
+Street Corn and Quinoa Salad:
+- 7ca732c79473b24f2d651a53c3d62890
 Stuffed Pepper w/Quinoa:
 - 4af58ac381cc791ef23a6f5fe14f0169
 Stuffed Shells W/sauce:
@@ -4269,6 +4844,8 @@ Summer Squash w/Basil:
 Summer Squash w/Ginger & Scallion:
 - baeceb89fa7841685989177ef0aa8be2
 - 43a23d1e98717bedaa6478a92e9a4ca0
+- d95116883f078b6de296782d83384508
+- 9b037e4b558ab1452dcb82431e61e315
 Sun Dried Tomato Pesto Cream Sauce:
 - f163fea15d228844f6ea6427c0cc4354
 Sun Dried Tomato Pesto w/Tortellini (V):
@@ -4289,6 +4866,9 @@ Sweet & Spicy Thai Wings:
 - 5b6c0af0493ea8174012d212cacdb1f2
 Sweet Chili Brussels Sprouts:
 - d6498d50f911a91540fd491f156dac23
+- 5ea08e0bab29118b5ae5174f49b56bef
+Sweet Chili Chicken Wings:
+- 04dee7b0f94165d63372dcdc99d7ad1d
 Sweet Chili Glazed Halal Chicken:
 - 1c7fee26284e9fc6cec7f6bf9a67dd6d
 Sweet Chili Jack Fruit:
@@ -4297,6 +4877,8 @@ Sweet Chili Roasted Salmon:
 - db3a9679ecea8ed0890f1dbe049ed850
 Sweet Chili Tofu:
 - a0a87111159013def9d42712b9781834
+Sweet Corn:
+- 70cde1f463f1d0c0ac96575bfd5d474f
 Sweet Green Smoothie:
 - 84b453961de38fcd4848bbb533798ed4
 - 85b42f953833635a4fbf821fc47fe1d5
@@ -4311,13 +4893,18 @@ Sweet Potato Fries:
 - 7cef05d1e7caf03310d65c81522dc909
 - 171456be738ef16d168314b5437ef4ef
 - ac4d37820085e81215c0477775cb1b33
+- babe2295887e3cd9bec4f4eec375ddb3
+- 4e5d36c2339da92540d1d75e5af582ae
 Sweet Potato Puffs:
 - 9c000a1aa3dc553e3d1185f5067c3023
 - d207426d512dfb272b9ff042008d8719
+- d55f5a70f8d91f4952d2759186aabc4c
 Sweet Potato Salad:
 - 6731b6188ea2e0c9279e9480780c1d0b
 Sweet Potato Shepherds Pie:
 - eb754ce248435aeb06f7b86c4ee9cc3d
+Sweet Potato and Apple Kugel:
+- 46003b721d1afe37b6be1dcf1d2e4eb4
 Sweet Potato and Apple Kugel (V):
 - ae8469573626a75ccbdd8f2433a35668
 Sweet Potato w/Coconut:
@@ -4327,16 +4914,24 @@ Sweet Red Bean:
 - 23b4f003c7e607edea28b5411e81f784
 Sweet Soy Sauce:
 - a610700c7d326ba563471e5ca2795545
+Sweet and Sour Eggplant:
+- db9f01943d8def270b08383942eb1fc6
 Sweetened Condensed Milk:
 - 4a681ef1b09d7274a7e5550a37d4f394
 Swiss Chard:
 - 05fcdee6f6a7dabce778005ea81285f4
 - fb17d9274af2268545d3157d31c8ddfe
+- 32cd59596ef6779cb47ae5a5ef306f9f
+- b80ee26611549e2271a9c111cec00ef2
 Swiss Chard w/ Ginger:
 - 32b95f0c2887b2206256cd75ae93671a
+Swiss Chard w/Ginger & Cumin:
+- 6bdbf8a4db3a3ad76facd5a5c1a38eb6
 Swiss Chard, Tomato & Cheese Casserole:
 - 78ad64b94aacff95b4f2fe803bc2f9bd
 - f97752c410c9868789f3272c17ff1cb0
+- 6c1a10453366924deac8ec1ee1770a68
+- bac6ea15995834825bf05bb9566e8065
 Swiss Grilled Cheese on Rye:
 - 2ef0fc810c39d45de7cb5a4177211d27
 Szechuan Peppercorn Dusted Pollock:
@@ -4371,6 +4966,7 @@ Tempeh "BLT" Wrap:
 - 6f2cfbb9597d2008c20c9205151b515b
 Tempeh "Bacon":
 - 3f18eae08e6f7b6e8b80ead4e40d998e
+- 261a0dade1cc19bbb1ece34e83f856f6
 Tempeh Bourguignon:
 - 7fe237706ddb4235930034f3a319c75d
 Tempeh Vegetable Chow Mein:
@@ -4387,6 +4983,9 @@ Teriyaki Stir Fry with Garbanzo Beans:
 Teriyaki Tofu:
 - 1412d2355e90dc7a58291df1b6e80e7e
 - 3b4779e197bf3da0c83423ba3e2f6cef
+- 225ad210b31a114ad8f5da08f2f21204
+- 92b667aa19e241caa70253bd776846b4
+- 999f583d72233f8df2120ae29c97a08b
 Tex Mex Burger:
 - de68dd893d0fa3d8d41c27aa29f644fa
 Tex Mex Mayo:
@@ -4408,6 +5007,8 @@ Thai Milk Tea:
 - 1db8c46f2f7bd67bc0c545044c77b0e3
 Thai Oat Milk Tea:
 - b27a8758b312007cde73174a202fc150
+Thai Peanut Sweet Chili Chicken Pizza:
+- 6378a74ce1f312d857f2b79be7dba040
 Thai Red Curry Coconut Sauce:
 - 58c056ade6a0f6c84adbc3391fbc2a23
 Thai Sesame Noodles:
@@ -4436,12 +5037,17 @@ Three Chile Braised Tofu:
 - f725375b974dc9711aeb1a7d0cf549e9
 - 6d1364c6aeea52dcdbc77ede81edbf98
 - ae7b29b22978103f20aedcfa6cd5e8b6
+- 55cdeed3be85cc6b32b206a886062797
+- ba3a7c4ee55228d7e83a10c2224eca49
 Toasted Farro:
 - 82c6d83b2d74da477faa03a57e931487
 - e8b334858cc1506c704867f652cb95c9
 - 13e3b133184cc30c7163b48344b14c62
 - e5d5f730e0b517571ba58d6ad3c570ab
 - 604a1f13e908a2e4f2b60fc87031a15b
+- d636b6e3eeb5ef90c59d6d396d4d89c2
+- 81c7c8683fce750bff2cd019a5e63fe4
+- 80669c1dbae9b17f046f1f96fd6b0c73
 Toasted Garlic Bread:
 - e830ce4a3abecc8068a657c77234ff20
 Toasted Pepitas:
@@ -4467,10 +5073,14 @@ Tofu Cubes:
 - 21a3a0ca1512222c08248300a6f318ec
 Tofu Curry w/Thai Vegetables:
 - adff211308dc022d7b3c52402e90da99
+Tofu Gumbo:
+- 28a9917f5a864397136305cfccbac070
 Tofu Ratatouille:
 - aea96937e4387872bd0b38f3d805dfec
 - 65ecc7d5a820bbdc01a2081939112c37
 - 464495afa4e621e9f275ef912405be22
+- 85399755b7a8dc06b42ddf47c864d1ef
+- 7d955085206b20611d58e4a0c7e4f681
 Tofu Scramble:
 - 915efdefc650f6f25f2d70cf2a314c1b
 - 6070f92b632ab193117b7ab900713a9b
@@ -4479,6 +5089,7 @@ Tofu Scramble w/Corn & Peppers:
 - 4220f7c155d048cc6370c8c8e9fbbfd5
 - baf9f7e7dac81d040ee97e007d7dd3fa
 - 37a1116dd1bbe918fef67879575b3157
+- 3b4e94f33c9d1caa20a15612e0e3bad1
 Tofu Stir Fry:
 - e448f7e52ab94a109395197e2f4fe15c
 Tofu Tikka Masala:
@@ -4503,6 +5114,7 @@ Tomatillo Salsa Verde:
 Tomatillo Shrimp:
 - a4fbaf4dcdb8be7ff39c73ba0d2b711d
 - ed370ba9db72137e4d6e7a0a851ba85d
+- 249d2c4a764b886f03bb5a14c83783ef
 Tomato & Mozzarella Bites:
 - 486da1aa57cb168987eae92c6c7ba206
 Tomato & Mozzarella Sandwich:
@@ -4528,6 +5140,8 @@ Tomato Relish:
 Tomato Soup with Garden Vegetables:
 - 62522840043ebee3241b3de2853303d8
 - 764a81b052e941720d9d8061e9724f47
+- b14e8973658cc68389c26763e6e48493
+- 023fd823c62b5f461e894de83eb2a746
 Tomato, Asparagus & Provolone Frittata:
 - dde0039d8f092dcdd1fa70692b3944bb
 Tortellini Primavera w/Pesto Cream Sauce:
@@ -4539,8 +5153,14 @@ Tortilla Chips:
 - 668250b37cf6663d673e046955342a25
 - 8ac84d4893cfce14efba2efb4e4bf409
 - c5a8bf1a430fd79bda18bca3e6539401
+- cb50dbb8b44487ee495b18cd1e70ee9f
+- 4119ab9aabcff5e33a03d3cc54b0f6ce
+Tortino Di Verdure:
+- 0239323e110345327ce1b7e1097716d3
 Traditional Greek Salad:
 - 9edff4038e3b2e5bde85386b35d2db1f
+Tri Color Rotini Pasta:
+- f095772ecabe66366d1a03b957045784
 Tri Colored Quinoa:
 - 6d0039c43bdd1e98649d8f754475b95e
 - ca93cd07a65c6770b1ca7dcbf5683d13
@@ -4596,6 +5216,8 @@ Turkey Provencal Wrap:
 Turkey Sausage Patties:
 - a354e5d10210c47a2cc9559b7827f482
 - 25c05fa4f0c84d390ae45c4d39759a7f
+Turkey Sweet Potato Shepherds Pie:
+- 1b59d1dc20b541e37e0ed8d8b03c808b
 Turkey and Swiss Sandwich:
 - 19ef9d7844f2da3e9fa3385abeddf3d8
 Turkey and Swiss Wrap:
@@ -4610,17 +5232,22 @@ Tuscan Sausage Ragu:
 - 4d5767b069e8a7d532ba1809199038e6
 - a83cf8a60231e5a6462144e172fedb90
 - b978551b89476c831100ea8e75e8999a
+- e5917651369027a8a99aa57ed4184f0f
+- a9f592dec037d0006bbc9cdd0b1250f0
 Two Alarm Four Bean Chili:
 - 37ab524139c1bee6b6fdf5902fe48902
 Tzatziki Sauce:
 - 0c478bf81663bbacc83c738727a47f8e
 - c329a8e017ef8c8fff72df31a98c3117
+- 3e3a0fe0013660ef110c480f9e8a65cc
 Udi's Whole Grain Bread:
 - e5995c58d884672a172a064cd2635f43
 VG Ancho Garlic Plant Based Shreds:
 - 29b83c9eaa4ee8d3d62c75388154b4ce
 VG Aztec Rice & Grain Blend:
 - 3effe93c4a1e2977aa9cfd21be49edb1
+VG Black Bean & Corn Mix:
+- 3ee490b1e253c373ac6cf04d99dfc18c
 VG Black Bean & Vegetable Quesadilla:
 - ff92df14d999224c7f5bd218863feb81
 - 554d4b7c204a1cb78ebd9e729d569de3
@@ -4641,6 +5268,7 @@ VG Chipotle Sweet Potato Soup:
 - 43ec5349d86b4ba799ccc19a0a248f2a
 VG Coconut Curry Sauce:
 - 4c409ef402a9828882760d855aa67ce5
+- f3d19500c94a1d8ecbdfb35cacf1714e
 VG Curried Tofu Stir Fry:
 - 3ff59ae6576bff2525e7d8c52e3c8565
 VG Curried Vegetables:
@@ -4656,6 +5284,8 @@ VG Green Beans w/Mushrooms & Dill:
 - bea3c8cf60dbb012ff24c816904c3f0e
 VG Green Beans, Mushrooms & Dill:
 - cee366760fc8873cb761a919ba391b49
+VG Green Harissa Sauce:
+- bab85c0c937d9c780e912caeb9b7df00
 VG Green Pea Rice:
 - d40aa4c271f20c3c75a579c1053d964a
 VG Grilled Tofu w/Chimichurri Sauce:
@@ -4682,10 +5312,14 @@ VG Pilaf w/Squash & Cranberry:
 VG Plantbased Vegetable Pot Pie:
 - d05940ad97fae423eb4511888edb40d5
 - db6f874849cbded7b4998d748e09c476
+- d111406690978cf467ed50fb77337272
+- b7f5db35754d20c8da690989f2e11dab
 VG Portabella & Tomato Sandwich:
 - 410f3dbf217d834014fcd55041e59d56
 VG Portobello Stuffed w/Corn & Roasted Tomatoes:
 - c1184e6657b4d18a6bfd33b81b10f771
+VG Rajma Dal:
+- 46c72cb778c004912762faf203389c22
 VG Roasted Broccoli Rabe:
 - 8b7aecb8fb181910b3af72b49bb8c4d6
 VG Roasted Brussels Sprouts:
@@ -4696,6 +5330,8 @@ VG Roasted Carrots w/Fennel:
 - c91446e7dac9865390758e66e9ea8ec1
 VG Roasted Carrots w/Parsley & Thyme:
 - f6c45dae8c3e6d1406ddafde1b6b8fed
+VG Roasted Garlicky Broccoli Rabe:
+- 382a18ea0907de059bf76db0a5025079
 VG Roasted Local Carrots:
 - 21d26fa1c381ae4133cc3421a4192c16
 VG Roasted Local Mixed Beets:
@@ -4737,12 +5373,18 @@ VG Toasted Farro w/White Beans & Kale:
 - aba942e5d258589c762e5c9489c829eb
 VG Tofu & Cremini Mushroom "Pot" Roast:
 - 488340e0b14c110477fbc26a0e318fd5
+VG Tofu & Vegetable Stir Fry w/Sesame Garlic Sauce:
+- 898052d0c60b9cbd974bdd383003a47f
 VG Tofu Stir Fry w/Orange Ginger Sauce:
 - c5cef3fd50fc2a4591866c3b20841f2e
 VG Tofu w/Vegetables in Peanut Sauce:
 - 298dd0fb7ec5116947fcceb20fc73634
+VG Tuscan Kale & White Bean Ragout:
+- 9c717275b4575bab2d9218d6c4c97137
 VG Tzimmes w/ Cranberries:
 - 8f1e9d7be61a6809165800c33ce947f3
+VG Vegetable Biryani:
+- 170c182729cb85730cdbd309def447df
 VG Vegetable Paella:
 - 65c2bb75ce12b728591df8ec5499f54a
 VG White Bean & Escarole Soup:
@@ -4772,6 +5414,7 @@ Vegetable Breakfast Burrito:
 - dea83f2851f76121f88dcaf3b6893427
 Vegetable Burrito Meal:
 - 35c3f23693f5a29dffabd4015d8665f5
+- 69a3105f4873164a5aab81557d807a85
 Vegetable Casserole w/Tofu Topping:
 - 032058c7e6ab02d48023965f1df91c0b
 Vegetable Curried Brown Rice & Tofu:
@@ -4780,6 +5423,8 @@ Vegetable Enchiladas Verde:
 - 86166e95c132b425a7844d3020039198
 Vegetable Fajita:
 - 3fb7c9bbb98d65a67ee0d55d89b0179f
+Vegetable Jambalaya:
+- 747d5ae4f7ae83855f9f2677b61210fe
 Vegetable Lasagna:
 - 775cc7cb19ab9b053b2ae53489dd66ad
 - af91397d15bf5d39c9616ac8c15ac89e
@@ -4799,6 +5444,7 @@ Vegetable Paella:
 - c03ab6866d4aba4627e88d79646cfc8d
 Vegetable Pot Pie:
 - 85df0dcc89ca8f1f593ad34a78a2e767
+- f0522c42b56b6d39c08509535603ed34
 Vegetable Quesadilla:
 - 31b6d30418b080be01cdf4fd74663fb3
 Vegetable Quesadillas:
@@ -4811,6 +5457,7 @@ Vegetarian Baked Pasta Bolognese (V):
 - a71200d12ab1b0f11cb1e9ca2a627f4b
 - 6b348c920dc7eb1c4b3ae059f6955472
 - 2322e4dfa8ef71e8353273e5962a87c4
+- 4372ff32373d885fe5e05f04ba37988a
 Vegetarian Mushroom Meatloaf:
 - 75145932fcc25a060e3bbd4d4741da2a
 - b8bb6a2ce7d7bf2c2266bda77f924008
@@ -4820,6 +5467,7 @@ Vegetarian Sushi Grain Bowl:
 - 112cf64f4a749e5a959e7c30ae30f842
 Vegetarian Vegetable:
 - 1e74992de1d80f0f63bef8420d1425dd
+- 49d637630330ddc0b894fa5662d5844a
 Veggie Deluxe Pizza:
 - fa8ec0edd2e947878203d3cdc7abcf5e
 Veggies, Egg & Cheese on Bagel:
@@ -4834,15 +5482,21 @@ Very Berry Overnight:
 - ed30aeff7437d603e6a44d122a9258f7
 Vietnamese BBQ Chicken:
 - fc39f608278c655873de013bb05eba3b
+- 1c7d66fb3a66ea906c67921166e2e4da
 Vietnamese Chili Lime Slaw:
 - 2ec558e66769afc7ae0f121f1e959110
 Virginia Ham:
 - 40cb97cc9f097d0cb01e1922f6cb2ffb
 Virginia Ham & Swiss Wrap w/Honey Mustard:
 - c40c7a595bcf67412a3682bc6c1714dd
+- 6081ed934ae31f83448f50b6a79f5077
+Vodka Sauce:
+- ae94c54fe368545bb419c1045ef1c585
 Vodka, Tomato & Cream Sauce:
 - 6659c90fed7151d6e6de24dc843d9989
 - 31fab499f51870e3803818d4162b1f05
+- a87b0f1d8dc41da6199fdb0ec5e8d3a5
+- 01e0fb79950de348af5af5dc6ac745af
 Warm Chipotle Potato Salad:
 - f7a18d7f086d81a4b86b31948da7e8ba
 Warm Eggplant and Tomato Salad:
@@ -4853,6 +5507,8 @@ Warm Spiced Apple Sauce:
 - 31b8e3d45c348a613a8b7674349ad778
 West Indies Spice Rubbed Turkey Tips:
 - 862a8078cf45eeff72d431331c911b52
+Western Scramble Egg:
+- ff5a82c47f7796c2a1a421fb83729b6c
 Wheatberry Artichoke Cannellini Pilaf:
 - 12aa298298425cb37fe19ee7c7f42dca
 Whipped Butter:
@@ -4862,6 +5518,7 @@ Whipped Carrots:
 - 1404548a783ceeee306a583f704c29d4
 Whipped Cream:
 - 0391d6e25398f3466cd8090e273a4908
+- cecdc727ce37bb564c910a0fee3b4ca6
 Whipped Potato:
 - 235b1960026d79a24e52d15a79abf415
 Whipped Potato w/Chives:
@@ -4874,10 +5531,13 @@ Whipped Potatoes w/Garlic:
 - 68a4999b46dd71d900d74ed76ee3e9b4
 White American Cheese:
 - 1ad7913f2563326eb1a70277298c9904
+- 8f6f256ccc9c670f1591914976fe069e
+- a81b667f8ca62f108fa820cba6e1bf16
 White Bean & Escarole Soup:
 - 13cf043ba71d74902d0a8e21de55250b
 White Bean & Kale Salad:
 - 7a2c915a89494c2ba71bbe07e29b2b86
+- eb7ec0fd1a442da62d37957e3e17116e
 White Bean & Veggie Sub:
 - f2f9d00a8a01740039758dc8b3bc43ea
 White Bean Eggplant Casserole:
@@ -4913,6 +5573,8 @@ Whole Kernel Corn:
 - 165e239c14043a19eba9afb500eba938
 Whole Milk:
 - 994917e4b7f64f65bd78af65c1c4aaf1
+Whole Wheat Beet-Pistachio Pasta:
+- 65b34c8a83998c9e136a0be1199fa4be
 Whole Wheat Fusili Pasta & Vegetable Provencal:
 - f3df0284907b6f1422bb92339aab2765
 Whole Wheat Pasta & Vegetables:
@@ -4927,6 +5589,7 @@ Whole Wheat Tortilla:
 - 9ae568ee2933114e3b56eb9ddb2b0b10
 Wild Mushroom and Herb Tofu Scramble:
 - 206120bc6b673f6a517d2cb7fd2839cc
+- f7152b9b37e570a5bb7c8ccdb41be647
 Wild Rice Blend:
 - 87cf9289b02cdd011f909f9d6a1af23c
 Wild Rice and Chickpea Pilaf:
@@ -4956,8 +5619,11 @@ Ziti Marinara with Italian Sausages, Peppers & Onions:
 - 300670d68035ebdea54036144e6497bf
 Ziti Pasta:
 - 0912a0e247d992d9d7ecea3a4778ec57
+- d3c59bb2adf47257fea6f39e85533acf
+- 7ec3214f6426f13b318de2f2514078fd
 Ziti w/Broccoli & Sundried Tomatoes:
 - 37cc77e0e7fd2c5c75f7711259fc2642
+- 31c1318eb9eee15baa986472254eb1b3
 Zucchini & Onions:
 - ec3a6710f5229c141595eac4a06e3667
 Zucchini Bread:

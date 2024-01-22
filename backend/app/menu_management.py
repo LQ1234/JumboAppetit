@@ -1,3 +1,8 @@
+# app/menu_management.py
+# Author: Larry Qiu
+# Date: 1/22/2023
+# Purpose: Helper functions for interacting with scraped menu data
+
 from schema import *
 from database import db
 import typing
@@ -233,6 +238,13 @@ def reload_locations():
 
 reload_locations()
 
+def find_sibling_hashes(hash: MenuItemHash) -> list[MenuItemHash]:
+    for food_name, hashes in food_versions.items():
+        if hash in hashes:
+            return hashes
+    
+    return [hash]
+
 def find_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
     result = latest_item_version_cache.find_one({"hashes": hash})
 
@@ -243,15 +255,7 @@ def find_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
 
         return DatedMenuItem(**result)
 
-    sibling_hashes = None
-
-    for food_name, hashes in food_versions.items():
-        if hash in hashes:
-            sibling_hashes = hashes
-            break
-
-    if sibling_hashes is None:
-        sibling_hashes = [hash]
+    sibling_hashes = find_sibling_hashes(hash)
     
     query = [
         {
@@ -309,7 +313,7 @@ def find_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
 
     return dated_menu_item
 
-def scrape_to_menu(scraping_result: dict[str, Any]) -> Optional[MenuItem]:
+def scrape_to_menu(scraping_result: dict[str, Any], find_lastest_version: bool = True) -> Optional[MenuItem]:
     if "menu_info" not in scraping_result or "menu_items" not in scraping_result:
         return None
     date = scraping_result["date"]
@@ -338,8 +342,17 @@ def scrape_to_menu(scraping_result: dict[str, Any]) -> Optional[MenuItem]:
             menu_item = scrape_to_menu_item(item)
             if menu_item is None:
                 continue
-            section.menu_items.append(DatedMenuItem(menu_item=menu_item, date=date, latest_version=find_latest_item_version(menu_item.hash)))
+
+            latest_version = find_latest_item_version(menu_item.hash) if find_lastest_version else None
+            section.menu_items.append(DatedMenuItem(menu_item=menu_item, date=date, latest_version=latest_version))
+
+        if len(section.menu_items) == 0:
+            continue
+
         menu.sections.append(section)
+
+    if len(menu.sections) == 0:
+        return None
 
     return menu
 
@@ -351,3 +364,53 @@ def get_menu(date: Date, slug: str, menu_type_slug: str) -> Optional[Menu]:
     
     return scrape_to_menu(result["scraping_result"])
 
+def get_monthly_view(year: int, month: int, slug: str, menu_type_slug: str) -> list[MonthlyViewDay]:
+    start = datetime(year, month, 1) - timedelta(days=7)
+    end = datetime(year, month, 1) + timedelta(days=31 + 7)
+    query = [
+        {
+            '$match': {
+                'slug': 'dewick-dining', 
+                'menu_type_slug': 'breakfast'
+            }
+        }, {
+            '$group': {
+                '_id': '$date', 
+                'menu': {
+                    '$top': {
+                        'sortBy': {
+                            'scraping_date': -1
+                        }, 
+                        'output': '$$CURRENT'
+                    }
+                }
+            }
+        }, {
+            '$addFields': {
+                'date': {
+                    '$toDate': '$menu.date'
+                }
+            }
+        }, {
+            '$match': {
+                'date': {
+                    '$gte': start,
+                    '$lte': end
+                }
+            }
+        }
+    ]
+
+    result = list(raw_scrape_results.aggregate(query))
+
+    monthly_view = []
+
+    for result_day in result:
+        menu = scrape_to_menu(result_day["menu"]["scraping_result"], find_lastest_version=False)
+
+        if menu is None:
+            continue
+
+        monthly_view.append(MonthlyViewDay(day=result_day["menu"]["date"], has_menu_items=True))
+
+    return monthly_view

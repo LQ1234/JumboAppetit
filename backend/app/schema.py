@@ -1,3 +1,8 @@
+# app/schema.py
+# Author: Larry Qiu
+# Date: 1/22/2023
+# Purpose: Define the schema for the API
+
 from pydantic import BaseModel, Field
 from typing import Optional, Annotated, Any
 from datetime import datetime
@@ -42,6 +47,10 @@ class DatedMenuItem(BaseModel):
     date: Date = Field(...)
     latest_version: Optional["DatedMenuItem"] = Field(...)
 
+class NotifiedItem(BaseModel):
+    latest_version: DatedMenuItem = Field(...)
+    hashes: list[MenuItemHash] = Field(...)
+
 class Menu(BaseModel):
     class Section(BaseModel):
         name: str = Field(..., example="Breakfast Grill")
@@ -72,6 +81,8 @@ class TokenData(BaseModel):
 class User(BaseModel):
     user_information: UserInformation = Field(...)
     identifier: str = Field(...)
+    notified_items: list[MenuItemHash] = Field(..., default_factory=list)
+    notification_token: Optional[str] = Field(None, description="Expo Push Token")
 
 
 class LoginLog(BaseModel):

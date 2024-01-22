@@ -1,3 +1,8 @@
+# app/auth.py
+# Author: Larry Qiu
+# Date: 1/22/2023
+# Purpose: Authentication logic
+
 from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status, Request
 from datetime import datetime, timedelta
@@ -27,6 +32,8 @@ def email_to_name(email: str) -> str:
     return email.split("@")[0].replace(".", " ").title()
 
 def validate_email(email: str) -> bool:
+    if "." not in email.split("@")[0]:
+        return False
     return email.endswith("@tufts.edu") 
 
 def new_user_from_email(email: str) -> Optional[User]:
@@ -38,7 +45,7 @@ def new_user_from_email(email: str) -> Optional[User]:
             name=email_to_name(email), 
             email=email
         ), 
-        identifier=email
+        identifier=email.lower()
     )
     return user
 
@@ -131,7 +138,7 @@ def login_authorized(login_token: Token) -> Token:
             headers={"WWW-Authenticate": "Bearer"},
         )
     
-    login_log.delete_one({"identifier": payload["identifier"]})
+    # login_log.delete_one({"identifier": payload["identifier"]})
 
     new_user = new_user_from_email(login["email"])
 
@@ -173,4 +180,10 @@ def http_jwt(credentials: Annotated[HTTPAuthorizationCredentials, Depends(bearer
             headers={"WWW-Authenticate": "Bearer"},
         )
     
-    return payload
+    return TokenData(**payload)
+
+def get_user(user_token: Annotated[TokenData, Depends(http_jwt)]) -> User:
+    user = users.find_one({"identifier": user_token.identifier})
+    if user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return User(**user)

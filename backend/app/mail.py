@@ -1,3 +1,8 @@
+# app/mail.py
+# Author: Larry Qiu
+# Date: 1/22/2023
+# Purpose: Helper functions for sending emails using Gmail API
+
 import os.path
 import base64
 from email.message import EmailMessage

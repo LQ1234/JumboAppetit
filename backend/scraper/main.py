@@ -2,7 +2,7 @@
 # Author: Larry Qiu
 # Date: 1/9/2023
 # Purpose: Periodically scrape the Tufts Dining website for 
-# the menu and store it in MongoDB
+#          the menu and store it in MongoDB
 
 import requests
 from pymongo import MongoClient

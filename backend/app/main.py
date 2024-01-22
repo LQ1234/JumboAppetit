@@ -1,3 +1,8 @@
+# app/main.py
+# Author: Larry Qiu
+# Date: 1/22/2023
+# Purpose: API definition and app entrypoint
+
 from fastapi import FastAPI, APIRouter, Depends
 from fastapi.responses import RedirectResponse, HTMLResponse
 import os
@@ -9,6 +14,9 @@ from schema import *
 import mail
 import auth
 import menu_management
+from database import db
+
+users = db["users"]
 
 DOMAIN = os.environ.get("DOMAIN")
 
@@ -46,7 +54,7 @@ def get_food_properties() -> list[FoodProperty]:
 
 @api.get("/menu/monthly-view/{location-slug}/{menu-type-slug}/{year}/{month}", tags=["menu"])
 def get_monthly_view(location_slug: str, menu_type_slug: str, year: int, month: int) -> list[MonthlyViewDay]:
-    return None
+    return menu_management.get_monthly_view(year, month, location_slug, menu_type_slug)
 
 @api.get("/menu/daily-menu/{location-slug}/{menu-type-slug}/{year}/{month}/{day}", tags=["menu"])
 def get_daily_menu(location_slug: str, menu_type_slug: str, year: int, month: int, day: int) -> Optional[Menu]:
@@ -59,6 +67,7 @@ def get_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
     return menu_management.find_latest_item_version(hash)
 
 # Feed Related Routes
+
 
 # User Related Routes
 
@@ -76,12 +85,38 @@ def login_authorized(login_token: Token) -> Token:
     return auth.login_authorized(login_token)
 
 @api.get("/user/notifications", tags=["user"])
-def get_notifications() -> list[DatedMenuItem]:
-    return None
+def get_notifications(user: Annotated[User, Depends(auth.get_user)]) -> list[NotifiedItem]:
+
+    result = []
+    for hash in user.notified_items:
+        sibling_hashes = menu_management.find_sibling_hashes(hash)
+        latest_version = menu_management.find_latest_item_version(hash)
+        if latest_version is None:
+            continue
+        result.append(NotifiedItem(latest_version=latest_version, hashes=sibling_hashes))
+
+    return result
 
 @api.post("/user/register-notification", tags=["user"])
-def register_notification(menu_item_hash: str, registered: bool):
-    return None
+def register_notification(menu_item_hash: str, registered: bool, expo_push_token: Optional[str], user: Annotated[User, Depends(auth.get_user)]) -> None:
+    sibling_hashes = menu_management.find_sibling_hashes(menu_item_hash)
+    if expo_push_token is not None:
+        user.notification_token = expo_push_token
+
+    if registered:
+        for hash in sibling_hashes:
+            if hash in user.notified_items:
+                break
+        else:
+            user.notified_items.append(menu_item_hash)
+        
+    else:
+        for hash in sibling_hashes:
+            if hash in user.notified_items:
+                user.notified_items.remove(menu_item_hash)    
+
+    users.update_one({"identifier": user.identifier}, {"$set": {"notified_items": user.notified_items, "notification_token": user.notification_token}})
+
 
 # Admin Related Routes
 
