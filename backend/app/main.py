@@ -15,6 +15,7 @@ import mail
 import auth
 import menu_management
 from database import db
+import vision
 
 users = db["users"]
 

@@ -14,3 +14,7 @@ google-auth-httplib2
 google-auth-oauthlib
 ruamel.yaml
 typing_extensions
+openai
+pillow
+python-multipart
+ijson
