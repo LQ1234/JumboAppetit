@@ -370,8 +370,8 @@ def get_monthly_view(year: int, month: int, slug: str, menu_type_slug: str) -> l
     query = [
         {
             '$match': {
-                'slug': 'dewick-dining', 
-                'menu_type_slug': 'breakfast'
+                'slug': slug, 
+                'menu_type_slug': menu_type_slug
             }
         }, {
             '$group': {
@@ -413,4 +413,4 @@ def get_monthly_view(year: int, month: int, slug: str, menu_type_slug: str) -> l
 
         monthly_view.append(MonthlyViewDay(day=result_day["menu"]["date"], has_menu_items=True))
 
-    return monthly_view
+    return sorted(monthly_view, key=lambda x: x.day)
