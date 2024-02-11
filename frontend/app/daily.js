@@ -5,6 +5,11 @@ import { useNavigation } from '@react-navigation/native';
 
 const Daily = (props) => {
   const [dailyMenu, setDailyMenu] = useState(null);
+  const navigation = useNavigation();
+  
+  const handleDishPress = (menuItem) => {
+    navigation.navigate('Dish', { menuItem });
+  };
 
   const { date, location, menu_type } = props;
 
@@ -30,11 +35,6 @@ const Daily = (props) => {
   if (!dailyMenu) {
     return <Text>Loading...</Text>;
   }
-
-  const navigation = useNavigation();
-  const handleDishPress = (menuItem) => {
-    navigation.navigate('Dish', { menuItem });
-  };
 
   return (
     <View style={styles.container}>

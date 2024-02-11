@@ -3,8 +3,51 @@ import { StyleSheet, Text, View, ScrollView } from "react-native";
 import CalendarPicker from 'react-native-calendar-picker';
 import axios from "axios";
 import Daily from './daily';
+import DropDownPicker from 'react-native-dropdown-picker';
 
-const CalendarScreen = () => {
+const Dropdown = ({ onLocationChange }) => {
+  const [items, setItems] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://jumboappetit.larrys.tech/api/menu/locations');
+        const data = response.data;
+
+        const displayable = data.filter(entry => entry.displayed);
+        const options = displayable.map(entry => ({
+            value: entry.slug,
+            label: entry.name,
+        }));
+
+        setItems(options);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  return (
+    <DropDownPicker
+      open={open}
+      value={value}
+      items={items}
+      setOpen={setOpen}
+      setValue={setValue}
+      setItems={setItems}
+      onSelectItem={(item) => {
+        onLocationChange(item.value);
+        console.log("changed!", item.value)
+      }}
+    />
+  );
+};
+
+const Calendar = ({ location }) => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [calendarData, setCalendarData] = useState([]);
 
@@ -28,12 +71,13 @@ const CalendarScreen = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://jumboappetit.larrys.tech/api/menu/monthly-view/{location-slug}/{menu-type-slug}/2024/2?location_slug=dewick-dining&menu_type_slug=lunch", {});
+        const apiUrl = `https://jumboappetit.larrys.tech/api/menu/monthly-view/{location-slug}/{menu-type-slug}/2024/2?location_slug=${location}&menu_type_slug=dinner`;
+        console.log(apiUrl)
+        const response = await axios.get(apiUrl, {});
         // console.log(response.data);
 
         const apiResponse = response.data;
 
-        // Process the API response and update state
         setCalendarData(apiResponse);
         setInitialSelectedDate(apiResponse);
       } catch (error) {
@@ -43,7 +87,7 @@ const CalendarScreen = () => {
 
     fetchData(); // Call the async function
 
-  }, []);
+  }, [location]);
 
   const enabledDays = enabledDates(calendarData)
   // console.log(enabledDays)
@@ -57,14 +101,32 @@ const CalendarScreen = () => {
       />
       {selectedDate && 
         <ScrollView style={styles.dailyContainer}>
-          <Daily date={selectedDate} location="dewick-dining" menu_type="dinner" />
+          <Daily date={selectedDate} location={location} menu_type="dinner" />
         </ScrollView>
       }
     </View>
   );
 };
 
+const MonthlyScreen = () => {
+  const [location, setLocation] = useState("dewick-dining");
+
+  const handleLocationChange = (newLoc) => {
+    setLocation(newLoc);
+  };
+
+  return (
+    <View style={styles.container}>
+      <Dropdown onLocationChange={handleLocationChange} />
+      <Calendar location={location} />
+    </View>
+  );
+};
+
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
   dailyContainer: {
     flex: 1,
     paddingTop: 10,
@@ -72,4 +134,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CalendarScreen;
+export default MonthlyScreen;
