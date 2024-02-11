@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-native";
 import axios from "axios";
 
-export default function Login() {
+export default function LoginScreen() {
   const [email, setEmail] = useState("");
   const [emailCode, setEmailCode] = useState("");
   const [loginToken, setLoginToken] = useState("");
