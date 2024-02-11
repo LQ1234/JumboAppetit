@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from './app/login'
 import CalendarScreen from './app/month'
 import DishScreen from './app/dish'
+import CameraScreen from './app/camera'
 
 function HomeScreen({ navigation }) {
   return (
@@ -20,6 +21,11 @@ function HomeScreen({ navigation }) {
         title="Menu!"
         onPress={() => navigation.navigate('Month')}
       />
+      <Button
+        title="Camera"
+        onPress={() => navigation.navigate('Camera')}
+      />
+
     </View>
   );
 }
@@ -38,6 +44,8 @@ function App() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Month" component={CalendarScreen} />
         <Stack.Screen name="Dish" component={DishScreen} />
+        <Stack.Screen name="Camera" component={CameraScreen} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
