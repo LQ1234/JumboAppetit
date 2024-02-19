@@ -39,7 +39,7 @@ const IngredientList = ({ ingredients, allergens }) => {
   return (
     <View style={styles.paragraph}>
       <Text style={styles.subtitle}>Ingredients: </Text>
-      <Text>{ingredients}</Text>
+      <Text style={styles.ingredients}>{ingredients}</Text>
       <View style={styles.allergensContainer}>
         {allergens.map((entry, index) => (
           <View key={index} style={styles.allergenBox}>
@@ -100,14 +100,20 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 10,
     marginBottom: 10,
+    fontFamily: 'ShortStack-Regular'
   },
   subtitle: {
     fontSize: 16,
     fontStyle: 'italic',
     marginBottom: 4,
+    fontFamily: 'ShortStack-Regular'
   },
   paragraph: {
     paddingBottom: 10,
+    fontFamily: 'ShortStack-Regular'
+  },
+  ingredients: {
+    fontFamily: 'ShortStack-Regular'
   },
   allergensContainer: {
     flexDirection: 'row',
@@ -124,7 +130,8 @@ const styles = StyleSheet.create({
     borderColor: 'white',
   },
   allergenText: {
-    color: "white"
+    color: "white",
+    fontFamily: 'ShortStack-Regular'
   },
   table: {
     borderWidth: 1,
@@ -140,10 +147,12 @@ const styles = StyleSheet.create({
     padding: 6,
     borderWidth: 0.5,
     borderColor: '#87725A',
+    fontFamily: 'ShortStack-Regular'
   },
   header: {
     fontWeight: 'bold',
     backgroundColor: '#f2f2f2',
+    fontFamily: 'ShortStack-Regular'
   },
 });
 
