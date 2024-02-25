@@ -7,6 +7,7 @@ import CalendarScreen from './app/month'
 import DishScreen from './app/dish'
 import CameraScreen from './app/camera'
 import FontLoader from './app/loadFonts'
+import PhotoScannerScreen from './app/photoScanner'
 
 function HomeScreen({ navigation }) {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Stack.Screen name="Month" component={CalendarScreen} />
         <Stack.Screen name="Dish" component={DishScreen} />
         <Stack.Screen name="Camera" component={CameraScreen} />
+        <Stack.Screen name="PhotoScanner" component={PhotoScannerScreen} />
         
       </Stack.Navigator>
     </NavigationContainer>

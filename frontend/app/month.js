@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import CalendarPicker from 'react-native-calendar-picker';
-import LocationMenuPicker from './locationmenupicker';
+import LocationMenuPicker from './locationMenuPicker';
 import axios from "axios";
 import Daily from './daily';
 
