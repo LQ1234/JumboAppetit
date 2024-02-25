@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from "react-native";
 import CalendarPicker from 'react-native-calendar-picker';
-import { format } from 'date-fns';
+import LocationMenuPicker from './locationMenuPicker';
 import axios from "axios";
+import Daily from './daily';
 
-const CalendarScreen = () => {
+
+const Calendar = ({ location, menu }) => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [calendarData, setCalendarData] = useState([]);
 
@@ -22,19 +24,19 @@ const CalendarScreen = () => {
   }
 
   const handleDateChange = (date) => {
-    // TODO
     setSelectedDate(date);
   };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://jumboappetit.larrys.tech/api/menu/monthly-view/{location-slug}/{menu-type-slug}/2024/2?location_slug=dewick-dining&menu_type_slug=lunch", {});
-        console.log(response.data);
+        const apiUrl = `https://jumboappetit.larrys.tech/api/menu/monthly-view/{location-slug}/{menu-type-slug}/2024/2?location_slug=${location}&menu_type_slug=${menu}`;
+        console.log(apiUrl)
+        const response = await axios.get(apiUrl, {});
+        // console.log(response.data);
 
         const apiResponse = response.data;
 
-        // Process the API response and update state
         setCalendarData(apiResponse);
         setInitialSelectedDate(apiResponse);
       } catch (error) {
@@ -44,10 +46,10 @@ const CalendarScreen = () => {
 
     fetchData(); // Call the async function
 
-  }, []);
+  }, [location, menu]);
 
   const enabledDays = enabledDates(calendarData)
-  console.log(enabledDays)
+  // console.log(enabledDays)
 
   return (
     <View style={{ flex: 1, padding: 16 }}>
@@ -56,13 +58,41 @@ const CalendarScreen = () => {
         onDateChange={handleDateChange}
         disabledDates={date => !(enabledDays.includes(date.toISOString().split('T')[0]))}
       />
-      {selectedDate && (
-        <View style={{ marginTop: 20 }}>
-          <Text>Selected Date: {format(selectedDate, 'yyyy-MM-dd')}</Text>
-        </View>
-      )}
+      {selectedDate && 
+        <ScrollView style={styles.dailyContainer}>
+          <Daily date={selectedDate} location={location} menu_type={menu} />
+        </ScrollView>
+      }
     </View>
   );
 };
 
-export default CalendarScreen;
+const MonthlyScreen = () => {
+  const [location, setLocation] = useState("dewick-dining");
+  const [menu, setMenu] = useState("dinner");
+
+  const handleLocationMenuChange = (newLoc, newMenu) => {
+    setLocation(newLoc);
+    setMenu(newMenu);
+  };
+
+  return (
+    <View style={styles.container}>
+      <LocationMenuPicker onLocationMenuChange={handleLocationMenuChange} />
+      <Calendar location={location} menu={menu} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  dailyContainer: {
+    flex: 1,
+    paddingTop: 10,
+    // flexGrow: 1
+  },
+});
+
+export default MonthlyScreen;
