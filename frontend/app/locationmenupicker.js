@@ -35,9 +35,12 @@ const LocationMenuPicker = ({ onLocationMenuChange }) => {
         label: entry.name,
     }));
     const locationDisabled = locationItems.length === 0;
-    if (!locationDisabled && !locationValue) {
-        setLocationValue(locationItems[0].value);
-    }
+
+    useEffect(() => {
+        if (!locationDisabled && !locationValue) {
+            setLocationValue(locationItems[0].value);
+        }
+    }, [locationItems, locationValue, locationDisabled]);
 
     let menuItems = [];
     if (locationValue) {
@@ -50,10 +53,12 @@ const LocationMenuPicker = ({ onLocationMenuChange }) => {
         }
     }
     const menuDisabled = menuItems.length === 0;
-    if (!menuDisabled && !menuValue) {
-        setMenuValue(menuItems[0].value);
-        onLocationMenuChange(locationValue, menuValue);
-    }
+    useEffect(() => {
+        if (!menuDisabled && !menuValue) {
+            setMenuValue(menuItems[0].value);
+            onLocationMenuChange(locationValue, menuValue);
+        }
+    }, [menuItems, menuValue, menuDisabled]);
 
 
     return (

@@ -7,6 +7,7 @@ import CalendarScreen from './app/month'
 import DishScreen from './app/dish'
 import CameraScreen from './app/camera'
 import FontLoader from './app/loadFonts'
+import PhotoScannerScreen from './app/photoScanner'
 import NotificationScreen from './app/notification';
 import AllNotificationsScreen from './app/allNotifications';
 
@@ -57,8 +58,7 @@ function App() {
         <Stack.Screen name="Month" component={CalendarScreen} />
         <Stack.Screen name="Dish" component={DishScreen} />
         <Stack.Screen name="Camera" component={CameraScreen} />
-        <Stack.Screen name="Notify" component={NotificationScreen} />
-        <Stack.Screen name="Subscriptions" component={AllNotificationsScreen} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );

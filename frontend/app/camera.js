@@ -1,9 +1,13 @@
 import { Camera, CameraType } from 'expo-camera';
-import { useState } from 'react';
-import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import LocationMenuPicker from './locationmenupicker';
+import { useState, useRef } from 'react';
+import { Button, Text, TouchableOpacity, View } from 'react-native';
+import LocationMenuPicker from './locationMenuPicker';
+import EventSource from "react-native-sse";
+import * as ImageManipulator from 'expo-image-manipulator'
 
-export default function CameraScreen() {
+
+export default function CameraScreen({ navigation }) {
+    const cameraRef = useRef(null);
     const [type, setType] = useState(CameraType.back);
     const [permission, requestPermission] = Camera.useCameraPermissions();
 
@@ -29,11 +33,19 @@ export default function CameraScreen() {
         setMenu(newMenu);
     }
 
+    const handleTakePicture = async () => {
+        if (cameraRef.current) {
+            const photo = await cameraRef.current.takePictureAsync({});
+            navigation.navigate('PhotoScanner', { photoUri: photo.uri, location, menu });
+        }
+    }
+
+
 
     return (
         <View >
             <LocationMenuPicker onLocationMenuChange={handleLocationMenuChange} />
-            <Camera type={type}>
+            <Camera type={type} ref={cameraRef}>
                 <View style = {{ 
                     backgroundColor: 'transparent',
                     aspectRatio: 1,
@@ -43,7 +55,7 @@ export default function CameraScreen() {
                     </TouchableOpacity>
                 </View>
             </Camera>
-            <Button title="Take Picture" onPress={() => {}} />
+            <Button title="Take Picture" onPress={handleTakePicture} />
         </View>
     );
 }
