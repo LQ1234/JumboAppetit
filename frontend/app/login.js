@@ -17,7 +17,7 @@ export default function LoginScreen() {
 
     axios.post(`https://jumboappetit.larrys.tech/api/user/login?email=${email}`, {})
     .then(response => {
-      console.log(response.data);
+      // console.log("A: " + response.data);
       const receivedLoginToken = response.data;
       setLoginToken(receivedLoginToken);
       setErrorText("Verification email sent. Check your email for instructions.");
@@ -33,7 +33,7 @@ export default function LoginScreen() {
 
     axios.get(`https://jumboappetit.larrys.tech/api/user/authorize-login?code=${emailCode}`, {})
     .then(response => {
-      console.log(response.data);
+      console.log("B: " + response.data);
       setVerifyCodeText("✅");
       setIsCodeVerified(true);
     })
@@ -48,7 +48,7 @@ export default function LoginScreen() {
 
     axios.post(`https://jumboappetit.larrys.tech/api/user/login-authorized?login_token=${loginToken}`, {})
     .then(secondApiResponse => {
-      console.log(secondApiResponse.data);
+      console.log("C: " + secondApiResponse.data); // token should persist
       const receivedBearerToken = secondApiResponse.data;
       setResult(`Bearer Token: ${receivedBearerToken}`);
     })

@@ -63,12 +63,14 @@ const styles = StyleSheet.create({
   secName: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: "#9e590b"
+    color: "#9e590b",
+    fontFamily: 'ShortStack-Regular'
   },
   dishName: {
     fontSize: 16,
     marginLeft: 10,
     marginBottom: 2,
+    fontFamily: 'ShortStack-Regular'
   },
 });
 

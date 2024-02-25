@@ -6,27 +6,29 @@ import LoginScreen from './app/login'
 import CalendarScreen from './app/month'
 import DishScreen from './app/dish'
 import CameraScreen from './app/camera'
+import FontLoader from './app/loadFonts'
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={styles.container}>
-      <Text style={styles.mainTitle}>
-        Welcome to JumboAppetit. Ready to get started?
-      </Text>
-      <Button
-        title="Login"
-        onPress={() => navigation.navigate('Login')}
-      />
-      <Button
-        title="Menu!"
-        onPress={() => navigation.navigate('Month')}
-      />
-      <Button
-        title="Camera"
-        onPress={() => navigation.navigate('Camera')}
-      />
-
-    </View>
+    <FontLoader>
+      <View style={styles.container}>
+        <Text style={styles.mainTitle}>
+          Welcome to JumboAppetit. Ready to get started?
+        </Text>
+        <Button
+          title="Login"
+          onPress={() => navigation.navigate('Login')}
+        />
+        <Button
+          title="Menu!"
+          onPress={() => navigation.navigate('Month')}
+        />
+        <Button
+          title="Camera"
+          onPress={() => navigation.navigate('Camera')}
+        />
+      </View>
+    </FontLoader>
   );
 }
 
@@ -65,6 +67,7 @@ const styles = StyleSheet.create({
     // marginHorizontal: "auto",
     fontSize: 26,
     color: "#38434D",
+    fontFamily: 'ShortStack-Regular'
   },
 });
 
