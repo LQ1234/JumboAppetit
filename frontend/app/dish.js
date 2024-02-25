@@ -52,25 +52,36 @@ const IngredientList = ({ ingredients, allergens }) => {
 }
 
 const NotifyBtn = ({ dishHash }) => {
-  const [buttonText, setButtonText] = useState('Notify Me!');
-  const [backgroundColor, setBackgroundColor] = useState('red');
+  const [buttonText, setButtonText] = useState('Notify Me');
+  const [backgroundColor, setBackgroundColor] = useState('#efe07f');
 
   const handlePress = () => {
-    setTimeout(() => {
-      console.log("dish hash: " + dishHash);
-      const response = { status: 200 }; // replace with actual API call
+    const token = "TODO";
+    const url = "TODO"
 
-      if (response.status === 200) {
-        setButtonText('Subscribed!');
-        setBackgroundColor('green');
+    const config = {
+      headers: {
+        'accept': 'application/json',
+        'Authorization': `Bearer ${token}`
       }
-    }, 1000); // simulating API call delay
+    };
+
+    axios.get(url, config)
+      .then(response => {
+        console.log(response.data); 
+        
+        setButtonText('Unsubscribe');
+        setBackgroundColor('#efa87f');
+      })
+      .catch(error => {
+        console.error(error);
+      });
   };
 
   return (
     <TouchableOpacity onPress={handlePress}>
-      <View style={[styles.button, { backgroundColor }]}>
-        <Text style={styles.buttonText}>{buttonText}</Text>
+      <View style={[styles.notifyBtn, { backgroundColor }]}>
+        <Text style={styles.notifyBtnText}>{buttonText}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -81,10 +92,12 @@ const DishScreen = ({ route }) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>{menuItem.name}</Text>
-      <IngredientList ingredients={menuItem.ingredients} allergens={menuItem.food_properties}/>
-      <NutritionTable nutritionInfo={menuItem.nutrition_information}/>
-      <NotifyBtn dishHash={menuItem.hash}/>
+      <View style={styles.innerContainer}>
+        <NotifyBtn dishHash={menuItem.hash}/>
+        <Text style={styles.title}>{menuItem.name}</Text>
+        <IngredientList ingredients={menuItem.ingredients} allergens={menuItem.food_properties}/>
+        <NutritionTable nutritionInfo={menuItem.nutrition_information}/>
+      </View>
     </ScrollView>
   );
 };
@@ -93,6 +106,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
+  },
+  innerContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   title: {
     fontSize: 18,
@@ -134,10 +151,12 @@ const styles = StyleSheet.create({
     fontFamily: 'ShortStack-Regular'
   },
   table: {
+    width: 300,
     borderWidth: 1,
     borderColor: '#87725A',
     margin: 10,
-    backgroundColor: "#F3DACE"
+    backgroundColor: "#F3DACE",
+    marginBottom: 50,
   },
   tableRow: {
     flexDirection: 'row',
@@ -152,6 +171,18 @@ const styles = StyleSheet.create({
   header: {
     fontWeight: 'bold',
     backgroundColor: '#f2f2f2',
+    fontFamily: 'ShortStack-Regular'
+  },
+  notifyBtn: {
+    width: 140,
+    borderRadius: 10,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 20,
+    marginTop: 20
+  },
+  notifyBtnText: {
     fontFamily: 'ShortStack-Regular'
   },
 });

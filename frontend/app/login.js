@@ -149,6 +149,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#FAC05E",
   },
 
+  loginText: {
+
+  },
+
   errorText: {
     color: 'red',
     marginTop: 10,

@@ -7,6 +7,8 @@ import CalendarScreen from './app/month'
 import DishScreen from './app/dish'
 import CameraScreen from './app/camera'
 import FontLoader from './app/loadFonts'
+import NotificationScreen from './app/notification';
+import AllNotificationsScreen from './app/allNotifications';
 
 function HomeScreen({ navigation }) {
   return (
@@ -27,7 +29,15 @@ function HomeScreen({ navigation }) {
           title="Camera"
           onPress={() => navigation.navigate('Camera')}
         />
-      </View>
+        <Button
+          title="Notify!"
+          onPress={() => navigation.navigate('Notify')}
+        />
+        <Button
+            title="See subscribed notifications"
+            onPress={() => navigation.navigate('Subscriptions')}
+          />
+        </View>
     </FontLoader>
   );
 }
@@ -47,7 +57,8 @@ function App() {
         <Stack.Screen name="Month" component={CalendarScreen} />
         <Stack.Screen name="Dish" component={DishScreen} />
         <Stack.Screen name="Camera" component={CameraScreen} />
-        
+        <Stack.Screen name="Notify" component={NotificationScreen} />
+        <Stack.Screen name="Subscriptions" component={AllNotificationsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
