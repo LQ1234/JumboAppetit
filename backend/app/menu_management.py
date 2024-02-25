@@ -245,6 +245,31 @@ def find_sibling_hashes(hash: MenuItemHash) -> list[MenuItemHash]:
     
     return [hash]
 
+def get_menu_item(hash: MenuItemHash) -> Optional[MenuItem]:
+    result = raw_scrape_results.aggregate([
+        {
+            '$match': {
+                'scraping_result.menu_items.hash': hash
+            }
+        }, {
+            '$unwind': {
+                'path': '$scraping_result.menu_items', 
+                'preserveNullAndEmptyArrays': False
+            }
+        }, {
+            '$match': {
+                'scraping_result.menu_items.hash': hash
+            }
+        }
+    ])
+
+    result = list(result)
+
+    if len(result) == 0:
+        return None
+    
+    return scrape_to_menu_item(result[0]["scraping_result"]["menu_items"])
+
 def find_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
     result = latest_item_version_cache.find_one({"hashes": hash})
 

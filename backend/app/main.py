@@ -4,7 +4,9 @@
 # Purpose: API definition and app entrypoint
 
 from fastapi import FastAPI, APIRouter, Depends
-from fastapi.responses import RedirectResponse, HTMLResponse
+from fastapi.responses import RedirectResponse, HTMLResponse, StreamingResponse
+from fastapi import File, UploadFile
+
 import os
 from datetime import datetime
 from typing import Optional
@@ -25,6 +27,10 @@ tags_metadata = [
     {
         "name": "menu",
         "description": "Operations on the menu",
+    },
+    {
+        "name": "vision",
+        "description": "Operations on the vision",
     },
     {
         "name": "feed",
@@ -66,6 +72,13 @@ def get_daily_menu(location_slug: str, menu_type_slug: str, year: int, month: in
 @api.get("/menu/latest-item-version/{hash}", tags=["menu"])
 def get_latest_item_version(hash: MenuItemHash) -> Optional[DatedMenuItem]:
     return menu_management.find_latest_item_version(hash)
+
+# Vision Related Routes
+
+@api.post("/vision/analyze-image", tags=["vision"])
+async def analyze_image(image: UploadFile = File(...)) -> StreamingResponse:
+    return StreamingResponse(vision.analyze_image(await image.read()), media_type="text/event-stream")
+
 
 # Feed Related Routes
 

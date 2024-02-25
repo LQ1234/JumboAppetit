@@ -18,3 +18,8 @@ openai
 pillow
 python-multipart
 ijson
+numpy
+pandas
+fuzzywuzzy
+python-multipart
+python-Levenshtein
