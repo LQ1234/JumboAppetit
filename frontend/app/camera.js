@@ -1,4 +1,4 @@
-import { Camera, CameraType } from 'expo-camera';
+import { useCameraPermissions,  CameraView } from 'expo-camera';
 import { useState, useRef } from 'react';
 import { Button, Text, TouchableOpacity, View } from 'react-native';
 import LocationMenuPicker from './locationMenuPicker';
@@ -8,8 +8,8 @@ import * as ImageManipulator from 'expo-image-manipulator'
 
 export default function CameraScreen({ navigation }) {
     const cameraRef = useRef(null);
-    const [type, setType] = useState(CameraType.back);
-    const [permission, requestPermission] = Camera.useCameraPermissions();
+    const [type, setType] = useState('back');
+    const [permission, requestPermission] = useCameraPermissions();
 
     const [location, setLocation] = useState(null);
     const [menu, setMenu] = useState(null);
@@ -25,7 +25,7 @@ export default function CameraScreen({ navigation }) {
 
 
     const toggleCameraType = () => {
-        setType(current => (current === CameraType.back ? CameraType.front : CameraType.back));
+        setType(current => (current === 'back' ? 'front' : 'back'));
     }
 
     const handleLocationMenuChange = (newLoc, newMenu) => {
@@ -45,7 +45,7 @@ export default function CameraScreen({ navigation }) {
     return (
         <View >
             <LocationMenuPicker onLocationMenuChange={handleLocationMenuChange} />
-            <Camera type={type} ref={cameraRef}>
+            <CameraView type={type} ref={cameraRef}>
                 <View style = {{ 
                     backgroundColor: 'transparent',
                     aspectRatio: 1,
@@ -54,7 +54,7 @@ export default function CameraScreen({ navigation }) {
                         <Text >Flip Camera</Text>
                     </TouchableOpacity>
                 </View>
-            </Camera>
+            </CameraView>
             <Button title="Take Picture" onPress={handleTakePicture} />
         </View>
     );

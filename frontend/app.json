@@ -26,6 +26,16 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "scheme": "jumboappetit-app"
+    "scheme": "jumboappetit-app",
+    "plugins": [
+      "expo-build-properties",
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
   }
 }
