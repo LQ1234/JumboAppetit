@@ -1,18 +1,18 @@
 import { useCameraPermissions,  CameraView } from 'expo-camera';
 import { useState, useRef } from 'react';
 import { Button, Text, TouchableOpacity, View } from 'react-native';
-import LocationMenuPicker from './locationMenuPicker';
+import LocationMenuPicker from './locationmenupicker';
 import EventSource from "react-native-sse";
 import * as ImageManipulator from 'expo-image-manipulator'
+import { ScreenProps } from '../types';
 
-
-export default function CameraScreen({ navigation }) {
+export default function CameraScreen({ navigation }: ScreenProps) {
     const cameraRef = useRef(null);
     const [type, setType] = useState('back');
     const [permission, requestPermission] = useCameraPermissions();
 
-    const [location, setLocation] = useState(null);
-    const [menu, setMenu] = useState(null);
+    const [location, setLocation] = useState<string | null>(null);
+    const [menu, setMenu] = useState<string | null>(null); // TODO: not sure about the type of menu
 
     if (permission?.status !== 'granted') {
         return (
@@ -28,7 +28,7 @@ export default function CameraScreen({ navigation }) {
         setType(current => (current === 'back' ? 'front' : 'back'));
     }
 
-    const handleLocationMenuChange = (newLoc, newMenu) => {
+    const handleLocationMenuChange = (newLoc: string, newMenu: string) => {
         setLocation(newLoc);
         setMenu(newMenu);
     }

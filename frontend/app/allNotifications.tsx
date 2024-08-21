@@ -29,7 +29,7 @@ const AllNotificationsScreen = () => {
     // };
 
     // fetchData();
-    exampleDishes = [
+    const exampleDishes = [
       { id: 1, name: 'Blueberry pancakes' },
       { id: 2, name: 'Clam Chowder' },
       { id: 3, name: 'Kale Salad' }

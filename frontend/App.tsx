@@ -3,15 +3,16 @@ import { Button, View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from './app/login'
-import CalendarScreen from './app/month'
+import MonthlyScreen from './app/month'
 import DishScreen from './app/dish'
 import CameraScreen from './app/camera'
 import FontLoader from './app/loadFonts'
 import PhotoScannerScreen from './app/photoScanner'
 import NotificationScreen from './app/notification';
 import AllNotificationsScreen from './app/allNotifications';
+import { ScreenProps } from './types';
 
-function HomeScreen({ navigation }) {
+function HomeScreen({ navigation }: ScreenProps) {
   return (
     <FontLoader>
       <View style={styles.container}>
@@ -30,15 +31,15 @@ function HomeScreen({ navigation }) {
           title="Camera"
           onPress={() => navigation.navigate('Camera')}
         />
-        <Button
+        {/* <Button
           title="Notify!"
           onPress={() => navigation.navigate('Notify')}
         />
         <Button
             title="See subscribed notifications"
             onPress={() => navigation.navigate('Subscriptions')}
-          />
-        </View>
+        /> */}
+      </View>
     </FontLoader>
   );
 }
@@ -55,7 +56,7 @@ function App() {
           options={{ title: 'JumboAppetit' }}
         />
         <Stack.Screen name="Login" component={LoginScreen} />
-        <Stack.Screen name="Month" component={CalendarScreen} />
+        <Stack.Screen name="Month" component={MonthlyScreen} />
         <Stack.Screen name="Dish" component={DishScreen} />
         <Stack.Screen name="Camera" component={CameraScreen} />
         

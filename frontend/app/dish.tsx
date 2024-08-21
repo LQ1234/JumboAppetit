@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { ScreenProps } from '../types';
 
 const NutritionTable = ({ nutritionInfo }) => {
   return (
@@ -9,7 +10,7 @@ const NutritionTable = ({ nutritionInfo }) => {
         <Text style={[styles.cell, styles.header]}>Nutrient</Text>
         <Text style={[styles.cell, styles.header]}>Amount</Text>
       </View>
-      {nutritionInfo.map((info, index) => (
+      {nutritionInfo.map((info, index: number) => (
         <View key={index} style={styles.tableRow}>
           <Text style={styles.cell}>{info.slug}</Text>
           <Text style={styles.cell}>{info.amount}</Text>
@@ -20,7 +21,7 @@ const NutritionTable = ({ nutritionInfo }) => {
 };
 
 const IngredientList = ({ ingredients, allergens }) => {
-  propertyEmoji = {
+  const propertyEmoji = {
     "coconut": "🥥", 
     "egg": "🥚", 
     "fish": "🐟",
@@ -34,14 +35,14 @@ const IngredientList = ({ ingredients, allergens }) => {
     "tree-nuts": "🌰",
     "vegan": "",
     "vegetarian": ""
-  }
+  };
 
   return (
     <View style={styles.paragraph}>
       <Text style={styles.subtitle}>Ingredients: </Text>
       <Text style={styles.ingredients}>{ingredients}</Text>
       <View style={styles.allergensContainer}>
-        {allergens.map((entry, index) => (
+        {allergens.map((entry: string, index: number) => (
           <View key={index} style={styles.allergenBox}>
             <Text style={styles.allergenText}>{propertyEmoji[entry]} {entry}</Text>
           </View>
@@ -87,7 +88,7 @@ const NotifyBtn = ({ dishHash }) => {
   );
 };
 
-const DishScreen = ({ route }) => {
+const DishScreen = ({ route }: ScreenProps) => {
   const { menuItem } = route.params; 
 
   return (

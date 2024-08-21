@@ -1,12 +1,14 @@
 import { Camera, CameraType } from 'expo-camera';
 import { useState, useRef, useEffect } from 'react';
 import { Button, Text, TouchableOpacity, View, Image } from 'react-native';
-import LocationMenuPicker from './locationMenuPicker';
+import LocationMenuPicker from './locationmenupicker';
 import EventSource from "react-native-sse";
 import * as ImageManipulator from 'expo-image-manipulator'
 import "react-native-url-polyfill/auto"; 
+import { ScreenProps } from '../types';
 
-export default function PhotoScanner({ navigation, route }) {
+
+export default function PhotoScanner({ navigation, route }: ScreenProps) {
     const { photoUri, location, menu } = route.params;
 
     const [visionStatus, setVisionStatus] = useState("Uploading...");
@@ -19,7 +21,7 @@ export default function PhotoScanner({ navigation, route }) {
             const resizedPhoto = await ImageManipulator.manipulateAsync(
                 photoUri,
                 [{ resize: { width: 1024 } }],
-                { compress: 0.7, format: 'jpeg' },
+                { compress: 0.7, format: 'jpeg' as ImageManipulator.SaveFormat },
             );
             
             let localUri = resizedPhoto.uri;
