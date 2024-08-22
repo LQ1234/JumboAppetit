@@ -17,7 +17,6 @@ const NutritionalInfos = ({ infos }) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        marginTop: 10,
 
     },
     infoContainer: {

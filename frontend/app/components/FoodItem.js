@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     },
     foodName: {
         fontSize: 16,
-        fontWeight: 'bold',
     },
     foodSize: {
         fontSize: 14,
@@ -64,6 +63,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         color: '#888',
         marginTop: 5,
+        marginBottom: 10,
     },
 });
 
