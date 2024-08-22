@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import CalendarPicker from 'react-native-calendar-picker';
-import LocationMenuPicker from './locationmenupicker';
+import LocationMenuPicker from './locationMenuPicker';
 import axios from "axios";
 import Daily from './daily';
 
 
-const Calendar = ({ location, menu }: { location: string; menu: string }) => {
-  const [selectedDate, setSelectedDate] = useState<Date>(new Date());
+const Calendar = ({ location, menu }) => {
+  const [selectedDate, setSelectedDate] = useState(null);
   const [calendarData, setCalendarData] = useState([]);
 
-  const setInitialSelectedDate = (data: Record<string, any>[]) => {
+  const setInitialSelectedDate = (data) => {
     if (data.length > 0) {
-      const firstDay = data.reduce((min: number, item: Record<string, any>) => (item.day < min ? item.day : min), data[0].day);
+      const firstDay = data.reduce((min, item) => (item.day < min ? item.day : min), data[0].day);
       const startDate = new Date(firstDay);
       setSelectedDate(startDate);
       // console.log(startDate)
     }
   };
 
-  const enabledDates = (availableDays: Record<string, any>[]) => {
+  const enabledDates = (availableDays) => {
     return availableDays.map(item => item.day);
   }
 
-  const handleDateChange = (date: Date) => {
+  const handleDateChange = (date) => {
     setSelectedDate(date);
   };
 
@@ -57,7 +57,6 @@ const Calendar = ({ location, menu }: { location: string; menu: string }) => {
         selectedStartDate={selectedDate}
         onDateChange={handleDateChange}
         disabledDates={date => !(enabledDays.includes(date.toISOString().split('T')[0]))}
-        selectedDayStyle={styles.selectedDayStyle}
       />
       {selectedDate && 
         <ScrollView style={styles.dailyContainer}>
@@ -72,7 +71,7 @@ const MonthlyScreen = () => {
   const [location, setLocation] = useState("dewick-dining");
   const [menu, setMenu] = useState("dinner");
 
-  const handleLocationMenuChange = (newLoc: string, newMenu: string) => {
+  const handleLocationMenuChange = (newLoc, newMenu) => {
     setLocation(newLoc);
     setMenu(newMenu);
   };
@@ -93,9 +92,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 10,
     // flexGrow: 1
-  },
-  selectedDayStyle: {
-    backgroundColor: '#FAC05E',
   },
 });
 

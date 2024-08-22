@@ -82,7 +82,7 @@ export default function LoginScreen() {
         <View style={styles.inputView}>
           <TextInput
             style={styles.inputText}
-            placeholder="Verification Code"
+            placeholder="Verification Code (optional)"
             placeholderTextColor="#003f5c"
             onChangeText={(code) => setEmailCode(code)}
           />
