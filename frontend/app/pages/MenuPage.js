@@ -69,7 +69,9 @@ const MenuPage = ({ setCurrentPage }) => {
             const updateTime = new Date();
             setMonthlyViewDataUpdateTime(updateTime);
             try {
-                // setMonthlyViewData([]);
+                if (!location || !time || !month) {
+                    return;
+                }
 
                 const url = `https://${DOMAIN}/api/menu/monthly-view/{location-slug}/{menu-type-slug}/${month.getUTCFullYear()}/${month.getUTCMonth() + 1}?location_slug=${location}&menu_type_slug=${time}`;
                 const response = await axios.get(url);
@@ -125,6 +127,10 @@ const MenuPage = ({ setCurrentPage }) => {
             setDailyViewDataUpdateTime(updateTime);
             try {
                 // setMonthlyViewData([]);
+                if (!location || !time || !selectedDate) {
+                    return;
+                }
+
 
                 const url = `https://${DOMAIN}/api/menu/daily-menu/{location-slug}/{menu-type-slug}/${selectedDate.getUTCFullYear()}/${selectedDate.getUTCMonth() + 1}/${selectedDate.getUTCDate()}?location_slug=${location}&menu_type_slug=${time}`;
                 const response = await axios.get(url);
@@ -146,7 +152,6 @@ const MenuPage = ({ setCurrentPage }) => {
     let sections = [];
 
     if (dailyViewData) {
-        console.log(dailyViewData)
         for (let i = 0; i < dailyViewData.sections.length; i++) {
             let section = dailyViewData.sections[i];
             let items = [];
