@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, TouchableWithoutFeedback } from 'react-native';
+import { AppContext } from '../contexts/AppContext';
 
-const CustomDropdown = ({ iconSource, selectedValue, items, onSelect, isOpen, setIsOpen, closeOtherDropdown }) => {
+const CustomDropdown = ({ iconSource, selectedValue, items, onSelect, isOpen, setIsOpen, closeOtherDropdown, disabled }) => {
+    
+    
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
         closeOtherDropdown();
@@ -14,7 +17,7 @@ const CustomDropdown = ({ iconSource, selectedValue, items, onSelect, isOpen, se
 
     return (
         <View style={styles.dropdownContainer}>
-            <TouchableOpacity style={styles.pickerContainer} onPress={toggleDropdown}>
+            <TouchableOpacity style={styles.pickerContainer} onPress={toggleDropdown} disabled={disabled}>
                 <Image source={iconSource} style={styles.icon} />
                 <Text style={styles.pickerText}>{selectedValue}</Text>
                 <Image source={require('../../assets/icons/Chevron down.png')} style={styles.dropdownIcon} />
@@ -36,7 +39,10 @@ const CustomDropdown = ({ iconSource, selectedValue, items, onSelect, isOpen, se
     );
 };
 
-const LocationTimePicker = () => {
+const LocationTimePicker = ({ includeAll, onLocationTimeChange }) => {
+
+    const {locationsData, foodPropertiesData} = useContext(AppContext);
+
     const [locationOpen, setLocationOpen] = useState(false);
     const [timeOpen, setTimeOpen] = useState(false);
     const [selectedLocation, setSelectedLocation] = useState('Dewick');
@@ -47,26 +53,88 @@ const LocationTimePicker = () => {
         setTimeOpen(false);
     };
 
+    let locationItems = [];
+    let timeItems = [];
+    let disabled = false;
+
+
+    if (locationsData) {
+        for (const location of locationsData) {
+            if (location.displayed) {
+                locationItems.push(location.name);
+                if (location.name === selectedLocation) {
+                    for (const time of location.menu_types) {
+                        timeItems.push(time.name);
+                    }
+                }
+            }
+        }
+        if (includeAll) {
+            locationItems.unshift('All');
+            timeItems.unshift('All');
+        }
+
+    } else {
+        locationItems = ["Loading..."];
+        timeItems = ["Loading..."];
+        disabled = true;
+    }
+
+    useEffect(() => {
+        if (!locationItems.includes(selectedLocation)) {
+            setSelectedLocation(locationItems[0]);
+        }
+        if (!timeItems.includes(selectedTime)) {
+            setSelectedTime(timeItems[0]);
+        }
+    }, [locationItems, selectedLocation, timeItems, selectedTime]);
+
+    useEffect(() => {
+        // get slug for name
+        let locationSlug = null, timeSlug = null;
+        if (locationsData == null) return;
+
+        for (const location of locationsData) {
+            if (location.name === selectedLocation) {
+                locationSlug = location.slug;
+                for (const time of location.menu_types) {
+                    if (time.name === selectedTime) {
+                        timeSlug = time.slug;
+                        break;
+                    }
+                }
+                break;
+            }
+        }
+        if (locationSlug == null) return;
+
+        onLocationTimeChange(locationSlug, timeSlug);
+
+    }, [selectedLocation, selectedTime, onLocationTimeChange]);
+
     return (
         <TouchableWithoutFeedback onPress={closeDropdowns}>
             <View style={styles.container}>
                 <CustomDropdown
                     iconSource={require('../../assets/icons/Map pin.png')}
                     selectedValue={selectedLocation}
-                    items={['All', 'Dewick', 'Carm']}
+                    items={locationItems}
                     onSelect={setSelectedLocation}
                     isOpen={locationOpen}
                     setIsOpen={setLocationOpen}
                     closeOtherDropdown={() => setTimeOpen(false)}
+                    disabled={disabled}
                 />
                 <CustomDropdown
                     iconSource={require('../../assets/icons/Clock.png')}
                     selectedValue={selectedTime}
-                    items={['All', 'Breakfast', 'Lunch', 'Dinner']}
+                    items={timeItems}
                     onSelect={setSelectedTime}
                     isOpen={timeOpen}
                     setIsOpen={setTimeOpen}
                     closeOtherDropdown={() => setLocationOpen(false)}
+                    disabled={disabled}
+
                 />
             </View>
         </TouchableWithoutFeedback>

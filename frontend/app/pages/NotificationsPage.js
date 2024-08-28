@@ -14,7 +14,7 @@ const NotificationsPage = () => {
         <View style={styles.container}>
             <Text style={styles.headerTitle}>Notifications</Text>
             <Text style={styles.headerSubtitle}>Get notified every time your favorite item is on the menu</Text>
-            <FoodItem {...foodItemData} />
+            {/* <FoodItem {...foodItemData} /> */}
         </View>
     );
 };

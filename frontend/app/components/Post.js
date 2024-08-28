@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
     descriptionText: {
         fontSize: 12,
         color: '#000',
+        marginBottom: 8
     },
     likeButton: {
         justifyContent: 'center',

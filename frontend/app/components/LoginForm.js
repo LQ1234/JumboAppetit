@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect } from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 import { TooltipContext } from './TooltipContext';
 
-const LoginForm = ({ email, setEmail, code, setCode, submitted, error, handleSubmit }) => {
+const LoginForm = ({ email, setEmail, code, setCode, submitted, error, errorMessage, handleSubmit }) => {
     const { showTooltip, hideTooltip } = useContext(TooltipContext);
     const emailInputRef = useRef(null);
     const codeInputRef = useRef(null);
@@ -22,14 +22,14 @@ const LoginForm = ({ email, setEmail, code, setCode, submitted, error, handleSub
     useEffect(() => {
         if (error) {
             if (!submitted) {
-                displayErrorTooltip(emailInputRef, 'Email is required');
+                displayErrorTooltip(emailInputRef, errorMessage);
             } else {
-                displayErrorTooltip(codeInputRef, 'Verification code is required');
+                displayErrorTooltip(codeInputRef, errorMessage);
             }
         } else {
             hideTooltip();
         }
-    }, [error, submitted]);
+    }, [error, submitted, errorMessage]);
 
     return (
         <View style={styles.formContainer}>
@@ -44,6 +44,9 @@ const LoginForm = ({ email, setEmail, code, setCode, submitted, error, handleSub
                     editable={!submitted}
                     onSubmitEditing={!submitted ? handleSubmit : null}
                     returnKeyType="done"
+                    autoCapitalize="none"
+                    autoComplete="email"
+                    autoCorrect={false}
                 />
             </View>
             {submitted && (
@@ -52,11 +55,15 @@ const LoginForm = ({ email, setEmail, code, setCode, submitted, error, handleSub
                     <TextInput
                         ref={codeInputRef}
                         style={styles.input}
-                        placeholder="Value"
+                        placeholder="012345"
                         value={code}
                         onChangeText={setCode}
                         onSubmitEditing={handleSubmit}
                         returnKeyType="done"
+                        autoCapitalize="characters"
+                        autoComplete="one-time-code"
+                        autoCorrect={false}
+
                     />
                 </View>
             )}

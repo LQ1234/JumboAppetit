@@ -10,7 +10,7 @@ import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import AddItemPage from './AddItemPage'; // Import the AddItemPage component
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-const VisionPage = ({ navigation }) => {
+const VisionPage = ({ setCurrentPage }) => {
     const [hasLoaded, setHasLoaded] = useState(false);
     const bottomSheetRef = useRef(null);
 
@@ -32,7 +32,7 @@ const VisionPage = ({ navigation }) => {
                     {/* Header with Back Button and Title */}
                     <View style={styles.headerContainer}>
                         {/* Back Button */}
-                        <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+                        <TouchableOpacity style={styles.backButton} onPress={() => setCurrentPage("camera")}>
                             <Image source={require('../../assets/icons/Arrow left.png')} style={styles.backIcon} />
                         </TouchableOpacity>
 
@@ -62,13 +62,13 @@ const VisionPage = ({ navigation }) => {
                         <View style={styles.innerContainer}>
                             {/* Header with Back Button and Title */}
                             <View style={styles.headerContainer}>
-                                <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+                                <TouchableOpacity style={styles.backButton} onPress={() => setCurrentPage("camera")}>
                                     <Image source={require('../../assets/icons/Arrow left.png')} style={styles.backIcon} />
                                 </TouchableOpacity>
 
                                 <Text style={styles.title}>Post</Text>
 
-                                <TouchableOpacity style={styles.forwardButton} onPress={() => navigation.navigate('NextScreen')}>
+                                <TouchableOpacity style={styles.forwardButton} onPress={() => setCurrentPage("post")}>
                                     <Image source={require('../../assets/icons/Arrow right.png')} style={styles.forwardIcon} />
                                 </TouchableOpacity>
                             </View>

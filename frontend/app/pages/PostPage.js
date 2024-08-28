@@ -3,13 +3,13 @@ import { View, Text, TouchableOpacity, Image, TextInput, StyleSheet } from 'reac
 import { SafeArea } from '../utils'; // Assuming you have a SafeArea component
 import LocationTimePicker from '../components/LocationTimePicker'; // Assuming you have a LocationTimePicker component
 
-const PostPage = ({ navigation }) => {
+const PostPage = ({ setCurrentPage }) => {
     return (
         <View style={styles.container}>
             <SafeArea>
                 {/* Header with Back Button and Title */}
                 <View style={styles.headerContainer}>
-                    <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+                    <TouchableOpacity style={styles.backButton} onPress={() => setCurrentPage("vision")}>
                         <Image source={require('../../assets/icons/Arrow left.png')} style={styles.backIcon} />
                     </TouchableOpacity>
                     <Text style={styles.title}>Post</Text>

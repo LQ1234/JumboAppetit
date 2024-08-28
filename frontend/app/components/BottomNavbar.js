@@ -1,37 +1,43 @@
 import React, { useState } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
-const BottomNavbar = ({ navigation }) => {
-    const [activeTab, setActiveTab] = useState('Feed');
+const BottomNavbar = ({ setCurrentPage, activeTab }) => {
+    // const [activeTab, setActiveTab] = useState('feed');
+
+    // const handleTabPress = (tabName) => {
+    //     setActiveTab(tabName);
+    //     // Navigate to the respective screen if needed
+    //     // Example: navigation.navigate(tabName);
+    // };
 
     const handleTabPress = (tabName) => {
-        setActiveTab(tabName);
-        // Navigate to the respective screen if needed
-        // Example: navigation.navigate(tabName);
+        if(activeTab === tabName) return;
+        setCurrentPage(tabName);
     };
+
 
     return (
         <View style={styles.navbar}>
-            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('Post')}>
+            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('camera')}>
                 <Image
                     source={require('../../assets/icons/Camera.png')}
-                    style={[styles.icon, activeTab !== 'Post' && styles.inactiveIcon]}
+                    style={[styles.icon, activeTab !== 'camera' && styles.inactiveIcon]}
                 />
-                <Text style={[styles.label, activeTab === 'Post' && styles.activeLabel]}>Post</Text>
+                <Text style={[styles.label, activeTab === 'camera' && styles.activeLabel]}>Post</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('Feed')}>
+            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('feed')}>
                 <Image
                     source={require('../../assets/icons/Thumbs up.png')}
-                    style={[styles.icon, activeTab !== 'Feed' && styles.inactiveIcon]}
+                    style={[styles.icon, activeTab !== 'feed' && styles.inactiveIcon]}
                 />
-                <Text style={[styles.label, activeTab === 'Feed' && styles.activeLabel]}>Feed</Text>
+                <Text style={[styles.label, activeTab === 'feed' && styles.activeLabel]}>Feed</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('Menu')}>
+            <TouchableOpacity style={styles.navItem} onPress={() => handleTabPress('menu')}>
                 <Image
                     source={require('../../assets/icons/Calendar.png')}
-                    style={[styles.icon, activeTab !== 'Menu' && styles.inactiveIcon]}
+                    style={[styles.icon, activeTab !== 'menu' && styles.inactiveIcon]}
                 />
-                <Text style={[styles.label, activeTab === 'Menu' && styles.activeLabel]}>Menu</Text>
+                <Text style={[styles.label, activeTab === 'menu' && styles.activeLabel]}>Menu</Text>
             </TouchableOpacity>
         </View>
     );

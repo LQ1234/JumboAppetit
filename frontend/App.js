@@ -1,8 +1,7 @@
 import * as React from 'react';
-
-import { Button, View, Text, StyleSheet } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { View, StyleSheet } from 'react-native';
+import { AuthProvider } from './app/contexts/AuthContext';
+import { AppProvider } from './app/contexts/AppContext';
 
 import LoginPage from './app/pages/LoginPage';
 import FeedPage from './app/pages/FeedPage';
@@ -11,45 +10,43 @@ import CameraPage from './app/pages/CameraPage';
 import VisionPage from './app/pages/VisionPage';
 import PostPage from './app/pages/PostPage';
 
-const Stack = createNativeStackNavigator();
-
 function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator 
-        initialRouteName="post" 
-        screenOptions={{
-          headerShown: false
-        }}
-      >
-        <Stack.Screen
-          name="login"
-          component={LoginPage}
-        />
-        <Stack.Screen
-          name="feed"
-          component={FeedPage}
-        />
-        <Stack.Screen
-          name="menu"
-          component={MenuPage}
-        />
-        <Stack.Screen
-          name="camera"
-          component={CameraPage}
-        />
-        <Stack.Screen
-          name="vision"
-          component={VisionPage}
-        />
-        <Stack.Screen
-          name="post"
-          component={PostPage}
-        />
+  const [currentPage, setCurrentPage] = React.useState('login');
 
-      </Stack.Navigator>
-    </NavigationContainer>
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'login':
+        return <LoginPage setCurrentPage={setCurrentPage} />;
+      case 'feed':
+        return <FeedPage setCurrentPage={setCurrentPage} />;
+      case 'menu':
+        return <MenuPage setCurrentPage={setCurrentPage} />;
+      case 'camera':
+        return <CameraPage setCurrentPage={setCurrentPage} />;
+      case 'vision':
+        return <VisionPage setCurrentPage={setCurrentPage} />;
+      case 'post':
+        return <PostPage setCurrentPage={setCurrentPage} />;
+      default:
+        return <LoginPage setCurrentPage={setCurrentPage} />;
+    }
+  };
+
+  return (
+    <AuthProvider>
+      <AppProvider>
+        <View style={styles.container}>
+          {renderPage()}
+        </View>
+      </AppProvider>
+    </AuthProvider>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 
 export default App;

@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-const Dial = () => {
-    const [count, setCount] = useState(1);
-
+const Dial = (count, setCount) => {
     const increaseCount = () => setCount(count + 1);
     const decreaseCount = () => setCount(count > 0 ? count - 1 : 0);
 

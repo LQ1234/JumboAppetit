@@ -3,59 +3,54 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { SafeArea } from '../utils'; // Assuming you have a SafeArea component
 import { Camera, CameraView } from 'expo-camera';
 
-const CameraPage = ({ navigation }) => {
+const CameraPage = ({ setCurrentPage }) => {
     const cameraRef = useRef(null);
 
     const handleTakePicture = async () => {
         if (cameraRef.current) {
             const photo = await cameraRef.current.takePictureAsync();
             // Handle the photo as needed, e.g., save it or display it.
+            setCurrentPage("vision")
         }
     };
 
     return (
-        <View style={styles.container}>
-            <SafeArea>
-                <View style={styles.wrapper}>
-                    {/* Header with Close Button, Title, and Subtitle */}
-                    <View style={styles.headerContainer}>
-                        {/* Close Button */}
-                        <TouchableOpacity style={styles.closeButton} onPress={() => navigation.goBack()}>
-                            <Image source={require('../../assets/icons/X.png')} style={styles.closeIcon} />
-                        </TouchableOpacity>
+        <SafeArea darkBG>
+            <View style={styles.wrapper}>
+                {/* Header with Close Button, Title, and Subtitle */}
+                <View style={styles.headerContainer}>
+                    {/* Close Button */}
+                    <TouchableOpacity style={styles.closeButton} onPress={() => setCurrentPage("feed")}>
+                        <Image source={require('../../assets/icons/X.png')} style={styles.closeIcon} />
+                    </TouchableOpacity>
 
-                        {/* Title and Subtitle */}
-                        <View style={styles.textContainer}>
-                            <Text style={styles.title}>It’s Looking Delicious...</Text>
-                            <Text style={styles.subtitle}>Take a photo to post and get nutrition facts</Text>
-                        </View>
-                    </View>
-
-                    {/* Camera View */}
-                    <View style={styles.cameraContainer}>
-                        <CameraView style={styles.cameraView} ref={cameraRef}>
-
-                        </CameraView>
-                    </View>
-
-                    {/* Capture Button */}
-                    <View style={styles.captureContainer}>
-                        <TouchableOpacity style={styles.captureButton} onPress={handleTakePicture}>
-                            <Image source={require('../../assets/icons/Camera.png')} style={styles.captureIcon} />
-                        </TouchableOpacity>
+                    {/* Title and Subtitle */}
+                    <View style={styles.textContainer}>
+                        <Text style={styles.title}>It’s Looking Delicious...</Text>
+                        <Text style={styles.subtitle}>Take a photo to post and get nutrition facts</Text>
                     </View>
                 </View>
-            </SafeArea>
-        </View>
+
+                {/* Camera View */}
+                <View style={styles.cameraContainer}>
+                    <CameraView style={styles.cameraView} ref={cameraRef}>
+
+                    </CameraView>
+                </View>
+
+                {/* Capture Button */}
+                <View style={styles.captureContainer}>
+                    <TouchableOpacity style={styles.captureButton} onPress={handleTakePicture}>
+                        <Image source={require('../../assets/icons/Camera.png')} style={styles.captureIcon} />
+                    </TouchableOpacity>
+                </View>
+            </View>
+        </SafeArea>
     );
 };
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#000',
-        
-    },
+
     wrapper: {
         height: "100%",
         justifyContent: "space-evenly"

@@ -7,7 +7,7 @@ import { TooltipProvider } from '../components/TooltipContext';
 import TooltipOverlay from '../components/TooltipOverlay';
 import Post from '../components/Post';
 
-const FeedPage = ({ navigation }) => {
+const FeedPage = ({ setCurrentPage }) => {
     // Sample data for multiple posts
 ;
     const postsData = [
@@ -55,7 +55,7 @@ const FeedPage = ({ navigation }) => {
                         </ScrollView>
                     </View>
                     <View style={styles.navbarContainer}>
-                        <BottomNavbar navigation={navigation} />
+                        <BottomNavbar setCurrentPage={setCurrentPage} activeTab="feed"/>
                     </View>
                     <TooltipOverlay />
                 </SafeArea>

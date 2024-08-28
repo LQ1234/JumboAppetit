@@ -2,7 +2,7 @@ import React from 'react';
 import { View, TextInput, TouchableOpacity, Image, StyleSheet, ScrollView } from 'react-native';
 import FoodItem from '../components/FoodItem'; // Assuming you have a FoodItem component
 
-const AddItemPage = ({ navigation }) => {
+const AddItemPage = ({}) => {
     return (
         <View style={styles.container}>
             {/* Search Bar */}

@@ -4,31 +4,21 @@ import FoodProperties from './FoodProperties';
 import NutritionalInfos from './NutritionalInfos';
 import Dial from './Dial';
 
-const FoodItem = () => {
-    const foodName = "Berry Blast Smoothie";
-    const foodSize = "8 oz";
-    const ingredients = "Fresh Orange Juice (orange juice, water), Whole Strawberries, Wild Blueberries, Raspberries";
-    const properties = ["SY", "SF"];
-    const nutritionalInfos = [
-        { label: "CAL", value: "81" },
-        { label: "SUG", value: "14g" },
-        { label: "CARB", value: "19g" },
-        { label: "FAT", value: "0g" },
-    ];
+const FoodItem = ({foodName, foodSize, ingredients, propertySlugs, nutritionalInfos, count, setCount}) => {
 
     return (
         <View style={styles.container}>
             <View style={styles.infoContainer}>
                 <View style={styles.titleContainer}>
                     <Text style={styles.foodName}>{foodName}</Text>
-                    <Text style={styles.foodSize}>({foodSize})</Text>
-                    <FoodProperties properties={properties} />
+                    <Text style={styles.foodSize}>{foodSize}</Text>
+                    <FoodProperties propertySlugs={propertySlugs} />
 
                 </View>
-                <Text style={styles.ingredients}>{ingredients}</Text>
+                <Text style={styles.ingredients} numberOfLines = {2}>{ingredients}</Text>
                 <NutritionalInfos infos={nutritionalInfos} />
             </View>
-            <Dial />
+            {count == null ? null : <Dial count={count} setCount={setCount} />}
         </View>
     );
 };
@@ -54,6 +44,7 @@ const styles = StyleSheet.create({
     },
     foodName: {
         fontSize: 16,
+        maxWidth: "77%"
     },
     foodSize: {
         fontSize: 14,

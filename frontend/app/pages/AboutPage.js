@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { AuthContext } from '../contexts/AuthContext';
 
-const AboutPage = () => {
+const AboutPage = ({ setCurrentPage }) => {
+    const { logout } = useContext(AuthContext);
+
+    const handleLogout = async () => {
+        await logout();
+        setCurrentPage('login'); // Navigate back to the login screen after logout
+    };
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>About Jumbo Appetit</Text>
@@ -23,11 +31,11 @@ const AboutPage = () => {
                 <Text style={styles.subtitle}>Source Code</Text>
                 <Text style={styles.text}>
                     The source code is available at https://github.com/LQ1234/JumboAppetit
-            </Text>
+                </Text>
             </View>
             <Image source={require('../../assets/logo.png')} style={styles.logo} />
 
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={handleLogout}>
                 <Text style={styles.buttonText}>Sign out</Text>
             </TouchableOpacity>
         </View>
@@ -43,16 +51,13 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 10,
         textAlign: 'center',
-
     },
     text: {
         fontSize: 12,
         textAlign: 'left',
         marginBottom: 10,
     },
-    textContainer: {
-
-    },
+    textContainer: {},
     subtitle: {
         fontSize: 12,
         fontWeight: 'bold',
@@ -69,6 +74,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         paddingVertical: 10,
         borderRadius: 5,
+        marginTop: 20,
     },
     buttonText: {
         color: '#fff',

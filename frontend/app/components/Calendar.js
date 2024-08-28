@@ -51,12 +51,14 @@ CalendarPickerModule.makeStyles = (props) => {
     return customStyles;
 };
 
-const Calendar = ({ onDateChange, selectedDate, calendarWidth }) => {
+const Calendar = ({ onDateChange, selectedDate, calendarWidth, onMonthChange, disabledDates }) => {
     return (
         <View style={[styles.calendarWrapper, { width: calendarWidth }]}>
             <CalendarPicker
                 onDateChange={onDateChange}
                 selectedStartDate={selectedDate}
+                onMonthChange={onMonthChange}
+                disabledDates={disabledDates}
                 previousComponent={
                     <Image
                         source={require('../../assets/icons/chevron-left.png')}
